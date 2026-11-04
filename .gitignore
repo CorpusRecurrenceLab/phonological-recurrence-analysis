@@ -1,0 +1,11 @@
+.local/
+__pycache__/
+*.py[cod]
+*.pending
+results/corpus/
+results/analysis/
+results/checkpoints/
+results/comparison/checkpoints/
+.DS_Store
+Thumbs.db
+extensions/tanakh_wide/work/

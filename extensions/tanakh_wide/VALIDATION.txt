@@ -1,0 +1,16 @@
+Frozen release validation — 2026-11-04
+
+PASS source/preparation/primary/sensitivity continuity: 39 source-books / 24 traditional books
+PASS frozen totals: 305,584 words / 1,602,109 sound units
+PASS base computational core Git-blob continuity: 3/3
+PASS primary result CSV regression: 39/39
+PASS Aramaic-sensitivity CSV regression: 39 source-books / 24 reporting books / 4 Aramaic-only rows
+PASS release hygiene: no temporary/audit filenames; no Cyrillic working text
+PASS Python compilation and Windows launcher CRLF checks
+PASS deterministic smoke tests: 2/2
+PASS algorithm-preservation AST comparison after repository flattening:
+  prepare.py: 14 shared non-main definitions, 0 algorithmic mismatches
+  primary.py: 17 shared non-main definitions, 0 algorithmic mismatches
+  aramaic_sensitivity.py: 19 shared non-main definitions, 0 algorithmic mismatches
+PASS CLI import/help smoke: prepare / primary / sensitivity = 3/3
+PASS Git workflow simulation: one root commit, local push, fresh clone, validator/tests pass, clean status

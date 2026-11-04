@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "baseline_repository_commit": "a58c44c650bea66f73398ae05c2542b74835566e",
+  "preselected_poetic_comparators": [
+    "Psalms",
+    "Job",
+    "Song of Songs"
+  ],
+  "different_surface_corpora": [
+    "Genesis",
+    "Exodus",
+    "Leviticus",
+    "Numbers",
+    "Deuteronomy",
+    "Joshua",
+    "Judges",
+    "modern_523",
+    "modern_7924",
+    "modern_884",
+    "Psalms",
+    "Job",
+    "Song_of_Songs"
+  ],
+  "nonredistributed_works_excluded_from_word_control": [
+    "rivlin_ali_baba",
+    "bialik_beir_haharegah"
+  ],
+  "psalms_policy": "one canonical stream; mixed triplets crossing psalm boundaries are prohibited",
+  "analysis_signature": "84fc5ae020a0034532134a6856d5a30ae0e8343fc670b1254127e040007c7046",
+  "code_sha256": "852116e09f9597e5929c79481fa319ffb94610d97beddb73d88fb0a464e8b3ff",
+  "protocol_sha256": "67935e043b2f07b24cf7ebbb2e5642073ac9dccb7e5a6ffa58602f55a74e0bc7",
+  "source_sha256": {
+    "job_verses.json": "10ad4c752fe929a16a0cbc585cb014e0e2683aaf95befebfe25fae049bc60934",
+    "psalms_verses.json": "2041a2802de3fbce113e9f89184b3f74bdd0cd96239e318e32aef6931bc38a91",
+    "song_of_songs_verses.json": "b11945d82f1efec2ad3c4f6d4cfab7ce39a74ba5b64f6c4bb315154b965588a7"
+  },
+  "outputs": {
+    "different_surface_coverage.csv": "6ac3173ff8eb81860a6eee792f98696a7dcfa61f045a82be88c25438ee09cad2",
+    "different_surface_primary_summary.csv": "348813ed1b464d58e95900e33eeb504b47e7da8b7615c15b4d959eaf99633fe3",
+    "different_surface_spatial.csv": "0f2bb73b10a34a7acb115afc281e93cedbe4018f96858afe82de4e25ec56f140",
+    "different_surface_spatial_replicates.csv": "c2b60258f97ff39e0c25effb3eeda1c6e28e3df53a12a5109a8fa4704437e541",
+    "fifteen_work_primary_summary.csv": "5f035d80ebe0fc582f592b8dfcb58c77ee69652dd1da00853c1440df1c9de189",
+    "poetic_comparator_inventory.csv": "508eebeaa88b98e392893051ac4b58ceeb02edc93867d1e9ff85e04f3ade921d",
+    "poetic_coverage.csv": "54d9c93c71581f8af9d37754fc5e231bc8f602269cf50a796bb5e9dbd12b1357",
+    "poetic_density.csv": "e86b8342d408f24230474db85878e4644b16413be4904bc134080f745fedc489",
+    "poetic_distance.csv": "284582d28b8f0a9b1d2856176dc4ef1ae3ac7ded8cf6084788eb8ff3ac861235",
+    "poetic_distance_blocks.csv": "851f7a941ca32a4473852a522d6ca3a72685c5392c36d2c7db5702429140598c",
+    "poetic_spatial.csv": "bc856684af36649671afec11aa1d0878a219f97a563463ce817d9f0f50619769",
+    "poetic_spatial_replicates.csv": "7a0aedff108b364400b8f9c7e600cffc29107468ab4e3d4f93aaec447e5e4c3d"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "purpose": "Provenance for the exploratory passage-inspection set described in the article. No qualitative judgments are encoded in this public manifest.",
+  "weak_case_set": {
+    "count": 36,
+    "selection_label": "previously selected weak cases",
+    "references": [
+      "Genesis 14:23", "Genesis 23:8", "Genesis 27:28",
+      "Exodus 22:18", "Exodus 25:4", "Exodus 15:5",
+      "Leviticus 27:31", "Leviticus 8:32", "Leviticus 12:3",
+      "Numbers 2:11", "Numbers 23:22", "Numbers 2:28",
+      "Deuteronomy 3:29", "Deuteronomy 19:7", "Deuteronomy 2:5",
+      "Genesis 46:34", "Genesis 47:1", "Genesis 47:2", "Genesis 47:3",
+      "Exodus 16:3", "Exodus 16:4", "Exodus 16:5",
+      "Leviticus 10:15", "Leviticus 10:16", "Leviticus 10:17", "Leviticus 10:18",
+      "Numbers 11:15", "Numbers 11:16", "Numbers 11:17", "Numbers 11:18",
+      "Deuteronomy 4:40", "Deuteronomy 4:41", "Deuteronomy 4:42", "Deuteronomy 4:43", "Deuteronomy 4:44", "Deuteronomy 4:45"
+    ]
+  },
+  "score_independent_sample": {
+    "count": 10,
+    "seed": 20261022,
+    "rule": "two passages per Pentateuchal book, sampled independently of detector score",
+    "references": [
+      "Genesis 26:31", "Genesis 46:7",
+      "Exodus 22:2", "Exodus 40:16",
+      "Leviticus 4:1", "Leviticus 8:6",
+      "Numbers 13:2", "Numbers 13:25",
+      "Deuteronomy 1:4", "Deuteronomy 7:26"
+    ]
+  }
+}

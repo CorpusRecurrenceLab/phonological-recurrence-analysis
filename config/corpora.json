@@ -1,0 +1,17 @@
+{
+  "biblical": [
+    "genesis",
+    "exodus",
+    "leviticus",
+    "numbers",
+    "deuteronomy",
+    "joshua",
+    "judges"
+  ],
+  "modern": {
+    "523": "brenner_mikan_umikan",
+    "7924": "ahad_haam_shilton_hasekhel",
+    "884": "tchernichovsky_hatunata_shel_elka"
+  },
+  "profile": "v25-current"
+}

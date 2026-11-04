@@ -1,0 +1,111 @@
+{
+  "selection": "First eligible Genesis block; first specified local permutation; no score-based selection",
+  "radius": 64,
+  "observed_covered": 429,
+  "shuffled_covered": 373,
+  "units": 661,
+  "observed": 0.649016641452345,
+  "shuffled": 0.5642965204236006,
+  "order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "shuffled_order": [
+    11,
+    12,
+    5,
+    13,
+    9,
+    6,
+    14,
+    7,
+    15,
+    2,
+    10,
+    16,
+    4,
+    8,
+    3,
+    1
+  ],
+  "fragments": [
+    {
+      "fragment": 1,
+      "reading": "bereshit bara elohim et hashamayim veet haarets vehaarets"
+    },
+    {
+      "fragment": 2,
+      "reading": "hayta tohu vavohu vehoshekh al pene tehom veruah"
+    },
+    {
+      "fragment": 3,
+      "reading": "elohim merahefet al pene hamayim vayomer elohim yehi"
+    },
+    {
+      "fragment": 4,
+      "reading": "or vayhi or vayar elohim et haor ki"
+    },
+    {
+      "fragment": 5,
+      "reading": "tov vayavdel elohim ben haor uven hahoshekh vayiqra"
+    },
+    {
+      "fragment": 6,
+      "reading": "elohim laor yom velahoshekh qara layla vayhi erev"
+    },
+    {
+      "fragment": 7,
+      "reading": "vayhi voqer yom ehad vayomer elohim yehi raqia"
+    },
+    {
+      "fragment": 8,
+      "reading": "betokh hamayim vihi mavdil ben mayim lamayim vayaas"
+    },
+    {
+      "fragment": 9,
+      "reading": "elohim et haraqia vayavdel ben hamayim asher mitahat"
+    },
+    {
+      "fragment": 10,
+      "reading": "laraqia uven hamayim asher meal laraqia vayhi khen"
+    },
+    {
+      "fragment": 11,
+      "reading": "vayiqra elohim laraqia shamayim vayhi erev vayhi voqer"
+    },
+    {
+      "fragment": 12,
+      "reading": "yom sheni vayomer elohim yiqavu hamayim mitahat hashamayim"
+    },
+    {
+      "fragment": 13,
+      "reading": "el maqom ehad veterae hayabasha vayhi khen vayiqra"
+    },
+    {
+      "fragment": 14,
+      "reading": "elohim layabasha erets ulmiqve hamayim qara yamim vayar"
+    },
+    {
+      "fragment": 15,
+      "reading": "elohim ki tov vayomer elohim tadshe haarets deshe"
+    },
+    {
+      "fragment": 16,
+      "reading": "esev mazria zera ets peri ose peri lemino"
+    }
+  ]
+}

@@ -1,0 +1,2238 @@
+{
+  "schema": "phonological-recurrence.tanakh-aramaic-sensitivity.v1",
+  "created_date": "2026-11-04",
+  "base_project_commit": "a58c44c650bea66f73398ae05c2542b74835566e",
+  "source_mirror_commit": "0f41148df41c0fe47321a7da7c01390b7ad7e872",
+  "framing": {
+    "primary_status": "The full Masoretic reading stream remains the primary analysis and includes Biblical Aramaic.",
+    "exclusion_name": "Aramaic-span exclusion sensitivity",
+    "purpose": "Tests dependence of the primary result on the declared Aramaic spans; it does not posit that recurrence should be limited to Hebrew.",
+    "complementary_check": "Aramaic-span descriptive check using the same frozen geometries, fixed before inspecting the language-layer results after the conceptual clarification that Aramaic passages may also sustain recurrence."
+  },
+  "hard_gap_rule": {
+    "definition": "Each contiguous retained-language run is a separate computational run. No motif, window, analysis block, 8-word fragment, 128-word evaluation block, or permutation crosses a language gap.",
+    "grid_origin": "The frozen offset/phase grid is applied independently from the start of each contiguous language run; results are pooled over eligible complete blocks/runs without changing any geometry.",
+    "spatial_permutation": "For each seed, fragment shuffling is performed independently inside each contiguous language run. Runs are never shuffled across a language gap."
+  },
+  "counts": {
+    "primary_words": 305584,
+    "primary_sound_units": 1602109,
+    "masked_aramaic_words": 4829,
+    "masked_aramaic_sound_units": 25727,
+    "exclusion_words": 300755,
+    "exclusion_sound_units": 1576382
+  },
+  "affected_books": {
+    "Genesis": {
+      "git_blob_sha1": "fdf663ead8c8e9fc32f6da737fec7d713c087348",
+      "primary_full_stream": {
+        "coverage": {
+          "exact": 0.4595039254926108,
+          "expanded": 0.5132485375615764
+        },
+        "distance": {
+          "exact": 0.06332017960849413,
+          "expanded": 0.06486048711775838
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.04261802339102816,
+            "expanded": 0.03894334261756932
+          },
+          "regional1024": {
+            "exact": 0.07868730555192605,
+            "expanded": 0.07075324397529426
+          },
+          "whole_corpus": {
+            "exact": 0.10231947828008398,
+            "expanded": 0.09234476819595072
+          }
+        }
+      },
+      "exclusion": {
+        "words": 20611,
+        "sounds": 104349,
+        "runs": 2,
+        "hash": "54ad147d5eed536e",
+        "coverage_blocks": 203,
+        "distance_blocks": [
+          81,
+          79
+        ],
+        "spatial_blocks": 160,
+        "spatial_retained_sounds": 103660,
+        "primary": {
+          "coverage": {
+            "exact": 0.45940771243842365,
+            "expanded": 0.5141529402709359
+          },
+          "distance": {
+            "exact": 0.06379523953209858,
+            "expanded": 0.0653753679169749
+          },
+          "spatial": {
+            "local128": {
+              "exact": 0.04214740497781205,
+              "expanded": 0.03789006570062048
+            },
+            "regional1024": {
+              "exact": 0.07868182418229636,
+              "expanded": 0.07032200412279005
+            },
+            "whole_corpus": {
+              "exact": 0.09727702915401576,
+              "expanded": 0.08693958995501483
+            }
+          }
+        }
+      },
+      "aramaic_only": {
+        "words": 2,
+        "sounds": 13,
+        "runs": 1,
+        "hash": "74f75de6998433b1",
+        "coverage_blocks": 0,
+        "distance_blocks": [
+          0,
+          0
+        ],
+        "spatial_blocks": 0,
+        "spatial_retained_sounds": 0,
+        "primary": {
+          "coverage": {
+            "exact": null,
+            "expanded": null
+          },
+          "distance": {
+            "exact": null,
+            "expanded": null
+          },
+          "spatial": {
+            "local128": {
+              "exact": null,
+              "expanded": null
+            },
+            "regional1024": {
+              "exact": null,
+              "expanded": null
+            },
+            "whole_corpus": {
+              "exact": null,
+              "expanded": null
+            }
+          }
+        }
+      }
+    },
+    "Jeremiah": {
+      "git_blob_sha1": "30b0d679e0bab76c4275e9217ccee565fd9591eb",
+      "primary_full_stream": {
+        "coverage": {
+          "exact": 0.37674005681818185,
+          "expanded": 0.43436612215909093
+        },
+        "distance": {
+          "exact": 0.03934574413856513,
+          "expanded": 0.03550850645908807
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.026996741926050283,
+            "expanded": 0.02335812193969755
+          },
+          "regional1024": {
+            "exact": 0.04640130922833513,
+            "expanded": 0.03994186831232527
+          },
+          "whole_corpus": {
+            "exact": 0.06252249533221854,
+            "expanded": 0.05566469957483822
+          }
+        }
+      },
+      "exclusion": {
+        "words": 21826,
+        "sounds": 112647,
+        "runs": 2,
+        "hash": "36e69c979d41cb6c",
+        "coverage_blocks": 220,
+        "distance_blocks": [
+          87,
+          86
+        ],
+        "spatial_blocks": 170,
+        "spatial_retained_sounds": 112315,
+        "primary": {
+          "coverage": {
+            "exact": 0.37737926136363636,
+            "expanded": 0.43481001420454546
+          },
+          "distance": {
+            "exact": 0.034356603188057416,
+            "expanded": 0.03364231919235424
+          },
+          "spatial": {
+            "local128": {
+              "exact": 0.029227009561922868,
+              "expanded": 0.024666059039777588
+            },
+            "regional1024": {
+              "exact": 0.05103644121209844,
+              "expanded": 0.0446821322549128
+            },
+            "whole_corpus": {
+              "exact": 0.06409510844734145,
+              "expanded": 0.05657584284800499
+            }
+          }
+        }
+      },
+      "aramaic_only": {
+        "words": 15,
+        "sounds": 73,
+        "runs": 1,
+        "hash": "18965a1c3516b65b",
+        "coverage_blocks": 0,
+        "distance_blocks": [
+          0,
+          0
+        ],
+        "spatial_blocks": 0,
+        "spatial_retained_sounds": 0,
+        "primary": {
+          "coverage": {
+            "exact": null,
+            "expanded": null
+          },
+          "distance": {
+            "exact": null,
+            "expanded": null
+          },
+          "spatial": {
+            "local128": {
+              "exact": null,
+              "expanded": null
+            },
+            "regional1024": {
+              "exact": null,
+              "expanded": null
+            },
+            "whole_corpus": {
+              "exact": null,
+              "expanded": null
+            }
+          }
+        }
+      }
+    },
+    "Daniel": {
+      "git_blob_sha1": "4706cd716317c3c17ae94c73f20365d4e54e8d06",
+      "primary_full_stream": {
+        "coverage": {
+          "exact": 0.40618699596774194,
+          "expanded": 0.4744833669354839
+        },
+        "distance": {
+          "exact": 0.04609121888287804,
+          "expanded": 0.04294804622116233
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.02718174942035878,
+            "expanded": 0.02398651376554989
+          },
+          "regional1024": {
+            "exact": 0.05650244462717585,
+            "expanded": 0.04880191022030489
+          },
+          "whole_corpus": {
+            "exact": 0.07905860019346084,
+            "expanded": 0.06976786341067931
+          }
+        }
+      },
+      "exclusion": {
+        "words": 2321,
+        "sounds": 12908,
+        "runs": 2,
+        "hash": "622056aab87741f1",
+        "coverage_blocks": 25,
+        "distance_blocks": [
+          9,
+          8
+        ],
+        "spatial_blocks": 17,
+        "spatial_retained_sounds": 12006,
+        "primary": {
+          "coverage": {
+            "exact": 0.408203125,
+            "expanded": 0.465390625
+          },
+          "distance": {
+            "exact": 0.053961383230557956,
+            "expanded": 0.05870681780387438
+          },
+          "spatial": {
+            "local128": {
+              "exact": 0.03979589152792029,
+              "expanded": 0.03609160332114647
+            },
+            "regional1024": {
+              "exact": 0.06310002893290195,
+              "expanded": 0.05516101598323636
+            },
+            "whole_corpus": {
+              "exact": 0.07110041470492828,
+              "expanded": 0.06196024794620231
+            }
+          }
+        }
+      },
+      "aramaic_only": {
+        "words": 3599,
+        "sounds": 19224,
+        "runs": 1,
+        "hash": "9982f8f67669e380",
+        "coverage_blocks": 37,
+        "distance_blocks": [
+          15,
+          14
+        ],
+        "spatial_blocks": 28,
+        "spatial_retained_sounds": 19141,
+        "primary": {
+          "coverage": {
+            "exact": 0.4055109797297297,
+            "expanded": 0.4818940033783784
+          },
+          "distance": {
+            "exact": 0.008882259843162418,
+            "expanded": 0.006503556025535217
+          },
+          "spatial": {
+            "local128": {
+              "exact": 0.018387094113215208,
+              "expanded": 0.014287324811165736
+            },
+            "regional1024": {
+              "exact": 0.04133040401012983,
+              "expanded": 0.03563307202230526
+            },
+            "whole_corpus": {
+              "exact": 0.052298867957731976,
+              "expanded": 0.044676761649696584
+            }
+          }
+        }
+      }
+    },
+    "Ezra": {
+      "git_blob_sha1": "4af1cc862996faae8220bf921e7bb3fb12b7b3de",
+      "primary_full_stream": {
+        "coverage": {
+          "exact": 0.41796875,
+          "expanded": 0.483056640625
+        },
+        "distance": {
+          "exact": 0.040370481292489824,
+          "expanded": 0.043304516844546406
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.025074081352938704,
+            "expanded": 0.02842018483967551
+          },
+          "regional1024": {
+            "exact": 0.060643340079990005,
+            "expanded": 0.061477951704828226
+          },
+          "whole_corpus": {
+            "exact": 0.08623043958764576,
+            "expanded": 0.08384656418214442
+          }
+        }
+      },
+      "exclusion": {
+        "words": 2541,
+        "sounds": 14452,
+        "runs": 3,
+        "hash": "4606d9b82ddcdf71",
+        "coverage_blocks": 27,
+        "distance_blocks": [
+          9,
+          9
+        ],
+        "spatial_blocks": 18,
+        "spatial_retained_sounds": 13040,
+        "primary": {
+          "coverage": {
+            "exact": 0.43778935185185186,
+            "expanded": 0.49508101851851855
+          },
+          "distance": {
+            "exact": 0.05393270207499164,
+            "expanded": 0.053346652617342324
+          },
+          "spatial": {
+            "local128": {
+              "exact": 0.035074265418146566,
+              "expanded": 0.03225702292541177
+            },
+            "regional1024": {
+              "exact": 0.06842105263157888,
+              "expanded": 0.06405795931546654
+            },
+            "whole_corpus": {
+              "exact": 0.0680981595092025,
+              "expanded": 0.0636906683887633
+            }
+          }
+        },
+        "d4": {
+          "exact": [
+            0.04908277663631459,
+            0.058489182998710004,
+            0.03491256506598772,
+            0.07324628359895424
+          ],
+          "expanded": [
+            0.055389525999258477,
+            0.07138954209967356,
+            0.03252623573534913,
+            0.05408130663508813
+          ]
+        },
+        "d4_blocks": [
+          9,
+          9,
+          9,
+          9
+        ]
+      },
+      "aramaic_only": {
+        "words": 1213,
+        "sounds": 6417,
+        "runs": 2,
+        "hash": "da272be29b7d1a70",
+        "coverage_blocks": 11,
+        "distance_blocks": [
+          4,
+          3
+        ],
+        "spatial_blocks": 9,
+        "spatial_retained_sounds": 6071,
+        "primary": {
+          "coverage": {
+            "exact": 0.39488636363636365,
+            "expanded": 0.4822443181818182
+          },
+          "distance": {
+            "exact": 0.02409807870212272,
+            "expanded": 0.027123402746302566
+          },
+          "spatial": {
+            "local128": {
+              "exact": 0.01017780821680292,
+              "expanded": 0.01598626776131562
+            },
+            "regional1024": {
+              "exact": 0.0259646810982323,
+              "expanded": 0.0327787843847801
+            },
+            "whole_corpus": {
+              "exact": 0.0259646810982323,
+              "expanded": 0.0327787843847801
+            }
+          }
+        }
+      }
+    }
+  },
+  "exclusion_source_books": [
+    {
+      "order": 1,
+      "source_book": "Genesis",
+      "traditional_24_book": "Genesis",
+      "git_blob_sha1": "fdf663ead8c8e9fc32f6da737fec7d713c087348",
+      "word_count": 20611,
+      "sound_unit_count": 104349,
+      "status": "recalculated_hard_gap",
+      "primary": {
+        "coverage": {
+          "exact": 0.45940771243842365,
+          "expanded": 0.5141529402709359
+        },
+        "distance": {
+          "exact": 0.06379523953209858,
+          "expanded": 0.0653753679169749
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.04214740497781205,
+            "expanded": 0.03789006570062048
+          },
+          "regional1024": {
+            "exact": 0.07868182418229636,
+            "expanded": 0.07032200412279005
+          },
+          "whole_corpus": {
+            "exact": 0.09727702915401576,
+            "expanded": 0.08693958995501483
+          }
+        }
+      }
+    },
+    {
+      "order": 2,
+      "source_book": "Exodus",
+      "traditional_24_book": "Exodus",
+      "git_blob_sha1": "67870f1e2adb21130ed0605c95d96953ada323df",
+      "word_count": 16714,
+      "sound_unit_count": 86820,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.44792437130177515,
+          "expanded": 0.5030048076923077
+        },
+        "distance": {
+          "exact": 0.0688744673145095,
+          "expanded": 0.06686318121235896
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.03493878803225681,
+            "expanded": 0.030849468230160992
+          },
+          "regional1024": {
+            "exact": 0.06693567630215436,
+            "expanded": 0.058570162452764085
+          },
+          "whole_corpus": {
+            "exact": 0.0939752230316725,
+            "expanded": 0.08315903911332745
+          }
+        }
+      }
+    },
+    {
+      "order": 3,
+      "source_book": "Leviticus",
+      "traditional_24_book": "Leviticus",
+      "git_blob_sha1": "4a5c1ee06fc206ba7a4d19d419265025adc911c6",
+      "word_count": 11951,
+      "sound_unit_count": 61037,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.46659992121848737,
+          "expanded": 0.5232241334033614
+        },
+        "distance": {
+          "exact": 0.05880603974879782,
+          "expanded": 0.05795494012775765
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.036305013005336284,
+            "expanded": 0.03219956807568619
+          },
+          "regional1024": {
+            "exact": 0.0781679138228763,
+            "expanded": 0.06654490844329808
+          },
+          "whole_corpus": {
+            "exact": 0.11442618551971573,
+            "expanded": 0.09788149347136443
+          }
+        }
+      }
+    },
+    {
+      "order": 4,
+      "source_book": "Numbers",
+      "traditional_24_book": "Numbers",
+      "git_blob_sha1": "ea093b8f3aa7111aba159eef16cc792e9c98a4a9",
+      "word_count": 16413,
+      "sound_unit_count": 86295,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.4524739583333333,
+          "expanded": 0.5092657180059523
+        },
+        "distance": {
+          "exact": 0.04940024575459405,
+          "expanded": 0.04883641458783957
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.027301650148077672,
+            "expanded": 0.026288599637916854
+          },
+          "regional1024": {
+            "exact": 0.06433359545557032,
+            "expanded": 0.05891579155110993
+          },
+          "whole_corpus": {
+            "exact": 0.09686791422187274,
+            "expanded": 0.08747428421993586
+          }
+        }
+      }
+    },
+    {
+      "order": 5,
+      "source_book": "Deuteronomy",
+      "traditional_24_book": "Deuteronomy",
+      "git_blob_sha1": "172acf84f356a71632465f3b6cbca969ecf255ab",
+      "word_count": 14297,
+      "sound_unit_count": 74774,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.4217278467465753,
+          "expanded": 0.4836124785958904
+        },
+        "distance": {
+          "exact": 0.04237715871568541,
+          "expanded": 0.04099162719777388
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.03170665749192608,
+            "expanded": 0.026596836696696935
+          },
+          "regional1024": {
+            "exact": 0.05385841732893287,
+            "expanded": 0.04540576281313402
+          },
+          "whole_corpus": {
+            "exact": 0.06427698655079306,
+            "expanded": 0.05416707372498719
+          }
+        }
+      }
+    },
+    {
+      "order": 6,
+      "source_book": "Joshua",
+      "traditional_24_book": "Joshua",
+      "git_blob_sha1": "f7034a02e58975e6df531f3a052a00abcf043931",
+      "word_count": 10051,
+      "sound_unit_count": 53503,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.43197866586538464,
+          "expanded": 0.47994290865384615
+        },
+        "distance": {
+          "exact": 0.0521680066505831,
+          "expanded": 0.05328126358643637
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.029148228500248008,
+            "expanded": 0.024312139632659213
+          },
+          "regional1024": {
+            "exact": 0.05806475249701204,
+            "expanded": 0.050939343919786606
+          },
+          "whole_corpus": {
+            "exact": 0.08110053698013775,
+            "expanded": 0.07083721570402024
+          }
+        }
+      }
+    },
+    {
+      "order": 7,
+      "source_book": "Judges",
+      "traditional_24_book": "Judges",
+      "git_blob_sha1": "bb9f593463fd7be6d3482c5a08972d647fc9a71d",
+      "word_count": 9886,
+      "sound_unit_count": 51669,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.43001953125,
+          "expanded": 0.48513671875
+        },
+        "distance": {
+          "exact": 0.05414557691934288,
+          "expanded": 0.053738963618833416
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.023794023593713076,
+            "expanded": 0.022385718271483945
+          },
+          "regional1024": {
+            "exact": 0.061590363021867545,
+            "expanded": 0.0572254341167584
+          },
+          "whole_corpus": {
+            "exact": 0.08251872034306235,
+            "expanded": 0.07689060901540246
+          }
+        }
+      }
+    },
+    {
+      "order": 8,
+      "source_book": "I Samuel",
+      "traditional_24_book": "Samuel",
+      "git_blob_sha1": "70f418632dfa73c30687b2eaec39b3c4a720f608",
+      "word_count": 13264,
+      "sound_unit_count": 68495,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.43732377819548873,
+          "expanded": 0.49243714755639095
+        },
+        "distance": {
+          "exact": 0.052684326307878594,
+          "expanded": 0.053561210154436545
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.032479130776344456,
+            "expanded": 0.029437280985268655
+          },
+          "regional1024": {
+            "exact": 0.06189166870281415,
+            "expanded": 0.05678145384027744
+          },
+          "whole_corpus": {
+            "exact": 0.0810072280660516,
+            "expanded": 0.07341574833834902
+          }
+        }
+      }
+    },
+    {
+      "order": 9,
+      "source_book": "II Samuel",
+      "traditional_24_book": "Samuel",
+      "git_blob_sha1": "d0d757aa4ba5b56b53c52211b14050c119a52f36",
+      "word_count": 11041,
+      "sound_unit_count": 56525,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.4403231534090909,
+          "expanded": 0.4973721590909091
+        },
+        "distance": {
+          "exact": 0.04690058570923772,
+          "expanded": 0.04276836698183361
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.03900770512189261,
+            "expanded": 0.032148119219640225
+          },
+          "regional1024": {
+            "exact": 0.06808106307698492,
+            "expanded": 0.05816540178842544
+          },
+          "whole_corpus": {
+            "exact": 0.08573454654512125,
+            "expanded": 0.07444267032411583
+          }
+        }
+      }
+    },
+    {
+      "order": 10,
+      "source_book": "I Kings",
+      "traditional_24_book": "Kings",
+      "git_blob_sha1": "7cc1d6ec6fe1108b949e58c5cdbecc3fb5e48040",
+      "word_count": 13142,
+      "sound_unit_count": 68770,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.4508074860074627,
+          "expanded": 0.5109899720149254
+        },
+        "distance": {
+          "exact": 0.05378869429897309,
+          "expanded": 0.05085157681314399
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.03421961826155834,
+            "expanded": 0.033345096359214954
+          },
+          "regional1024": {
+            "exact": 0.06326453247365643,
+            "expanded": 0.05728311086318005
+          },
+          "whole_corpus": {
+            "exact": 0.08464755611579755,
+            "expanded": 0.07565654635505431
+          }
+        }
+      }
+    },
+    {
+      "order": 11,
+      "source_book": "II Kings",
+      "traditional_24_book": "Kings",
+      "git_blob_sha1": "ddf186889d356f4395bfaa04a29b8566fd6ef109",
+      "word_count": 12283,
+      "sound_unit_count": 64504,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.438703125,
+          "expanded": 0.49478125
+        },
+        "distance": {
+          "exact": 0.04575000806629199,
+          "expanded": 0.04225328473468117
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.03285908138348126,
+            "expanded": 0.02966286836416876
+          },
+          "regional1024": {
+            "exact": 0.06182697745585736,
+            "expanded": 0.053784095274683086
+          },
+          "whole_corpus": {
+            "exact": 0.0775120816357488,
+            "expanded": 0.06863325413562105
+          }
+        }
+      }
+    },
+    {
+      "order": 12,
+      "source_book": "Isaiah",
+      "traditional_24_book": "Isaiah",
+      "git_blob_sha1": "d14b763868d6ce08ee95463b0d7acbf120138711",
+      "word_count": 16932,
+      "sound_unit_count": 88692,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.3565751445086705,
+          "expanded": 0.41304642341040465
+        },
+        "distance": {
+          "exact": 0.034023063736009676,
+          "expanded": 0.03515546019917529
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.04075401226950076,
+            "expanded": 0.03602641838224574
+          },
+          "regional1024": {
+            "exact": 0.05988801032469859,
+            "expanded": 0.05353915326765413
+          },
+          "whole_corpus": {
+            "exact": 0.06965127378591113,
+            "expanded": 0.06141352024051305
+          }
+        }
+      }
+    },
+    {
+      "order": 13,
+      "source_book": "Jeremiah",
+      "traditional_24_book": "Jeremiah",
+      "git_blob_sha1": "30b0d679e0bab76c4275e9217ccee565fd9591eb",
+      "word_count": 21826,
+      "sound_unit_count": 112647,
+      "status": "recalculated_hard_gap",
+      "primary": {
+        "coverage": {
+          "exact": 0.37737926136363636,
+          "expanded": 0.43481001420454546
+        },
+        "distance": {
+          "exact": 0.034356603188057416,
+          "expanded": 0.03364231919235424
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.029227009561922868,
+            "expanded": 0.024666059039777588
+          },
+          "regional1024": {
+            "exact": 0.05103644121209844,
+            "expanded": 0.0446821322549128
+          },
+          "whole_corpus": {
+            "exact": 0.06409510844734145,
+            "expanded": 0.05657584284800499
+          }
+        }
+      }
+    },
+    {
+      "order": 14,
+      "source_book": "Ezekiel",
+      "traditional_24_book": "Ezekiel",
+      "git_blob_sha1": "06c2a549aada297cf6926be4ec91745d64571bea",
+      "word_count": 18736,
+      "sound_unit_count": 99638,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.4305533182989691,
+          "expanded": 0.4884423324742268
+        },
+        "distance": {
+          "exact": 0.05101605316967139,
+          "expanded": 0.05011467417439314
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.03420687303636233,
+            "expanded": 0.03086173978696627
+          },
+          "regional1024": {
+            "exact": 0.07049823318935533,
+            "expanded": 0.061856374231355316
+          },
+          "whole_corpus": {
+            "exact": 0.0919694564661458,
+            "expanded": 0.0803234370052851
+          }
+        }
+      }
+    },
+    {
+      "order": 15,
+      "source_book": "Hosea",
+      "traditional_24_book": "The Twelve",
+      "git_blob_sha1": "87a6c1d6fea75bf27a406f614f32c952861cd72a",
+      "word_count": 2382,
+      "sound_unit_count": 12382,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.3426106770833333,
+          "expanded": 0.407470703125
+        },
+        "distance": {
+          "exact": 0.024555001612225527,
+          "expanded": 0.02710338134103543
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.027366662269709463,
+            "expanded": 0.02683023347843294
+          },
+          "regional1024": {
+            "exact": 0.04654619003649474,
+            "expanded": 0.04443125357252786
+          },
+          "whole_corpus": {
+            "exact": 0.04825220947104597,
+            "expanded": 0.04600536428791269
+          }
+        }
+      }
+    },
+    {
+      "order": 16,
+      "source_book": "Joel",
+      "traditional_24_book": "The Twelve",
+      "git_blob_sha1": "3332ef4e2589348220fad59088d614f1ca378ff5",
+      "word_count": 957,
+      "sound_unit_count": 5100,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.375,
+          "expanded": 0.4192708333333333
+        },
+        "distance": {
+          "exact": 0.030463114478084686,
+          "expanded": 0.028465813255549907
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.046714811824686786,
+            "expanded": 0.0338859335773769
+          },
+          "regional1024": {
+            "exact": 0.06950818946926046,
+            "expanded": 0.05356056668251846
+          },
+          "whole_corpus": {
+            "exact": 0.06950818946926046,
+            "expanded": 0.05356056668251846
+          }
+        }
+      }
+    },
+    {
+      "order": 17,
+      "source_book": "Amos",
+      "traditional_24_book": "The Twelve",
+      "git_blob_sha1": "cac2b9e1de256074a9b0b4b3d056af4823576c3b",
+      "word_count": 2042,
+      "sound_unit_count": 10550,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.32578125,
+          "expanded": 0.3755859375
+        },
+        "distance": {
+          "exact": 0.04308086217342816,
+          "expanded": 0.03152451153573886
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.022529096766318313,
+            "expanded": 0.01800204858217952
+          },
+          "regional1024": {
+            "exact": 0.03942193893526802,
+            "expanded": 0.031668108458096866
+          },
+          "whole_corpus": {
+            "exact": 0.03812698025188005,
+            "expanded": 0.03130191112549957
+          }
+        }
+      }
+    },
+    {
+      "order": 18,
+      "source_book": "Obadiah",
+      "traditional_24_book": "The Twelve",
+      "git_blob_sha1": "45c00430e48e05d007005155e8ddd9dd10bc8f9d",
+      "word_count": 291,
+      "sound_unit_count": 1474,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.3896484375,
+          "expanded": 0.470703125
+        },
+        "distance": {
+          "exact": null,
+          "expanded": null
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.07310169421996143,
+            "expanded": 0.08208557246584897
+          },
+          "regional1024": {
+            "exact": 0.09431021044427129,
+            "expanded": 0.09976617303195634
+          },
+          "whole_corpus": {
+            "exact": 0.09431021044427129,
+            "expanded": 0.09976617303195634
+          }
+        }
+      }
+    },
+    {
+      "order": 19,
+      "source_book": "Jonah",
+      "traditional_24_book": "The Twelve",
+      "git_blob_sha1": "e871a1549e2de3a16c42b4eb8926f6a882a99ce1",
+      "word_count": 688,
+      "sound_unit_count": 3542,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.4290364583333333,
+          "expanded": 0.482421875
+        },
+        "distance": {
+          "exact": 0.04453475874272969,
+          "expanded": 0.03903919741016817
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.02558787226635445,
+            "expanded": 0.022755324872614557
+          },
+          "regional1024": {
+            "exact": 0.04532075829983856,
+            "expanded": 0.0431370066778492
+          },
+          "whole_corpus": {
+            "exact": 0.04532075829983856,
+            "expanded": 0.0431370066778492
+          }
+        }
+      }
+    },
+    {
+      "order": 20,
+      "source_book": "Micah",
+      "traditional_24_book": "The Twelve",
+      "git_blob_sha1": "daaa1fb53cd6c0b20607aa1d01e388ebaf7d1737",
+      "word_count": 1396,
+      "sound_unit_count": 7326,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.34933035714285715,
+          "expanded": 0.40555245535714285
+        },
+        "distance": {
+          "exact": 0.028451722688741986,
+          "expanded": 0.03264152099359101
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.012497641954348215,
+            "expanded": 0.00840250267245174
+          },
+          "regional1024": {
+            "exact": 0.033311324907250195,
+            "expanded": 0.025404011821668793
+          },
+          "whole_corpus": {
+            "exact": 0.03839684336288757,
+            "expanded": 0.03168427340753316
+          }
+        }
+      }
+    },
+    {
+      "order": 21,
+      "source_book": "Nahum",
+      "traditional_24_book": "The Twelve",
+      "git_blob_sha1": "be5d03f33acaec88389d89775fedea8b7f81615c",
+      "word_count": 558,
+      "sound_unit_count": 3016,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.30625,
+          "expanded": 0.36875
+        },
+        "distance": {
+          "exact": 0.02609648635032261,
+          "expanded": 0.025190638140787147
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.01199009020935382,
+            "expanded": 0.013919095258808245
+          },
+          "regional1024": {
+            "exact": 0.0252661837850105,
+            "expanded": 0.029994137337594817
+          },
+          "whole_corpus": {
+            "exact": 0.0252661837850105,
+            "expanded": 0.029994137337594817
+          }
+        }
+      }
+    },
+    {
+      "order": 22,
+      "source_book": "Habakkuk",
+      "traditional_24_book": "The Twelve",
+      "git_blob_sha1": "52cfd00e0deb334e430239fd53c4cbc9d6181ea3",
+      "word_count": 671,
+      "sound_unit_count": 3449,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.3053385416666667,
+          "expanded": 0.3733723958333333
+        },
+        "distance": {
+          "exact": 0.005763677602090659,
+          "expanded": 0.010221658581948996
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.02971189441493638,
+            "expanded": 0.028037984870432853
+          },
+          "regional1024": {
+            "exact": 0.037952679864799665,
+            "expanded": 0.03412200225333978
+          },
+          "whole_corpus": {
+            "exact": 0.037952679864799665,
+            "expanded": 0.03412200225333978
+          }
+        }
+      }
+    },
+    {
+      "order": 23,
+      "source_book": "Zephaniah",
+      "traditional_24_book": "The Twelve",
+      "git_blob_sha1": "05ea5b3040ece0ba6090bb7e7e48286f16d6e02a",
+      "word_count": 767,
+      "sound_unit_count": 3929,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.3666294642857143,
+          "expanded": 0.41880580357142855
+        },
+        "distance": {
+          "exact": 0.032298757793766,
+          "expanded": 0.03361326893902268
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.03726858582921394,
+            "expanded": 0.03663855772026753
+          },
+          "regional1024": {
+            "exact": 0.05075764918742531,
+            "expanded": 0.05088688572259381
+          },
+          "whole_corpus": {
+            "exact": 0.05075764918742531,
+            "expanded": 0.05088688572259381
+          }
+        }
+      }
+    },
+    {
+      "order": 24,
+      "source_book": "Haggai",
+      "traditional_24_book": "The Twelve",
+      "git_blob_sha1": "8ba42cd69c710018c3817df366d1095883a7d6b3",
+      "word_count": 600,
+      "sound_unit_count": 3172,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.4124348958333333,
+          "expanded": 0.4742838541666667
+        },
+        "distance": {
+          "exact": 0.032255297962867815,
+          "expanded": 0.018166446370125346
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.006566659457758972,
+            "expanded": 0.014077030454357764
+          },
+          "regional1024": {
+            "exact": 0.019857263629750543,
+            "expanded": 0.02789847236694659
+          },
+          "whole_corpus": {
+            "exact": 0.019857263629750543,
+            "expanded": 0.02789847236694659
+          }
+        }
+      }
+    },
+    {
+      "order": 25,
+      "source_book": "Zechariah",
+      "traditional_24_book": "The Twelve",
+      "git_blob_sha1": "c2e032dfce26e695989345fd00565aff181eddd6",
+      "word_count": 3128,
+      "sound_unit_count": 16468,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.4176025390625,
+          "expanded": 0.469482421875
+        },
+        "distance": {
+          "exact": 0.046204125243339514,
+          "expanded": 0.04810525299667779
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.030309046174674892,
+            "expanded": 0.028802218258979218
+          },
+          "regional1024": {
+            "exact": 0.057959175703294896,
+            "expanded": 0.05341916502857447
+          },
+          "whole_corpus": {
+            "exact": 0.06661611362068293,
+            "expanded": 0.061174609786896206
+          }
+        }
+      }
+    },
+    {
+      "order": 26,
+      "source_book": "Malachi",
+      "traditional_24_book": "The Twelve",
+      "git_blob_sha1": "ae72ea41e37f4b667ad10308d7e48cfe07a2af8a",
+      "word_count": 876,
+      "sound_unit_count": 4541,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.365234375,
+          "expanded": 0.43505859375
+        },
+        "distance": {
+          "exact": 0.040718822625385995,
+          "expanded": 0.03395623788780215
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.019574702252269927,
+            "expanded": 0.023217116727591913
+          },
+          "regional1024": {
+            "exact": 0.02953238211286241,
+            "expanded": 0.03056745672995037
+          },
+          "whole_corpus": {
+            "exact": 0.02953238211286241,
+            "expanded": 0.03056745672995037
+          }
+        }
+      }
+    },
+    {
+      "order": 27,
+      "source_book": "Psalms",
+      "traditional_24_book": "Psalms",
+      "git_blob_sha1": "5a03de6f47ec5d38c9f730986e7ef0324bf56616",
+      "word_count": 19625,
+      "sound_unit_count": 104673,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.3429361979166667,
+          "expanded": 0.3999502144607843
+        },
+        "distance": {
+          "exact": 0.02095609550886409,
+          "expanded": 0.018758921787433252
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.027197963214287302,
+            "expanded": 0.02380130453867174
+          },
+          "regional1024": {
+            "exact": 0.04501026304954436,
+            "expanded": 0.0402171442566987
+          },
+          "whole_corpus": {
+            "exact": 0.057020525595133376,
+            "expanded": 0.0500130272443271
+          }
+        }
+      }
+    },
+    {
+      "order": 28,
+      "source_book": "Proverbs",
+      "traditional_24_book": "Proverbs",
+      "git_blob_sha1": "4a51d2d27eb34a961d300e70ad201d5fbaef8b99",
+      "word_count": 6921,
+      "sound_unit_count": 35243,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.2898092830882353,
+          "expanded": 0.36388442095588236
+        },
+        "distance": {
+          "exact": 0.004224886809254749,
+          "expanded": 0.0012677338723161846
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.017635587035331024,
+            "expanded": 0.013501872435122853
+          },
+          "regional1024": {
+            "exact": 0.030995381725511834,
+            "expanded": 0.02526740527153304
+          },
+          "whole_corpus": {
+            "exact": 0.03665755375025426,
+            "expanded": 0.02949384429475599
+          }
+        }
+      }
+    },
+    {
+      "order": 29,
+      "source_book": "Job",
+      "traditional_24_book": "Job",
+      "git_blob_sha1": "6386552a06d9b51994ad5f214aa4d442f5e66e02",
+      "word_count": 8352,
+      "sound_unit_count": 41892,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.3017457561728395,
+          "expanded": 0.36477623456790126
+        },
+        "distance": {
+          "exact": 0.01814605122800094,
+          "expanded": 0.017167376430990894
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.025965820308805287,
+            "expanded": 0.024262006464655594
+          },
+          "regional1024": {
+            "exact": 0.03705133007199901,
+            "expanded": 0.03464253329751654
+          },
+          "whole_corpus": {
+            "exact": 0.04350337420720951,
+            "expanded": 0.03935545138455365
+          }
+        }
+      }
+    },
+    {
+      "order": 30,
+      "source_book": "Song of Songs",
+      "traditional_24_book": "Song of Songs",
+      "git_blob_sha1": "564de579644a26b387e849cf8106ad2a3e145d93",
+      "word_count": 1250,
+      "sound_unit_count": 6725,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.36974158653846156,
+          "expanded": 0.4235276442307692
+        },
+        "distance": {
+          "exact": 0.026330235268213206,
+          "expanded": 0.029601653564008124
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.03862349476384569,
+            "expanded": 0.026303131566289384
+          },
+          "regional1024": {
+            "exact": 0.05210838544171881,
+            "expanded": 0.04060656692235637
+          },
+          "whole_corpus": {
+            "exact": 0.051247647738875746,
+            "expanded": 0.041787971612533004
+          }
+        }
+      }
+    },
+    {
+      "order": 31,
+      "source_book": "Ruth",
+      "traditional_24_book": "Ruth",
+      "git_blob_sha1": "b89245d8b6f99a8ed876caa1e3d23895fb5d105d",
+      "word_count": 1297,
+      "sound_unit_count": 6579,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.41064453125,
+          "expanded": 0.46337890625
+        },
+        "distance": {
+          "exact": 0.08391358624210168,
+          "expanded": 0.08668325915477729
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.05027602842849965,
+            "expanded": 0.03460473700399874
+          },
+          "regional1024": {
+            "exact": 0.06961420777412619,
+            "expanded": 0.05214589842801409
+          },
+          "whole_corpus": {
+            "exact": 0.07228545063057518,
+            "expanded": 0.05514902297268859
+          }
+        }
+      }
+    },
+    {
+      "order": 32,
+      "source_book": "Lamentations",
+      "traditional_24_book": "Lamentations",
+      "git_blob_sha1": "a98063e24cf1d07866d8d55dfb0b762735a193e0",
+      "word_count": 1540,
+      "sound_unit_count": 7936,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.328125,
+          "expanded": 0.39205729166666664
+        },
+        "distance": {
+          "exact": 0.00769440189510439,
+          "expanded": 0.00681776736460947
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.040194892383775827,
+            "expanded": 0.03844671036013875
+          },
+          "regional1024": {
+            "exact": 0.05659323859028731,
+            "expanded": 0.053768229616729335
+          },
+          "whole_corpus": {
+            "exact": 0.06271519921298574,
+            "expanded": 0.060993605509099824
+          }
+        }
+      }
+    },
+    {
+      "order": 33,
+      "source_book": "Ecclesiastes",
+      "traditional_24_book": "Ecclesiastes",
+      "git_blob_sha1": "05797bcad84a4ba1d6eea74b7a977ffe1a3dcefc",
+      "word_count": 2987,
+      "sound_unit_count": 14583,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.41385323660714285,
+          "expanded": 0.46798270089285715
+        },
+        "distance": {
+          "exact": 0.04870100062342764,
+          "expanded": 0.047279232355367934
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.03735521835650213,
+            "expanded": 0.031214684616481747
+          },
+          "regional1024": {
+            "exact": 0.06391787264701254,
+            "expanded": 0.05521360206854431
+          },
+          "whole_corpus": {
+            "exact": 0.06675956098292424,
+            "expanded": 0.057963858990816575
+          }
+        }
+      }
+    },
+    {
+      "order": 34,
+      "source_book": "Esther",
+      "traditional_24_book": "Esther",
+      "git_blob_sha1": "711b69e7a8ba36ccff3df934987401c4a1caf373",
+      "word_count": 3045,
+      "sound_unit_count": 16416,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.42230224609375,
+          "expanded": 0.48590087890625
+        },
+        "distance": {
+          "exact": 0.03905773312155071,
+          "expanded": 0.03593343421419873
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.004754484532143444,
+            "expanded": 0.0074490246827851325
+          },
+          "regional1024": {
+            "exact": 0.033387711435017065,
+            "expanded": 0.03232119184394927
+          },
+          "whole_corpus": {
+            "exact": 0.039301745304489655,
+            "expanded": 0.03713548121297505
+          }
+        }
+      }
+    },
+    {
+      "order": 35,
+      "source_book": "Daniel",
+      "traditional_24_book": "Daniel",
+      "git_blob_sha1": "4706cd716317c3c17ae94c73f20365d4e54e8d06",
+      "word_count": 2321,
+      "sound_unit_count": 12908,
+      "status": "recalculated_hard_gap",
+      "primary": {
+        "coverage": {
+          "exact": 0.408203125,
+          "expanded": 0.465390625
+        },
+        "distance": {
+          "exact": 0.053961383230557956,
+          "expanded": 0.05870681780387438
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.03979589152792029,
+            "expanded": 0.03609160332114647
+          },
+          "regional1024": {
+            "exact": 0.06310002893290195,
+            "expanded": 0.05516101598323636
+          },
+          "whole_corpus": {
+            "exact": 0.07110041470492828,
+            "expanded": 0.06196024794620231
+          }
+        }
+      }
+    },
+    {
+      "order": 36,
+      "source_book": "Ezra",
+      "traditional_24_book": "Ezra-Nehemiah",
+      "git_blob_sha1": "4af1cc862996faae8220bf921e7bb3fb12b7b3de",
+      "word_count": 2541,
+      "sound_unit_count": 14452,
+      "status": "recalculated_hard_gap",
+      "primary": {
+        "coverage": {
+          "exact": 0.43778935185185186,
+          "expanded": 0.49508101851851855
+        },
+        "distance": {
+          "exact": 0.05393270207499164,
+          "expanded": 0.053346652617342324
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.035074265418146566,
+            "expanded": 0.03225702292541177
+          },
+          "regional1024": {
+            "exact": 0.06842105263157888,
+            "expanded": 0.06405795931546654
+          },
+          "whole_corpus": {
+            "exact": 0.0680981595092025,
+            "expanded": 0.0636906683887633
+          }
+        }
+      }
+    },
+    {
+      "order": 37,
+      "source_book": "Nehemiah",
+      "traditional_24_book": "Ezra-Nehemiah",
+      "git_blob_sha1": "69bda679f93d7fec1f31b7c09199b55494a79bc8",
+      "word_count": 5313,
+      "sound_unit_count": 29748,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.42648841594827586,
+          "expanded": 0.4805024245689655
+        },
+        "distance": {
+          "exact": 0.051074799655731584,
+          "expanded": 0.05168422930665116
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.025437849180798278,
+            "expanded": 0.02351875599716624
+          },
+          "regional1024": {
+            "exact": 0.052983113773529045,
+            "expanded": 0.048712683053689754
+          },
+          "whole_corpus": {
+            "exact": 0.06688488131215753,
+            "expanded": 0.05936275345033232
+          }
+        }
+      }
+    },
+    {
+      "order": 38,
+      "source_book": "I Chronicles",
+      "traditional_24_book": "Chronicles",
+      "git_blob_sha1": "5dc6c78e0ccfcc131c8d765523af5aeb4319d66e",
+      "word_count": 10747,
+      "sound_unit_count": 58569,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.4599952028508772,
+          "expanded": 0.5126781798245614
+        },
+        "distance": {
+          "exact": 0.07883184973143045,
+          "expanded": 0.07600146246951536
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.04030061163997506,
+            "expanded": 0.03578580148106136
+          },
+          "regional1024": {
+            "exact": 0.07572464657317102,
+            "expanded": 0.06684773173283454
+          },
+          "whole_corpus": {
+            "exact": 0.0945428697904026,
+            "expanded": 0.08409072523285316
+          }
+        }
+      }
+    },
+    {
+      "order": 39,
+      "source_book": "II Chronicles",
+      "traditional_24_book": "Chronicles",
+      "git_blob_sha1": "fbaf9e0176a090ec1582951032b403bfaf44dd69",
+      "word_count": 13313,
+      "sound_unit_count": 73991,
+      "status": "unchanged_no_declared_aramaic_mask",
+      "primary": {
+        "coverage": {
+          "exact": 0.423583984375,
+          "expanded": 0.4827473958333333
+        },
+        "distance": {
+          "exact": 0.032781804379558646,
+          "expanded": 0.029472033257635227
+        },
+        "spatial": {
+          "local128": {
+            "exact": 0.034002624998666076,
+            "expanded": 0.029359436301099495
+          },
+          "regional1024": {
+            "exact": 0.060503729418836694,
+            "expanded": 0.051852615928548895
+          },
+          "whole_corpus": {
+            "exact": 0.07334630419395105,
+            "expanded": 0.06352141081229118
+          }
+        }
+      }
+    }
+  ],
+  "exclusion_reporting_24": [
+    {
+      "traditional_book": "Genesis",
+      "source_books": 1,
+      "components": [
+        "Genesis"
+      ],
+      "words": 20611,
+      "sound_units": 104349,
+      "coverage_exact": 0.45940771243842365,
+      "coverage_expanded": 0.5141529402709359,
+      "distance_exact": 0.06379523953209858,
+      "distance_expanded": 0.0653753679169749,
+      "spatial_local_exact": 0.04214740497781205,
+      "spatial_local_expanded": 0.03789006570062048,
+      "spatial_regional_exact": 0.07868182418229636,
+      "spatial_regional_expanded": 0.07032200412279005,
+      "spatial_whole_exact": 0.09727702915401576,
+      "spatial_whole_expanded": 0.08693958995501483,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Exodus",
+      "source_books": 1,
+      "components": [
+        "Exodus"
+      ],
+      "words": 16714,
+      "sound_units": 86820,
+      "coverage_exact": 0.44792437130177515,
+      "coverage_expanded": 0.5030048076923077,
+      "distance_exact": 0.0688744673145095,
+      "distance_expanded": 0.06686318121235896,
+      "spatial_local_exact": 0.03493878803225681,
+      "spatial_local_expanded": 0.030849468230160992,
+      "spatial_regional_exact": 0.06693567630215436,
+      "spatial_regional_expanded": 0.058570162452764085,
+      "spatial_whole_exact": 0.0939752230316725,
+      "spatial_whole_expanded": 0.08315903911332745,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Leviticus",
+      "source_books": 1,
+      "components": [
+        "Leviticus"
+      ],
+      "words": 11951,
+      "sound_units": 61037,
+      "coverage_exact": 0.46659992121848737,
+      "coverage_expanded": 0.5232241334033614,
+      "distance_exact": 0.05880603974879782,
+      "distance_expanded": 0.05795494012775765,
+      "spatial_local_exact": 0.036305013005336284,
+      "spatial_local_expanded": 0.03219956807568619,
+      "spatial_regional_exact": 0.0781679138228763,
+      "spatial_regional_expanded": 0.06654490844329808,
+      "spatial_whole_exact": 0.11442618551971573,
+      "spatial_whole_expanded": 0.09788149347136443,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Numbers",
+      "source_books": 1,
+      "components": [
+        "Numbers"
+      ],
+      "words": 16413,
+      "sound_units": 86295,
+      "coverage_exact": 0.4524739583333333,
+      "coverage_expanded": 0.5092657180059523,
+      "distance_exact": 0.04940024575459405,
+      "distance_expanded": 0.04883641458783957,
+      "spatial_local_exact": 0.027301650148077672,
+      "spatial_local_expanded": 0.026288599637916854,
+      "spatial_regional_exact": 0.06433359545557032,
+      "spatial_regional_expanded": 0.05891579155110993,
+      "spatial_whole_exact": 0.09686791422187274,
+      "spatial_whole_expanded": 0.08747428421993586,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Deuteronomy",
+      "source_books": 1,
+      "components": [
+        "Deuteronomy"
+      ],
+      "words": 14297,
+      "sound_units": 74774,
+      "coverage_exact": 0.4217278467465753,
+      "coverage_expanded": 0.4836124785958904,
+      "distance_exact": 0.04237715871568541,
+      "distance_expanded": 0.04099162719777388,
+      "spatial_local_exact": 0.03170665749192608,
+      "spatial_local_expanded": 0.026596836696696935,
+      "spatial_regional_exact": 0.05385841732893287,
+      "spatial_regional_expanded": 0.04540576281313402,
+      "spatial_whole_exact": 0.06427698655079306,
+      "spatial_whole_expanded": 0.05416707372498719,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Joshua",
+      "source_books": 1,
+      "components": [
+        "Joshua"
+      ],
+      "words": 10051,
+      "sound_units": 53503,
+      "coverage_exact": 0.43197866586538464,
+      "coverage_expanded": 0.47994290865384615,
+      "distance_exact": 0.0521680066505831,
+      "distance_expanded": 0.05328126358643637,
+      "spatial_local_exact": 0.029148228500248008,
+      "spatial_local_expanded": 0.024312139632659213,
+      "spatial_regional_exact": 0.05806475249701204,
+      "spatial_regional_expanded": 0.050939343919786606,
+      "spatial_whole_exact": 0.08110053698013775,
+      "spatial_whole_expanded": 0.07083721570402024,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Judges",
+      "source_books": 1,
+      "components": [
+        "Judges"
+      ],
+      "words": 9886,
+      "sound_units": 51669,
+      "coverage_exact": 0.43001953125,
+      "coverage_expanded": 0.48513671875,
+      "distance_exact": 0.05414557691934288,
+      "distance_expanded": 0.053738963618833416,
+      "spatial_local_exact": 0.023794023593713076,
+      "spatial_local_expanded": 0.022385718271483945,
+      "spatial_regional_exact": 0.061590363021867545,
+      "spatial_regional_expanded": 0.0572254341167584,
+      "spatial_whole_exact": 0.08251872034306235,
+      "spatial_whole_expanded": 0.07689060901540246,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Samuel",
+      "source_books": 2,
+      "components": [
+        "I Samuel",
+        "II Samuel"
+      ],
+      "words": 24305,
+      "sound_units": 125020,
+      "coverage_exact": 0.4386815200617284,
+      "coverage_expanded": 0.4946711033950617,
+      "distance_exact": 0.050068971135009216,
+      "distance_expanded": 0.04868862116396038,
+      "spatial_local_exact": 0.0354354910837999,
+      "spatial_local_expanded": 0.030664840653252465,
+      "spatial_regional_exact": 0.0646944367937472,
+      "spatial_regional_expanded": 0.0574081524983511,
+      "spatial_whole_exact": 0.08314791850970904,
+      "spatial_whole_expanded": 0.07388077350875924,
+      "reporting_aggregation": "pooled eligible source-book blocks/material; no cross-source motifs"
+    },
+    {
+      "traditional_book": "Kings",
+      "source_books": 2,
+      "components": [
+        "I Kings",
+        "II Kings"
+      ],
+      "words": 25425,
+      "sound_units": 133274,
+      "coverage_exact": 0.44496561293436293,
+      "coverage_expanded": 0.5031672297297297,
+      "distance_exact": 0.04987438405295582,
+      "distance_expanded": 0.04666682731828864,
+      "spatial_local_exact": 0.03356233944680089,
+      "spatial_local_expanded": 0.03156620268036714,
+      "spatial_regional_exact": 0.06257004600035845,
+      "spatial_regional_expanded": 0.05559272756237927,
+      "spatial_whole_exact": 0.08120039030607169,
+      "spatial_whole_expanded": 0.07226357607981361,
+      "reporting_aggregation": "pooled eligible source-book blocks/material; no cross-source motifs"
+    },
+    {
+      "traditional_book": "Isaiah",
+      "source_books": 1,
+      "components": [
+        "Isaiah"
+      ],
+      "words": 16932,
+      "sound_units": 88692,
+      "coverage_exact": 0.3565751445086705,
+      "coverage_expanded": 0.41304642341040465,
+      "distance_exact": 0.034023063736009676,
+      "distance_expanded": 0.03515546019917529,
+      "spatial_local_exact": 0.04075401226950076,
+      "spatial_local_expanded": 0.03602641838224574,
+      "spatial_regional_exact": 0.05988801032469859,
+      "spatial_regional_expanded": 0.05353915326765413,
+      "spatial_whole_exact": 0.06965127378591113,
+      "spatial_whole_expanded": 0.06141352024051305,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Jeremiah",
+      "source_books": 1,
+      "components": [
+        "Jeremiah"
+      ],
+      "words": 21826,
+      "sound_units": 112647,
+      "coverage_exact": 0.37737926136363636,
+      "coverage_expanded": 0.43481001420454546,
+      "distance_exact": 0.034356603188057416,
+      "distance_expanded": 0.03364231919235424,
+      "spatial_local_exact": 0.029227009561922868,
+      "spatial_local_expanded": 0.024666059039777588,
+      "spatial_regional_exact": 0.05103644121209844,
+      "spatial_regional_expanded": 0.0446821322549128,
+      "spatial_whole_exact": 0.06409510844734145,
+      "spatial_whole_expanded": 0.05657584284800499,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Ezekiel",
+      "source_books": 1,
+      "components": [
+        "Ezekiel"
+      ],
+      "words": 18736,
+      "sound_units": 99638,
+      "coverage_exact": 0.4305533182989691,
+      "coverage_expanded": 0.4884423324742268,
+      "distance_exact": 0.05101605316967139,
+      "distance_expanded": 0.05011467417439314,
+      "spatial_local_exact": 0.03420687303636233,
+      "spatial_local_expanded": 0.03086173978696627,
+      "spatial_regional_exact": 0.07049823318935533,
+      "spatial_regional_expanded": 0.061856374231355316,
+      "spatial_whole_exact": 0.0919694564661458,
+      "spatial_whole_expanded": 0.0803234370052851,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "The Twelve",
+      "source_books": 12,
+      "components": [
+        "Hosea",
+        "Joel",
+        "Amos",
+        "Obadiah",
+        "Jonah",
+        "Micah",
+        "Nahum",
+        "Habakkuk",
+        "Zephaniah",
+        "Haggai",
+        "Zechariah",
+        "Malachi"
+      ],
+      "words": 14356,
+      "sound_units": 74949,
+      "coverage_exact": 0.3672437050359712,
+      "coverage_expanded": 0.4240529451438849,
+      "distance_exact": 0.03540520048395038,
+      "distance_expanded": 0.03362919277566272,
+      "spatial_local_exact": 0.026725566482942484,
+      "spatial_local_expanded": 0.024879318419251444,
+      "spatial_regional_exact": 0.04623800689265945,
+      "spatial_regional_expanded": 0.042273827107124434,
+      "spatial_whole_exact": 0.04882800773322766,
+      "spatial_whole_expanded": 0.04487883809455193,
+      "reporting_aggregation": "pooled eligible source-book blocks/material; no cross-source motifs"
+    },
+    {
+      "traditional_book": "Psalms",
+      "source_books": 1,
+      "components": [
+        "Psalms"
+      ],
+      "words": 19625,
+      "sound_units": 104673,
+      "coverage_exact": 0.3429361979166667,
+      "coverage_expanded": 0.3999502144607843,
+      "distance_exact": 0.02095609550886409,
+      "distance_expanded": 0.018758921787433252,
+      "spatial_local_exact": 0.027197963214287302,
+      "spatial_local_expanded": 0.02380130453867174,
+      "spatial_regional_exact": 0.04501026304954436,
+      "spatial_regional_expanded": 0.0402171442566987,
+      "spatial_whole_exact": 0.057020525595133376,
+      "spatial_whole_expanded": 0.0500130272443271,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Proverbs",
+      "source_books": 1,
+      "components": [
+        "Proverbs"
+      ],
+      "words": 6921,
+      "sound_units": 35243,
+      "coverage_exact": 0.2898092830882353,
+      "coverage_expanded": 0.36388442095588236,
+      "distance_exact": 0.004224886809254749,
+      "distance_expanded": 0.0012677338723161846,
+      "spatial_local_exact": 0.017635587035331024,
+      "spatial_local_expanded": 0.013501872435122853,
+      "spatial_regional_exact": 0.030995381725511834,
+      "spatial_regional_expanded": 0.02526740527153304,
+      "spatial_whole_exact": 0.03665755375025426,
+      "spatial_whole_expanded": 0.02949384429475599,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Job",
+      "source_books": 1,
+      "components": [
+        "Job"
+      ],
+      "words": 8352,
+      "sound_units": 41892,
+      "coverage_exact": 0.3017457561728395,
+      "coverage_expanded": 0.36477623456790126,
+      "distance_exact": 0.01814605122800094,
+      "distance_expanded": 0.017167376430990894,
+      "spatial_local_exact": 0.025965820308805287,
+      "spatial_local_expanded": 0.024262006464655594,
+      "spatial_regional_exact": 0.03705133007199901,
+      "spatial_regional_expanded": 0.03464253329751654,
+      "spatial_whole_exact": 0.04350337420720951,
+      "spatial_whole_expanded": 0.03935545138455365,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Song of Songs",
+      "source_books": 1,
+      "components": [
+        "Song of Songs"
+      ],
+      "words": 1250,
+      "sound_units": 6725,
+      "coverage_exact": 0.36974158653846156,
+      "coverage_expanded": 0.4235276442307692,
+      "distance_exact": 0.026330235268213206,
+      "distance_expanded": 0.029601653564008124,
+      "spatial_local_exact": 0.03862349476384569,
+      "spatial_local_expanded": 0.026303131566289384,
+      "spatial_regional_exact": 0.05210838544171881,
+      "spatial_regional_expanded": 0.04060656692235637,
+      "spatial_whole_exact": 0.051247647738875746,
+      "spatial_whole_expanded": 0.041787971612533004,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Ruth",
+      "source_books": 1,
+      "components": [
+        "Ruth"
+      ],
+      "words": 1297,
+      "sound_units": 6579,
+      "coverage_exact": 0.41064453125,
+      "coverage_expanded": 0.46337890625,
+      "distance_exact": 0.08391358624210168,
+      "distance_expanded": 0.08668325915477729,
+      "spatial_local_exact": 0.05027602842849965,
+      "spatial_local_expanded": 0.03460473700399874,
+      "spatial_regional_exact": 0.06961420777412619,
+      "spatial_regional_expanded": 0.05214589842801409,
+      "spatial_whole_exact": 0.07228545063057518,
+      "spatial_whole_expanded": 0.05514902297268859,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Lamentations",
+      "source_books": 1,
+      "components": [
+        "Lamentations"
+      ],
+      "words": 1540,
+      "sound_units": 7936,
+      "coverage_exact": 0.328125,
+      "coverage_expanded": 0.39205729166666664,
+      "distance_exact": 0.00769440189510439,
+      "distance_expanded": 0.00681776736460947,
+      "spatial_local_exact": 0.040194892383775827,
+      "spatial_local_expanded": 0.03844671036013875,
+      "spatial_regional_exact": 0.05659323859028731,
+      "spatial_regional_expanded": 0.053768229616729335,
+      "spatial_whole_exact": 0.06271519921298574,
+      "spatial_whole_expanded": 0.060993605509099824,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Ecclesiastes",
+      "source_books": 1,
+      "components": [
+        "Ecclesiastes"
+      ],
+      "words": 2987,
+      "sound_units": 14583,
+      "coverage_exact": 0.41385323660714285,
+      "coverage_expanded": 0.46798270089285715,
+      "distance_exact": 0.04870100062342764,
+      "distance_expanded": 0.047279232355367934,
+      "spatial_local_exact": 0.03735521835650213,
+      "spatial_local_expanded": 0.031214684616481747,
+      "spatial_regional_exact": 0.06391787264701254,
+      "spatial_regional_expanded": 0.05521360206854431,
+      "spatial_whole_exact": 0.06675956098292424,
+      "spatial_whole_expanded": 0.057963858990816575,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Esther",
+      "source_books": 1,
+      "components": [
+        "Esther"
+      ],
+      "words": 3045,
+      "sound_units": 16416,
+      "coverage_exact": 0.42230224609375,
+      "coverage_expanded": 0.48590087890625,
+      "distance_exact": 0.03905773312155071,
+      "distance_expanded": 0.03593343421419873,
+      "spatial_local_exact": 0.004754484532143444,
+      "spatial_local_expanded": 0.0074490246827851325,
+      "spatial_regional_exact": 0.033387711435017065,
+      "spatial_regional_expanded": 0.03232119184394927,
+      "spatial_whole_exact": 0.039301745304489655,
+      "spatial_whole_expanded": 0.03713548121297505,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Daniel",
+      "source_books": 1,
+      "components": [
+        "Daniel"
+      ],
+      "words": 2321,
+      "sound_units": 12908,
+      "coverage_exact": 0.408203125,
+      "coverage_expanded": 0.465390625,
+      "distance_exact": 0.053961383230557956,
+      "distance_expanded": 0.05870681780387438,
+      "spatial_local_exact": 0.03979589152792029,
+      "spatial_local_expanded": 0.03609160332114647,
+      "spatial_regional_exact": 0.06310002893290195,
+      "spatial_regional_expanded": 0.05516101598323636,
+      "spatial_whole_exact": 0.07110041470492828,
+      "spatial_whole_expanded": 0.06196024794620231,
+      "reporting_aggregation": "single source-book"
+    },
+    {
+      "traditional_book": "Ezra-Nehemiah",
+      "source_books": 2,
+      "components": [
+        "Ezra",
+        "Nehemiah"
+      ],
+      "words": 7854,
+      "sound_units": 44200,
+      "coverage_exact": 0.430078125,
+      "coverage_expanded": 0.4851332720588235,
+      "distance_exact": 0.05192799669644248,
+      "distance_expanded": 0.0521469759539134,
+      "spatial_local_exact": 0.028402550554751837,
+      "spatial_local_expanded": 0.02620713633795477,
+      "spatial_regional_exact": 0.057732688451102944,
+      "spatial_regional_expanded": 0.05343374952658274,
+      "spatial_whole_exact": 0.06725815364174267,
+      "spatial_whole_expanded": 0.06069426249355846,
+      "reporting_aggregation": "pooled eligible source-book blocks/material; no cross-source motifs"
+    },
+    {
+      "traditional_book": "Chronicles",
+      "source_books": 2,
+      "components": [
+        "I Chronicles",
+        "II Chronicles"
+      ],
+      "words": 24060,
+      "sound_units": 132560,
+      "coverage_exact": 0.43967266230620156,
+      "coverage_expanded": 0.4959726259689923,
+      "distance_exact": 0.05309800085832562,
+      "distance_expanded": 0.04999972261581764,
+      "spatial_local_exact": 0.03676764016677624,
+      "spatial_local_expanded": 0.03218081370477027,
+      "spatial_regional_exact": 0.06718619306971789,
+      "spatial_regional_expanded": 0.05843594565085533,
+      "spatial_whole_exact": 0.08265226635678113,
+      "spatial_whole_expanded": 0.07255198988615537,
+      "reporting_aggregation": "pooled eligible source-book blocks/material; no cross-source motifs"
+    }
+  ],
+  "scope_note": "Only Genesis, Jeremiah, Daniel, and Ezra contain declared Aramaic masks. All other source-books are unchanged from the primary analysis. Aramaic-only values are descriptive and remain NA wherever the unchanged frozen geometry is impossible."
+}

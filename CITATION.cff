@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the accompanying article and this repository."
+title: "Phonological Recurrence Repository"
+type: software
+version: 1.0.0
+date-released: 2026-11-01
+authors:
+  - name: "Phonological Recurrence Project"
+license: MIT

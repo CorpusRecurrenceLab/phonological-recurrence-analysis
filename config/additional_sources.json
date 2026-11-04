@@ -1,0 +1,19 @@
+[
+  {
+    "corpus": "rivlin_ali_baba",
+    "url": "https://benyehuda.org/read/17705",
+    "text_sha256": "eaa8e1db571df9b111fc6853fa9b2a49673b3dcdb1cbaab14a24ef31fb6b6fca",
+    "removed": []
+  },
+  {
+    "corpus": "bialik_beir_haharegah",
+    "url": "https://benyehuda.org/read/1784",
+    "text_sha256": "6902c057317f69f97bb3a20cd51297099e91c3c7efe68cd05943a879bf28b4e0",
+    "removed": [
+      {
+        "kind": "dated_colophon",
+        "text": "תמוז–תשרי, תרס\"ד."
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "schema": "phonological-recurrence.tanakh-24-map.v1",
+  "traditional_books": {
+    "Genesis": [
+      "Genesis"
+    ],
+    "Exodus": [
+      "Exodus"
+    ],
+    "Leviticus": [
+      "Leviticus"
+    ],
+    "Numbers": [
+      "Numbers"
+    ],
+    "Deuteronomy": [
+      "Deuteronomy"
+    ],
+    "Joshua": [
+      "Joshua"
+    ],
+    "Judges": [
+      "Judges"
+    ],
+    "Samuel": [
+      "I Samuel",
+      "II Samuel"
+    ],
+    "Kings": [
+      "I Kings",
+      "II Kings"
+    ],
+    "Isaiah": [
+      "Isaiah"
+    ],
+    "Jeremiah": [
+      "Jeremiah"
+    ],
+    "Ezekiel": [
+      "Ezekiel"
+    ],
+    "The Twelve": [
+      "Hosea",
+      "Joel",
+      "Amos",
+      "Obadiah",
+      "Jonah",
+      "Micah",
+      "Nahum",
+      "Habakkuk",
+      "Zephaniah",
+      "Haggai",
+      "Zechariah",
+      "Malachi"
+    ],
+    "Psalms": [
+      "Psalms"
+    ],
+    "Proverbs": [
+      "Proverbs"
+    ],
+    "Job": [
+      "Job"
+    ],
+    "Song of Songs": [
+      "Song of Songs"
+    ],
+    "Ruth": [
+      "Ruth"
+    ],
+    "Lamentations": [
+      "Lamentations"
+    ],
+    "Ecclesiastes": [
+      "Ecclesiastes"
+    ],
+    "Esther": [
+      "Esther"
+    ],
+    "Daniel": [
+      "Daniel"
+    ],
+    "Ezra-Nehemiah": [
+      "Ezra",
+      "Nehemiah"
+    ],
+    "Chronicles": [
+      "I Chronicles",
+      "II Chronicles"
+    ]
+  }
+}

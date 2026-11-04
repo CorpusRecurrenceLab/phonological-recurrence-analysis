@@ -1,0 +1,31 @@
+name: reproducibility-checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validation:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify frozen repository files
+        run: python project.py verify
+      - name: Rebuild distributed baseline corpora
+        run: python project.py prepare
+      - name: Run baseline and extension unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate bundled poetic-comparator extension
+        run: python src/analysis/validate_extension.py
+      - name: Validate cross-layer continuity
+        run: python src/analysis/validate_integration.py
+      - name: Validate frozen full-Tanakh release
+        run: python extensions/tanakh_wide/project.py verify
+      - name: Run full-Tanakh smoke tests
+        run: python -m unittest discover -s extensions/tanakh_wide/tests -v

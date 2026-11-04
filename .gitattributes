@@ -1,0 +1,20 @@
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf
+VERSION text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.cff text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.svg text eol=lf
+*.bat text eol=crlf
+*.png binary
+*.tif binary
+*.tiff binary
+*.gz binary
+*.svg whitespace=-trailing-space
+*.txt whitespace=-trailing-space

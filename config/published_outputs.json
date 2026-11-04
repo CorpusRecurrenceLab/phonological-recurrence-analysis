@@ -1,0 +1,14 @@
+{
+  "results/article_corpus_inventory.csv": "fff4dfa166112c315a67d77f91134a6a131cc6fb905dd5ecf6bb70efdd6419f1",
+  "results/comparison/coverage.csv": "75e0edbc660793bb364332bb15f56fe01cb37c9bafbf17d2cf769d0b300a8e8c",
+  "results/comparison/density.csv": "5687585aafc3426147666145199975528533a79ccff9a2f9a928efb4713f4cb0",
+  "results/comparison/distance.csv": "b7a6020cb911178d3823229efa02a46d700eb485eda105ebab61188660df8fd6",
+  "results/comparison/distance_blocks.csv": "2df7afa36e3e8775978aaaadbb474643d7c6f083d26dba73a42d66eaec9baab0",
+  "results/comparison/spatial.csv": "c6c22e1a5db123e69d06b101247093e40cbe271965e78943cec90e7c61020d0b",
+  "results/comparison/spatial_replicates.csv": "d480a802cc5bee8a513f62f770db85dfbabd865abd44021ce9e31918031b69f5",
+  "results/qamats_kol_sensitivity.csv": "8ab635d8f53670be776b6ef9e4a353563894d1814045a12c919e7aa7a8f56b99",
+  "results/reading_sensitivity.csv": "56560eadc1115d39e93709eff3fa43e7be295223bdba22e8750fbf1c8b2efce9",
+  "results/representative_examples.json": "3b470b5075a0d22c322b1756df48a18a4454f1283f54150e8febb9ab3f038f80",
+  "results/verse_presence.csv": "779c3349b6c15087d919b92454c7257d80e0d48abbdabf05c8389d0d1d6f5ac3",
+  "results/worked_example.json": "ec9f26c1bd4b07dbec3ebfe90a1b8fccc5340b63d750c2d4a5afb78363e09554"
+}
