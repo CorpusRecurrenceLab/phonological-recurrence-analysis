@@ -1,0 +1,33 @@
+name: reproducibility-checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validation:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify frozen repository files
+        run: python run/project.py verify
+      - name: Rebuild fixed comparison corpora
+        run: python run/project.py prepare
+      - name: Run computational unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate comparator controls
+        run: python src/analysis/validate_controls.py
+      - name: Validate cross-layer continuity
+        run: python src/analysis/validate_integration.py
+      - name: Check bundled 39-book source inventory
+        run: python run/tanakh.py sources
+      - name: Validate complete-Tanakh results
+        run: python run/tanakh.py verify
+      - name: Run full-Tanakh smoke tests
+        run: python -m unittest discover -s tests/tanakh -v

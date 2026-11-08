@@ -1,0 +1,147 @@
+[
+  {
+    "corpus": "modern_523",
+    "segment": 72,
+    "changes": [
+      {
+        "old_start": 1436,
+        "old_end": 1438,
+        "new_start": 1436,
+        "new_end": 1437,
+        "old": [
+          "a",
+          "y"
+        ],
+        "new": [
+          "e"
+        ]
+      }
+    ]
+  },
+  {
+    "corpus": "modern_523",
+    "segment": 122,
+    "changes": [
+      {
+        "old_start": 827,
+        "old_end": 827,
+        "new_start": 827,
+        "new_end": 828,
+        "old": [],
+        "new": [
+          "a"
+        ]
+      },
+      {
+        "old_start": 828,
+        "old_end": 829,
+        "new_start": 829,
+        "new_end": 830,
+        "old": [
+          "u"
+        ],
+        "new": [
+          "o"
+        ]
+      }
+    ]
+  },
+  {
+    "corpus": "modern_523",
+    "segment": 156,
+    "changes": [
+      {
+        "old_start": 536,
+        "old_end": 539,
+        "new_start": 536,
+        "new_end": 539,
+        "old": [
+          "a",
+          "p",
+          "s"
+        ],
+        "new": [
+          "o",
+          "f",
+          "sh"
+        ]
+      }
+    ]
+  },
+  {
+    "corpus": "modern_7924",
+    "segment": 27,
+    "changes": [
+      {
+        "old_start": 389,
+        "old_end": 390,
+        "new_start": 389,
+        "new_end": 390,
+        "old": [
+          "i"
+        ],
+        "new": [
+          "a"
+        ]
+      },
+      {
+        "old_start": 393,
+        "old_end": 393,
+        "new_start": 393,
+        "new_end": 394,
+        "old": [],
+        "new": [
+          "a"
+        ]
+      },
+      {
+        "old_start": 394,
+        "old_end": 395,
+        "new_start": 395,
+        "new_end": 396,
+        "old": [
+          "e"
+        ],
+        "new": [
+          "a"
+        ]
+      }
+    ]
+  },
+  {
+    "corpus": "modern_7924",
+    "segment": 32,
+    "changes": [
+      {
+        "old_start": 40,
+        "old_end": 41,
+        "new_start": 40,
+        "new_end": 41,
+        "old": [
+          "e"
+        ],
+        "new": [
+          "a"
+        ]
+      }
+    ]
+  },
+  {
+    "corpus": "modern_7924",
+    "segment": 173,
+    "changes": [
+      {
+        "old_start": 142,
+        "old_end": 143,
+        "new_start": 142,
+        "new_end": 143,
+        "old": [
+          "s"
+        ],
+        "new": [
+          "sh"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "523",
+    "sha256": "c87f75776ac092c0d261379a69f36c31d795b135ee9dcc2871ba775a878017e7",
+    "start": 193,
+    "end": 251906,
+    "start_anchor": "התנצלות מאת המלביה\"ד",
+    "end_anchor": "[תרע\"א]",
+    "status": "outer_boundaries_reviewed; internal headings and source note markers retained intentionally"
+  },
+  {
+    "id": "884",
+    "sha256": "d5118d63ab90ce8689e69018f129ec60fc3693c4d77e19dd720630d9d8809781",
+    "start": 2698,
+    "end": 72438,
+    "start_anchor": "שיר ראשון: מרדכי הפודובקאי",
+    "end_anchor": "אודסה י\"ז-כ\"ו מרחשון תרפ\"א.",
+    "status": "outer_boundaries_reviewed"
+  },
+  {
+    "id": "7924",
+    "sha256": "cc43f8412f2eeda95872a8819dfbe4977cea29229f5b59c0e24990a4b1eca90e",
+    "start": 37,
+    "end": 63635,
+    "start_anchor": "בפעם הראשונה זכה",
+    "end_anchor": "נדפס ב\"השלח\"",
+    "status": "outer_boundaries_reviewed"
+  }
+]

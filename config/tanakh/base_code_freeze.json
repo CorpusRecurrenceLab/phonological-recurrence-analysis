@@ -1,0 +1,25 @@
+{
+  "schema": "phonological-recurrence.base-code-freeze.v1",
+  "repository": "CorpusRecurrenceLab/phonological-recurrence-analysis",
+  "commit": "a58c44c650bea66f73398ae05c2542b74835566e",
+  "files": [
+    {
+      "upstream_path": "src/core/perpetual_qere.py",
+      "package_path": "src/core/perpetual_qere.py",
+      "git_blob_sha1": "773a1df7ec4e38a11841df1e799a90d6294e02a1",
+      "bytes": 943
+    },
+    {
+      "upstream_path": "src/core/phonetic_core_v2.py",
+      "package_path": "src/core/phonetic_core_v2.py",
+      "git_blob_sha1": "244cdea4108379687160e8e2af494743063662dc",
+      "bytes": 8704
+    },
+    {
+      "upstream_path": "src/preparation/prepare_biblical_reading.py",
+      "package_path": "src/preparation/prepare_biblical_reading.py",
+      "git_blob_sha1": "36c3c4977b17bd815a7a40dcba81e1cca042a58e",
+      "bytes": 3316
+    }
+  ]
+}

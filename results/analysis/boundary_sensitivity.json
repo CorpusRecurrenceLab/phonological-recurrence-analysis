@@ -1,0 +1,1892 @@
+[
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_523",
+    "replicate": 0,
+    "tiles": 162,
+    "coverage": 0.46056375385802467,
+    "used_units": 82944,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_523",
+    "replicate": 1,
+    "tiles": 162,
+    "coverage": 0.4607204861111111,
+    "used_units": 82944,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_523",
+    "replicate": 2,
+    "tiles": 165,
+    "coverage": 0.4633996212121212,
+    "used_units": 84480,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_523",
+    "replicate": 3,
+    "tiles": 163,
+    "coverage": 0.4591641104294479,
+    "used_units": 83456,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_523",
+    "replicate": 4,
+    "tiles": 158,
+    "coverage": 0.46239616297468356,
+    "used_units": 80896,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_523",
+    "replicate": 5,
+    "tiles": 160,
+    "coverage": 0.45599365234375,
+    "used_units": 81920,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_523",
+    "replicate": 6,
+    "tiles": 157,
+    "coverage": 0.4562599522292994,
+    "used_units": 80384,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_523",
+    "replicate": 7,
+    "tiles": 161,
+    "coverage": 0.45755289208074534,
+    "used_units": 82432,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_523",
+    "replicate": 8,
+    "tiles": 166,
+    "coverage": 0.4602433170180723,
+    "used_units": 84992,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_523",
+    "replicate": 9,
+    "tiles": 160,
+    "coverage": 0.45948486328125,
+    "used_units": 81920,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_523",
+    "replicate": 0,
+    "tiles": 134,
+    "coverage": 0.4409689832089552,
+    "used_units": 68608,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_523",
+    "replicate": 1,
+    "tiles": 134,
+    "coverage": 0.4498017723880597,
+    "used_units": 68608,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_523",
+    "replicate": 2,
+    "tiles": 136,
+    "coverage": 0.45132984834558826,
+    "used_units": 69632,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_523",
+    "replicate": 3,
+    "tiles": 136,
+    "coverage": 0.4455997242647059,
+    "used_units": 69632,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_523",
+    "replicate": 4,
+    "tiles": 130,
+    "coverage": 0.4381610576923077,
+    "used_units": 66560,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_523",
+    "replicate": 5,
+    "tiles": 133,
+    "coverage": 0.4471628289473684,
+    "used_units": 68096,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_523",
+    "replicate": 6,
+    "tiles": 129,
+    "coverage": 0.4481589147286822,
+    "used_units": 66048,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_523",
+    "replicate": 7,
+    "tiles": 132,
+    "coverage": 0.4441139914772727,
+    "used_units": 67584,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_523",
+    "replicate": 8,
+    "tiles": 139,
+    "coverage": 0.445818345323741,
+    "used_units": 71168,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_523",
+    "replicate": 9,
+    "tiles": 134,
+    "coverage": 0.4439278218283582,
+    "used_units": 68608,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_523",
+    "replicate": 0,
+    "tiles": 97,
+    "coverage": 0.47128704896907214,
+    "used_units": 49664,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_523",
+    "replicate": 1,
+    "tiles": 99,
+    "coverage": 0.4635613952020202,
+    "used_units": 50688,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_523",
+    "replicate": 2,
+    "tiles": 97,
+    "coverage": 0.46134020618556704,
+    "used_units": 49664,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_523",
+    "replicate": 3,
+    "tiles": 95,
+    "coverage": 0.458984375,
+    "used_units": 48640,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_523",
+    "replicate": 4,
+    "tiles": 91,
+    "coverage": 0.46269745879120877,
+    "used_units": 46592,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_523",
+    "replicate": 5,
+    "tiles": 93,
+    "coverage": 0.4774445564516129,
+    "used_units": 47616,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_523",
+    "replicate": 6,
+    "tiles": 89,
+    "coverage": 0.46558988764044945,
+    "used_units": 45568,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_523",
+    "replicate": 7,
+    "tiles": 93,
+    "coverage": 0.4679309475806452,
+    "used_units": 47616,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_523",
+    "replicate": 8,
+    "tiles": 93,
+    "coverage": 0.4681199596774194,
+    "used_units": 47616,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_523",
+    "replicate": 9,
+    "tiles": 93,
+    "coverage": 0.4643397177419355,
+    "used_units": 47616,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_523",
+    "replicate": 0,
+    "tiles": 133,
+    "coverage": 0.4489984727443609,
+    "used_units": 68096,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_523",
+    "replicate": 1,
+    "tiles": 133,
+    "coverage": 0.44200834116541354,
+    "used_units": 68096,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_523",
+    "replicate": 2,
+    "tiles": 135,
+    "coverage": 0.4469184027777778,
+    "used_units": 69120,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_523",
+    "replicate": 3,
+    "tiles": 135,
+    "coverage": 0.4534866898148148,
+    "used_units": 69120,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_523",
+    "replicate": 4,
+    "tiles": 130,
+    "coverage": 0.4567157451923077,
+    "used_units": 66560,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_523",
+    "replicate": 5,
+    "tiles": 132,
+    "coverage": 0.4553444602272727,
+    "used_units": 67584,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_523",
+    "replicate": 6,
+    "tiles": 129,
+    "coverage": 0.4468265503875969,
+    "used_units": 66048,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_523",
+    "replicate": 7,
+    "tiles": 131,
+    "coverage": 0.443359375,
+    "used_units": 67072,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_523",
+    "replicate": 8,
+    "tiles": 138,
+    "coverage": 0.4554885643115942,
+    "used_units": 70656,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_523",
+    "replicate": 9,
+    "tiles": 134,
+    "coverage": 0.446318213619403,
+    "used_units": 68608,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_523",
+    "replicate": 0,
+    "tiles": 121,
+    "coverage": 0.4246190599173554,
+    "used_units": 61952,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_523",
+    "replicate": 1,
+    "tiles": 119,
+    "coverage": 0.42225249474789917,
+    "used_units": 60928,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_523",
+    "replicate": 2,
+    "tiles": 119,
+    "coverage": 0.42244944852941174,
+    "used_units": 60928,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_523",
+    "replicate": 3,
+    "tiles": 116,
+    "coverage": 0.42189183728448276,
+    "used_units": 59392,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_523",
+    "replicate": 4,
+    "tiles": 111,
+    "coverage": 0.4250070382882883,
+    "used_units": 56832,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_523",
+    "replicate": 5,
+    "tiles": 115,
+    "coverage": 0.4237771739130435,
+    "used_units": 58880,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_523",
+    "replicate": 6,
+    "tiles": 111,
+    "coverage": 0.42685458896396394,
+    "used_units": 56832,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_523",
+    "replicate": 7,
+    "tiles": 114,
+    "coverage": 0.4254899945175439,
+    "used_units": 58368,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_523",
+    "replicate": 8,
+    "tiles": 119,
+    "coverage": 0.4222689075630252,
+    "used_units": 60928,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_523",
+    "replicate": 9,
+    "tiles": 115,
+    "coverage": 0.4210258152173913,
+    "used_units": 58880,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_523",
+    "replicate": 0,
+    "tiles": 84,
+    "coverage": 0.43715122767857145,
+    "used_units": 43008,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_523",
+    "replicate": 1,
+    "tiles": 88,
+    "coverage": 0.43505859375,
+    "used_units": 45056,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_523",
+    "replicate": 2,
+    "tiles": 82,
+    "coverage": 0.4268530868902439,
+    "used_units": 41984,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_523",
+    "replicate": 3,
+    "tiles": 85,
+    "coverage": 0.43334099264705883,
+    "used_units": 43520,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_523",
+    "replicate": 4,
+    "tiles": 80,
+    "coverage": 0.4353759765625,
+    "used_units": 40960,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_523",
+    "replicate": 5,
+    "tiles": 82,
+    "coverage": 0.4279249237804878,
+    "used_units": 41984,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_523",
+    "replicate": 6,
+    "tiles": 78,
+    "coverage": 0.4378505608974359,
+    "used_units": 39936,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_523",
+    "replicate": 7,
+    "tiles": 82,
+    "coverage": 0.4358326981707317,
+    "used_units": 41984,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_523",
+    "replicate": 8,
+    "tiles": 83,
+    "coverage": 0.43552334337349397,
+    "used_units": 42496,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_523",
+    "replicate": 9,
+    "tiles": 84,
+    "coverage": 0.4278971354166667,
+    "used_units": 43008,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_523",
+    "replicate": 0,
+    "tiles": 81,
+    "coverage": 0.4272038966049383,
+    "used_units": 41472,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_523",
+    "replicate": 1,
+    "tiles": 84,
+    "coverage": 0.43215215773809523,
+    "used_units": 43008,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_523",
+    "replicate": 2,
+    "tiles": 80,
+    "coverage": 0.4277099609375,
+    "used_units": 40960,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_523",
+    "replicate": 3,
+    "tiles": 81,
+    "coverage": 0.4348958333333333,
+    "used_units": 41472,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_523",
+    "replicate": 4,
+    "tiles": 77,
+    "coverage": 0.4316152597402597,
+    "used_units": 39424,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_523",
+    "replicate": 5,
+    "tiles": 80,
+    "coverage": 0.4365966796875,
+    "used_units": 40960,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_523",
+    "replicate": 6,
+    "tiles": 75,
+    "coverage": 0.43138020833333335,
+    "used_units": 38400,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_523",
+    "replicate": 7,
+    "tiles": 78,
+    "coverage": 0.4287610176282051,
+    "used_units": 39936,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_523",
+    "replicate": 8,
+    "tiles": 81,
+    "coverage": 0.4305314429012346,
+    "used_units": 41472,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_523",
+    "replicate": 9,
+    "tiles": 81,
+    "coverage": 0.4265769675925926,
+    "used_units": 41472,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_7924",
+    "replicate": 0,
+    "tiles": 73,
+    "coverage": 0.4574325770547945,
+    "used_units": 37376,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_7924",
+    "replicate": 1,
+    "tiles": 77,
+    "coverage": 0.4609375,
+    "used_units": 39424,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_7924",
+    "replicate": 2,
+    "tiles": 70,
+    "coverage": 0.4607700892857143,
+    "used_units": 35840,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_7924",
+    "replicate": 3,
+    "tiles": 74,
+    "coverage": 0.46310177364864863,
+    "used_units": 37888,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_7924",
+    "replicate": 4,
+    "tiles": 74,
+    "coverage": 0.4553684543918919,
+    "used_units": 37888,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_7924",
+    "replicate": 5,
+    "tiles": 69,
+    "coverage": 0.4598052536231884,
+    "used_units": 35328,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_7924",
+    "replicate": 6,
+    "tiles": 77,
+    "coverage": 0.455078125,
+    "used_units": 39424,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_7924",
+    "replicate": 7,
+    "tiles": 72,
+    "coverage": 0.4643283420138889,
+    "used_units": 36864,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_7924",
+    "replicate": 8,
+    "tiles": 76,
+    "coverage": 0.453125,
+    "used_units": 38912,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_7924",
+    "replicate": 9,
+    "tiles": 72,
+    "coverage": 0.4692111545138889,
+    "used_units": 36864,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_7924",
+    "replicate": 0,
+    "tiles": 60,
+    "coverage": 0.43453776041666664,
+    "used_units": 30720,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_7924",
+    "replicate": 1,
+    "tiles": 60,
+    "coverage": 0.43017578125,
+    "used_units": 30720,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_7924",
+    "replicate": 2,
+    "tiles": 59,
+    "coverage": 0.4509070444915254,
+    "used_units": 30208,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_7924",
+    "replicate": 3,
+    "tiles": 64,
+    "coverage": 0.453460693359375,
+    "used_units": 32768,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_7924",
+    "replicate": 4,
+    "tiles": 61,
+    "coverage": 0.4483862704918033,
+    "used_units": 31232,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_7924",
+    "replicate": 5,
+    "tiles": 55,
+    "coverage": 0.4557883522727273,
+    "used_units": 28160,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_7924",
+    "replicate": 6,
+    "tiles": 62,
+    "coverage": 0.4569367439516129,
+    "used_units": 31744,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_7924",
+    "replicate": 7,
+    "tiles": 58,
+    "coverage": 0.43908270474137934,
+    "used_units": 29696,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_7924",
+    "replicate": 8,
+    "tiles": 64,
+    "coverage": 0.427703857421875,
+    "used_units": 32768,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_7924",
+    "replicate": 9,
+    "tiles": 63,
+    "coverage": 0.43486483134920634,
+    "used_units": 32256,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_7924",
+    "replicate": 0,
+    "tiles": 43,
+    "coverage": 0.4539425872093023,
+    "used_units": 22016,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_7924",
+    "replicate": 1,
+    "tiles": 44,
+    "coverage": 0.46595348011363635,
+    "used_units": 22528,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_7924",
+    "replicate": 2,
+    "tiles": 43,
+    "coverage": 0.44549418604651164,
+    "used_units": 22016,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_7924",
+    "replicate": 3,
+    "tiles": 43,
+    "coverage": 0.47015806686046513,
+    "used_units": 22016,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_7924",
+    "replicate": 4,
+    "tiles": 43,
+    "coverage": 0.47960574127906974,
+    "used_units": 22016,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_7924",
+    "replicate": 5,
+    "tiles": 42,
+    "coverage": 0.46535528273809523,
+    "used_units": 21504,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_7924",
+    "replicate": 6,
+    "tiles": 44,
+    "coverage": 0.4652432528409091,
+    "used_units": 22528,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_7924",
+    "replicate": 7,
+    "tiles": 44,
+    "coverage": 0.458984375,
+    "used_units": 22528,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_7924",
+    "replicate": 8,
+    "tiles": 43,
+    "coverage": 0.46984011627906974,
+    "used_units": 22016,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_7924",
+    "replicate": 9,
+    "tiles": 43,
+    "coverage": 0.4683412063953488,
+    "used_units": 22016,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_7924",
+    "replicate": 0,
+    "tiles": 60,
+    "coverage": 0.45950520833333336,
+    "used_units": 30720,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_7924",
+    "replicate": 1,
+    "tiles": 59,
+    "coverage": 0.458885063559322,
+    "used_units": 30208,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_7924",
+    "replicate": 2,
+    "tiles": 59,
+    "coverage": 0.4383938029661017,
+    "used_units": 30208,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_7924",
+    "replicate": 3,
+    "tiles": 64,
+    "coverage": 0.464080810546875,
+    "used_units": 32768,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_7924",
+    "replicate": 4,
+    "tiles": 60,
+    "coverage": 0.4541015625,
+    "used_units": 30720,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_7924",
+    "replicate": 5,
+    "tiles": 55,
+    "coverage": 0.45795454545454545,
+    "used_units": 28160,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_7924",
+    "replicate": 6,
+    "tiles": 61,
+    "coverage": 0.4242763831967213,
+    "used_units": 31232,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_7924",
+    "replicate": 7,
+    "tiles": 58,
+    "coverage": 0.42901400862068967,
+    "used_units": 29696,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_7924",
+    "replicate": 8,
+    "tiles": 62,
+    "coverage": 0.45939390120967744,
+    "used_units": 31744,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_7924",
+    "replicate": 9,
+    "tiles": 63,
+    "coverage": 0.4603484623015873,
+    "used_units": 32256,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_7924",
+    "replicate": 0,
+    "tiles": 53,
+    "coverage": 0.4327461674528302,
+    "used_units": 27136,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_7924",
+    "replicate": 1,
+    "tiles": 47,
+    "coverage": 0.437250664893617,
+    "used_units": 24064,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_7924",
+    "replicate": 2,
+    "tiles": 56,
+    "coverage": 0.40952845982142855,
+    "used_units": 28672,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_7924",
+    "replicate": 3,
+    "tiles": 52,
+    "coverage": 0.4287109375,
+    "used_units": 26624,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_7924",
+    "replicate": 4,
+    "tiles": 55,
+    "coverage": 0.4153409090909091,
+    "used_units": 28160,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_7924",
+    "replicate": 5,
+    "tiles": 49,
+    "coverage": 0.43056441326530615,
+    "used_units": 25088,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_7924",
+    "replicate": 6,
+    "tiles": 55,
+    "coverage": 0.43391335227272726,
+    "used_units": 28160,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_7924",
+    "replicate": 7,
+    "tiles": 53,
+    "coverage": 0.4244177476415094,
+    "used_units": 27136,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_7924",
+    "replicate": 8,
+    "tiles": 54,
+    "coverage": 0.4212239583333333,
+    "used_units": 27648,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_7924",
+    "replicate": 9,
+    "tiles": 56,
+    "coverage": 0.42173549107142855,
+    "used_units": 28672,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_7924",
+    "replicate": 0,
+    "tiles": 37,
+    "coverage": 0.4364970439189189,
+    "used_units": 18944,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_7924",
+    "replicate": 1,
+    "tiles": 41,
+    "coverage": 0.42887766768292684,
+    "used_units": 20992,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_7924",
+    "replicate": 2,
+    "tiles": 40,
+    "coverage": 0.436279296875,
+    "used_units": 20480,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_7924",
+    "replicate": 3,
+    "tiles": 35,
+    "coverage": 0.4240513392857143,
+    "used_units": 17920,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_7924",
+    "replicate": 4,
+    "tiles": 38,
+    "coverage": 0.4387335526315789,
+    "used_units": 19456,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_7924",
+    "replicate": 5,
+    "tiles": 37,
+    "coverage": 0.4404560810810811,
+    "used_units": 18944,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_7924",
+    "replicate": 6,
+    "tiles": 39,
+    "coverage": 0.42197516025641024,
+    "used_units": 19968,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_7924",
+    "replicate": 7,
+    "tiles": 36,
+    "coverage": 0.4229058159722222,
+    "used_units": 18432,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_7924",
+    "replicate": 8,
+    "tiles": 37,
+    "coverage": 0.41691300675675674,
+    "used_units": 18944,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_7924",
+    "replicate": 9,
+    "tiles": 36,
+    "coverage": 0.4253472222222222,
+    "used_units": 18432,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_7924",
+    "replicate": 0,
+    "tiles": 36,
+    "coverage": 0.419921875,
+    "used_units": 18432,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_7924",
+    "replicate": 1,
+    "tiles": 39,
+    "coverage": 0.4266826923076923,
+    "used_units": 19968,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_7924",
+    "replicate": 2,
+    "tiles": 37,
+    "coverage": 0.43496621621621623,
+    "used_units": 18944,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_7924",
+    "replicate": 3,
+    "tiles": 35,
+    "coverage": 0.4220424107142857,
+    "used_units": 17920,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_7924",
+    "replicate": 4,
+    "tiles": 37,
+    "coverage": 0.42541173986486486,
+    "used_units": 18944,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_7924",
+    "replicate": 5,
+    "tiles": 34,
+    "coverage": 0.4148092830882353,
+    "used_units": 17408,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_7924",
+    "replicate": 6,
+    "tiles": 38,
+    "coverage": 0.4241879111842105,
+    "used_units": 19456,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_7924",
+    "replicate": 7,
+    "tiles": 34,
+    "coverage": 0.4384765625,
+    "used_units": 17408,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_7924",
+    "replicate": 8,
+    "tiles": 37,
+    "coverage": 0.44246199324324326,
+    "used_units": 18944,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_7924",
+    "replicate": 9,
+    "tiles": 35,
+    "coverage": 0.43934151785714287,
+    "used_units": 17920,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_884",
+    "replicate": 0,
+    "tiles": 178,
+    "coverage": 0.45753599016853935,
+    "used_units": 91136,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_884",
+    "replicate": 1,
+    "tiles": 181,
+    "coverage": 0.4575707872928177,
+    "used_units": 92672,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_884",
+    "replicate": 2,
+    "tiles": 179,
+    "coverage": 0.45718400837988826,
+    "used_units": 91648,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_884",
+    "replicate": 3,
+    "tiles": 178,
+    "coverage": 0.4614312675561798,
+    "used_units": 91136,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_884",
+    "replicate": 4,
+    "tiles": 179,
+    "coverage": 0.45770775139664804,
+    "used_units": 91648,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_884",
+    "replicate": 5,
+    "tiles": 179,
+    "coverage": 0.4607083624301676,
+    "used_units": 91648,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_884",
+    "replicate": 6,
+    "tiles": 180,
+    "coverage": 0.45924479166666665,
+    "used_units": 92160,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_884",
+    "replicate": 7,
+    "tiles": 180,
+    "coverage": 0.46087239583333334,
+    "used_units": 92160,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_884",
+    "replicate": 8,
+    "tiles": 178,
+    "coverage": 0.46070707514044945,
+    "used_units": 91136,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Genesis",
+    "boundary_template": "modern_884",
+    "replicate": 9,
+    "tiles": 180,
+    "coverage": 0.46127387152777777,
+    "used_units": 92160,
+    "total_units": 104362
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_884",
+    "replicate": 0,
+    "tiles": 149,
+    "coverage": 0.44802590184563756,
+    "used_units": 76288,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_884",
+    "replicate": 1,
+    "tiles": 150,
+    "coverage": 0.4486588541666667,
+    "used_units": 76800,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_884",
+    "replicate": 2,
+    "tiles": 149,
+    "coverage": 0.44473573825503354,
+    "used_units": 76288,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_884",
+    "replicate": 3,
+    "tiles": 149,
+    "coverage": 0.44455222315436244,
+    "used_units": 76288,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_884",
+    "replicate": 4,
+    "tiles": 150,
+    "coverage": 0.4481510416666667,
+    "used_units": 76800,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_884",
+    "replicate": 5,
+    "tiles": 148,
+    "coverage": 0.44574799408783783,
+    "used_units": 75776,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_884",
+    "replicate": 6,
+    "tiles": 150,
+    "coverage": 0.4461848958333333,
+    "used_units": 76800,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_884",
+    "replicate": 7,
+    "tiles": 150,
+    "coverage": 0.4469401041666667,
+    "used_units": 76800,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_884",
+    "replicate": 8,
+    "tiles": 148,
+    "coverage": 0.4440983952702703,
+    "used_units": 75776,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Exodus",
+    "boundary_template": "modern_884",
+    "replicate": 9,
+    "tiles": 150,
+    "coverage": 0.44602864583333335,
+    "used_units": 76800,
+    "total_units": 86820
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_884",
+    "replicate": 0,
+    "tiles": 103,
+    "coverage": 0.46651243932038833,
+    "used_units": 52736,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_884",
+    "replicate": 1,
+    "tiles": 106,
+    "coverage": 0.4649358785377358,
+    "used_units": 54272,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_884",
+    "replicate": 2,
+    "tiles": 104,
+    "coverage": 0.471435546875,
+    "used_units": 53248,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_884",
+    "replicate": 3,
+    "tiles": 105,
+    "coverage": 0.46240699404761904,
+    "used_units": 53760,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_884",
+    "replicate": 4,
+    "tiles": 104,
+    "coverage": 0.4684495192307692,
+    "used_units": 53248,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_884",
+    "replicate": 5,
+    "tiles": 106,
+    "coverage": 0.4660229952830189,
+    "used_units": 54272,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_884",
+    "replicate": 6,
+    "tiles": 104,
+    "coverage": 0.4747971754807692,
+    "used_units": 53248,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_884",
+    "replicate": 7,
+    "tiles": 104,
+    "coverage": 0.4633037860576923,
+    "used_units": 53248,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_884",
+    "replicate": 8,
+    "tiles": 105,
+    "coverage": 0.462890625,
+    "used_units": 53760,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Leviticus",
+    "boundary_template": "modern_884",
+    "replicate": 9,
+    "tiles": 105,
+    "coverage": 0.4656063988095238,
+    "used_units": 53760,
+    "total_units": 61037
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_884",
+    "replicate": 0,
+    "tiles": 149,
+    "coverage": 0.4530856753355705,
+    "used_units": 76288,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_884",
+    "replicate": 1,
+    "tiles": 149,
+    "coverage": 0.45514366610738255,
+    "used_units": 76288,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_884",
+    "replicate": 2,
+    "tiles": 148,
+    "coverage": 0.45155458192567566,
+    "used_units": 75776,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_884",
+    "replicate": 3,
+    "tiles": 149,
+    "coverage": 0.4511587667785235,
+    "used_units": 76288,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_884",
+    "replicate": 4,
+    "tiles": 149,
+    "coverage": 0.4535313548657718,
+    "used_units": 76288,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_884",
+    "replicate": 5,
+    "tiles": 147,
+    "coverage": 0.4507201318027211,
+    "used_units": 75264,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_884",
+    "replicate": 6,
+    "tiles": 149,
+    "coverage": 0.45359689597315433,
+    "used_units": 76288,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_884",
+    "replicate": 7,
+    "tiles": 149,
+    "coverage": 0.4468592701342282,
+    "used_units": 76288,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_884",
+    "replicate": 8,
+    "tiles": 147,
+    "coverage": 0.44875372023809523,
+    "used_units": 75264,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Numbers",
+    "boundary_template": "modern_884",
+    "replicate": 9,
+    "tiles": 149,
+    "coverage": 0.45114565855704697,
+    "used_units": 76288,
+    "total_units": 86295
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_884",
+    "replicate": 0,
+    "tiles": 129,
+    "coverage": 0.4209514292635659,
+    "used_units": 66048,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_884",
+    "replicate": 1,
+    "tiles": 128,
+    "coverage": 0.4199066162109375,
+    "used_units": 65536,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_884",
+    "replicate": 2,
+    "tiles": 128,
+    "coverage": 0.4227142333984375,
+    "used_units": 65536,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_884",
+    "replicate": 3,
+    "tiles": 128,
+    "coverage": 0.418670654296875,
+    "used_units": 65536,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_884",
+    "replicate": 4,
+    "tiles": 128,
+    "coverage": 0.4192047119140625,
+    "used_units": 65536,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_884",
+    "replicate": 5,
+    "tiles": 129,
+    "coverage": 0.4223140746124031,
+    "used_units": 66048,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_884",
+    "replicate": 6,
+    "tiles": 130,
+    "coverage": 0.41930588942307695,
+    "used_units": 66560,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_884",
+    "replicate": 7,
+    "tiles": 129,
+    "coverage": 0.4170754602713178,
+    "used_units": 66048,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_884",
+    "replicate": 8,
+    "tiles": 128,
+    "coverage": 0.4249420166015625,
+    "used_units": 65536,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Deuteronomy",
+    "boundary_template": "modern_884",
+    "replicate": 9,
+    "tiles": 130,
+    "coverage": 0.41693209134615383,
+    "used_units": 66560,
+    "total_units": 74774
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_884",
+    "replicate": 0,
+    "tiles": 91,
+    "coverage": 0.43028846153846156,
+    "used_units": 46592,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_884",
+    "replicate": 1,
+    "tiles": 91,
+    "coverage": 0.43473128434065933,
+    "used_units": 46592,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_884",
+    "replicate": 2,
+    "tiles": 92,
+    "coverage": 0.43306300951086957,
+    "used_units": 47104,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_884",
+    "replicate": 3,
+    "tiles": 91,
+    "coverage": 0.43161916208791207,
+    "used_units": 46592,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_884",
+    "replicate": 4,
+    "tiles": 91,
+    "coverage": 0.43374399038461536,
+    "used_units": 46592,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_884",
+    "replicate": 5,
+    "tiles": 92,
+    "coverage": 0.43142832880434784,
+    "used_units": 47104,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_884",
+    "replicate": 6,
+    "tiles": 93,
+    "coverage": 0.4296875,
+    "used_units": 47616,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_884",
+    "replicate": 7,
+    "tiles": 94,
+    "coverage": 0.43116273271276595,
+    "used_units": 48128,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_884",
+    "replicate": 8,
+    "tiles": 92,
+    "coverage": 0.43735139266304346,
+    "used_units": 47104,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Joshua",
+    "boundary_template": "modern_884",
+    "replicate": 9,
+    "tiles": 92,
+    "coverage": 0.42970872961956524,
+    "used_units": 47104,
+    "total_units": 53503
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_884",
+    "replicate": 0,
+    "tiles": 88,
+    "coverage": 0.42786754261363635,
+    "used_units": 45056,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_884",
+    "replicate": 1,
+    "tiles": 88,
+    "coverage": 0.42646928267045453,
+    "used_units": 45056,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_884",
+    "replicate": 2,
+    "tiles": 89,
+    "coverage": 0.42439870084269665,
+    "used_units": 45568,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_884",
+    "replicate": 3,
+    "tiles": 88,
+    "coverage": 0.43574662642045453,
+    "used_units": 45056,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_884",
+    "replicate": 4,
+    "tiles": 87,
+    "coverage": 0.42932830459770116,
+    "used_units": 44544,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_884",
+    "replicate": 5,
+    "tiles": 89,
+    "coverage": 0.4313114466292135,
+    "used_units": 45568,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_884",
+    "replicate": 6,
+    "tiles": 90,
+    "coverage": 0.43116319444444445,
+    "used_units": 46080,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_884",
+    "replicate": 7,
+    "tiles": 90,
+    "coverage": 0.4327473958333333,
+    "used_units": 46080,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_884",
+    "replicate": 8,
+    "tiles": 88,
+    "coverage": 0.4295321377840909,
+    "used_units": 45056,
+    "total_units": 51669
+  },
+  {
+    "corpus": "Judges",
+    "boundary_template": "modern_884",
+    "replicate": 9,
+    "tiles": 89,
+    "coverage": 0.4331767907303371,
+    "used_units": 45568,
+    "total_units": 51669
+  }
+]

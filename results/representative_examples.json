@@ -1,0 +1,394 @@
+[
+  {
+    "corpus": "Genesis",
+    "display_name": "Genesis",
+    "selection": "first complete 512-unit block attaining the corpus maximum exact R64 coverage",
+    "segment": 0,
+    "sound_start": 0,
+    "sound_length": 512,
+    "verse_span": "Genesis 1:1–Genesis 1:9",
+    "word_index_start_zero_based": null,
+    "word_index_end_zero_based": null,
+    "exact_coverage": 0.697265625,
+    "expanded_coverage": 0.720703125,
+    "detector_encoding_excerpt": "bereshit bara elohim et hashamayim veet haarets vehaarets hayta tohu vavohu vehoshekh al pene tehom veruah elohim merahefet al pene hamayim vayomer elohim yehi or vayhi or vayar elohim et haor ki tov vayavdel elohim ben haor uven hahoshekh vayiqra elohim laor yom velahoshekh qara layla vayhi erev vayhi voqer yom ehad vayomer elohim yehi raqia betokh hamayim vihi mavdil ben mayim lamayim vayaas elohim et haraqia vayavdel ben hamayim asher mitahat laraqia uven hamayim asher meal laraqia vayhi khen vayiqra elohim laraqia shamayim vayhi erev vayhi voqer yom sheni vayomer elohim yiqavu hamayim mitahat hashamayim el maqom ehad",
+    "top_exact_triplets": [
+      {
+        "motif": "vay",
+        "qualifying_occurrences": 15
+      },
+      {
+        "motif": "him",
+        "qualifying_occurrences": 10
+      },
+      {
+        "motif": "ayi",
+        "qualifying_occurrences": 9
+      },
+      {
+        "motif": "elo",
+        "qualifying_occurrences": 9
+      },
+      {
+        "motif": "loh",
+        "qualifying_occurrences": 9
+      }
+    ]
+  },
+  {
+    "corpus": "Exodus",
+    "display_name": "Exodus",
+    "selection": "first complete 512-unit block attaining the corpus maximum exact R64 coverage",
+    "segment": 0,
+    "sound_start": 78336,
+    "sound_length": 512,
+    "verse_span": "Exodus 37:17–Exodus 37:23",
+    "word_index_start_zero_based": null,
+    "word_index_end_zero_based": null,
+    "exact_coverage": 0.685546875,
+    "expanded_coverage": 0.73828125,
+    "detector_encoding_excerpt": "vayaas et hamnora zahav tahor miqsha asa et hamnora yerekhah veqanah gevieha kaftoreha ufraheha mimena hayu veshisha qanim yotsim mitsideha shelosha qene menora mitsidah haehad ushlosha qene menora mitsidah hasheni shelosha geviim meshuqadim baqane haehad kaftor vaferah ushlosha geviim meshuqadim beqane ehad kaftor vafarah ken lesheshet haqanim hayotsim min hamnora uvamnora arbaa geviim meshuqadim kaftoreha ufraheha vekhaftor tahat shene haqanim mimena vekhaftor tahat shene haqanim mimena vekhaftor tahat shene haqanim mimena lesheshet haqanim hayotsim mimena kaftorehem uqnotam mimena hayu kulah miqsha ahat zahav tahor vayaas et",
+    "top_exact_triplets": [
+      {
+        "motif": "eha",
+        "qualifying_occurrences": 13
+      },
+      {
+        "motif": "qan",
+        "qualifying_occurrences": 9
+      },
+      {
+        "motif": "imm",
+        "qualifying_occurrences": 8
+      },
+      {
+        "motif": "men",
+        "qualifying_occurrences": 8
+      },
+      {
+        "motif": "aft",
+        "qualifying_occurrences": 7
+      }
+    ]
+  },
+  {
+    "corpus": "Leviticus",
+    "display_name": "Leviticus",
+    "selection": "first complete 512-unit block attaining the corpus maximum exact R64 coverage",
+    "segment": 0,
+    "sound_start": 37888,
+    "sound_length": 512,
+    "verse_span": "Leviticus 18:3–Leviticus 18:13",
+    "word_index_start_zero_based": null,
+    "word_index_end_zero_based": null,
+    "exact_coverage": 0.736328125,
+    "expanded_coverage": 0.771484375,
+    "detector_encoding_excerpt": "etkhem shama lo taasu uvhuqotehem lo telekhu et mishpatay taasu veet huqotay tishmru lalekhet bahem ani adonai elohekhem ushmartem et huqotay veet mishpatay asher yaase otam haadam vahay bahem ani adonai ish ish el kal sheer besaro lo tiqrvu legalot erva ani adonai ervat avikha veervat imkha lo tegale imkha hi lo tegale ervatah ervat eshet avikha lo tegale ervat avikha hi ervat ahotkha vat avikha o vat imekha moledet bayit o moledet huts lo tegale ervatan ervat bat binkha o vat bitkha lo tegale ervatan ki ervatkha hena ervat bat eshet avikha moledet avikha ahotkha hi lo tegale ervatah ervat ahot avikha lo tegale sheer avikha hi ervat ahot imkha lo tegale",
+    "top_exact_triplets": [
+      {
+        "motif": "vat",
+        "qualifying_occurrences": 17
+      },
+      {
+        "motif": "erv",
+        "qualifying_occurrences": 15
+      },
+      {
+        "motif": "rva",
+        "qualifying_occurrences": 15
+      },
+      {
+        "motif": "lot",
+        "qualifying_occurrences": 12
+      },
+      {
+        "motif": "ote",
+        "qualifying_occurrences": 11
+      }
+    ]
+  },
+  {
+    "corpus": "Numbers",
+    "display_name": "Numbers",
+    "selection": "first complete 512-unit block attaining the corpus maximum exact R64 coverage",
+    "segment": 0,
+    "sound_start": 79360,
+    "sound_length": 512,
+    "verse_span": "Numbers 33:20–Numbers 33:36",
+    "word_index_start_zero_based": null,
+    "word_index_end_zero_based": null,
+    "exact_coverage": 0.9921875,
+    "expanded_coverage": 0.998046875,
+    "detector_encoding_excerpt": "vayahanu belivna vayisu milivna vayahanu berisa vayisu merisa vayahanu biqhelata vayisu miqhelata vayahanu behar shafer vayisu mehar shafer vayahanu baharada vayisu meharada vayahanu bemaqhelot vayisu mimaqhelot vayahanu betahat vayisu mitahat vayahanu betarah vayisu mitarah vayahanu bemitqa vayisu mimitqa vayahanu behashmona vayisu mehashmona vayahanu bemoserot vayisu mimoserot vayahanu bivne yaaqan vayisu mibne yaaqan vayahanu behor hagidgad vayisu mehor hagidgad vayahanu beyatvata vayisu miyatvata vayahanu beavrona vayisu meavrona vayahanu beetsyon gaver vayisu meetsyon gaver vayahanu",
+    "top_exact_triplets": [
+      {
+        "motif": "vay",
+        "qualifying_occurrences": 33
+      },
+      {
+        "motif": "aha",
+        "qualifying_occurrences": 19
+      },
+      {
+        "motif": "aya",
+        "qualifying_occurrences": 17
+      },
+      {
+        "motif": "anu",
+        "qualifying_occurrences": 16
+      },
+      {
+        "motif": "ava",
+        "qualifying_occurrences": 16
+      }
+    ]
+  },
+  {
+    "corpus": "Deuteronomy",
+    "display_name": "Deuteronomy",
+    "selection": "first complete 512-unit block attaining the corpus maximum exact R64 coverage",
+    "segment": 0,
+    "sound_start": 56320,
+    "sound_length": 512,
+    "verse_span": "Deuteronomy 27:15–Deuteronomy 28:1",
+    "word_index_start_zero_based": null,
+    "word_index_end_zero_based": null,
+    "exact_coverage": 0.625,
+    "expanded_coverage": 0.69140625,
+    "detector_encoding_excerpt": "veamru amen arur maqle aviv veimo veamar kal haam amen arur masig gevul reehu veamar kal haam amen arur mashge iver badarekh veamar kal haam amen arur mate mishpat ger yatom vealmana veamar kal haam amen arur shokhev im eshet aviv ki gila kenaf aviv veamar kal haam amen arur shokhev im kal behema veamar kal haam amen arur shokhev im ahoto bat aviv o vat imo veamar kal haam amen arur shokhev im hotanto veamar kal haam amen arur make reehu basater veamar kal haam amen arur loqeah shohad lehakot nefesh dam naqi veamar kal haam amen arur asher lo yaqim et divre hatora hazot laasot otam veamar kal haam amen vehaya im shamoa tishma beqol adonai",
+    "top_exact_triplets": [
+      {
+        "motif": "ama",
+        "qualifying_occurrences": 22
+      },
+      {
+        "motif": "vea",
+        "qualifying_occurrences": 13
+      },
+      {
+        "motif": "ame",
+        "qualifying_occurrences": 12
+      },
+      {
+        "motif": "eam",
+        "qualifying_occurrences": 12
+      },
+      {
+        "motif": "ena",
+        "qualifying_occurrences": 12
+      }
+    ]
+  },
+  {
+    "corpus": "Joshua",
+    "display_name": "Joshua",
+    "selection": "first complete 512-unit block attaining the corpus maximum exact R64 coverage",
+    "segment": 0,
+    "sound_start": 44032,
+    "sound_length": 512,
+    "verse_span": "Joshua 21:29–Joshua 21:37",
+    "word_index_start_zero_based": null,
+    "word_index_end_zero_based": null,
+    "exact_coverage": 0.603515625,
+    "expanded_coverage": 0.603515625,
+    "detector_encoding_excerpt": "yarmut veet migrasheha et en ganim veet migrasheha arim arba umimate asher et mishal veet migrasheha et avdon veet migrasheha et helqat veet migrasheha veet rehov veet migrasheha arim arba umimate naftali et ir miqlat harotseah et qedesh bagalil veet migrasheha veet hamot dor veet migrasheha veet qartan veet migrasheha arim shalosh kal are hagershuni lemishphotam shelosh esre ir umigrshehen ulmishphot bene merari halviim hanotarim meet mate zevulun et yaqnam veet migrasheha et qarta veet migrasheha et dimna veet migrasheha et nahalal veet migrasheha arim arba umimate reuven et betser veet migrasheha veet yahtsa veet migrasheha et qedemot",
+    "top_exact_triplets": [
+      {
+        "motif": "eet",
+        "qualifying_occurrences": 20
+      },
+      {
+        "motif": "vee",
+        "qualifying_occurrences": 19
+      },
+      {
+        "motif": "etm",
+        "qualifying_occurrences": 17
+      },
+      {
+        "motif": "ashe",
+        "qualifying_occurrences": 16
+      },
+      {
+        "motif": "eha",
+        "qualifying_occurrences": 16
+      }
+    ]
+  },
+  {
+    "corpus": "Judges",
+    "display_name": "Judges",
+    "selection": "first complete 512-unit block attaining the corpus maximum exact R64 coverage",
+    "segment": 0,
+    "sound_start": 3584,
+    "sound_length": 512,
+    "verse_span": "Judges 2:11–Judges 2:17",
+    "word_index_start_zero_based": null,
+    "word_index_end_zero_based": null,
+    "exact_coverage": 0.58984375,
+    "expanded_coverage": 0.609375,
+    "detector_encoding_excerpt": "yisrael et hara beene adonai vayaavdu et habalim vayaazvu et adonai elohe avotam hamotsi otam meerets mitsrayim vayelkhu ahare elohim aherim meelohe haamim asher sevivotehem vayishtahavu lahem vayakhisu et adonai vayaazvu et adonai vayaavdu labaal velaashtarot vayihar af adonai beyisrael vayitnem beyad shosim vayashosu otam vayimkrem beyad oyvehem misaviv velo yakhlu od laamod lifne oyvehem bekhol asher yatsu yad adonai hayta bam leraa kaasher diber adonai vekhaasher nishba adonai lahem vayetser lahem meod vayaqem adonai shoftim vayoshium miyad shosehem vegam el shoftehem lo shameu ki zanu ahare elohim aherim vayishtahavu",
+    "top_exact_triplets": [
+      {
+        "motif": "vay",
+        "qualifying_occurrences": 14
+      },
+      {
+        "motif": "ado",
+        "qualifying_occurrences": 10
+      },
+      {
+        "motif": "don",
+        "qualifying_occurrences": 9
+      },
+      {
+        "motif": "nai",
+        "qualifying_occurrences": 9
+      },
+      {
+        "motif": "ona",
+        "qualifying_occurrences": 9
+      }
+    ]
+  },
+  {
+    "corpus": "modern_523",
+    "display_name": "Brenner — Mikan u-mikan",
+    "selection": "first complete 512-unit block attaining the corpus maximum exact R64 coverage",
+    "segment": 108,
+    "sound_start": 113489,
+    "sound_length": 512,
+    "verse_span": null,
+    "word_index_start_zero_based": 21660,
+    "word_index_end_zero_based": 21767,
+    "exact_coverage": 0.546875,
+    "expanded_coverage": 0.607421875,
+    "detector_encoding_excerpt": "bayom hasheni limora haason shakhav hapatsua al mitato bevet haholim lo huqal meat ahare hithabshut sheasu liftsaav behazehu akh ladavar haya asur alav asur haya alav hadibur behayav haya alav hadibur akh hahole lo hadal ledaber hu diber ehad neged shenayim ehad neged shenayim ekha nitqayma qillat hatokheha ishto uvno ishto uvno hu eno pohed mipne hamavet akh ekha ze hitqayma qillat hatokheha vehasiman lo tov hu hasiman hu sheharotseah hu ben haarets ben haarets sefato sefat haarets omed al artso memit beartso beod shehu hu hanirtsah hu veehav gerim po gerim ani hakotev vehashokhev ata al mita numar shakhavti az al mita numar mita etsel mita shakhavti",
+    "top_exact_triplets": [
+      {
+        "motif": "eha",
+        "qualifying_occurrences": 11
+      },
+      {
+        "motif": "had",
+        "qualifying_occurrences": 5
+      },
+      {
+        "motif": "alm",
+        "qualifying_occurrences": 4
+      },
+      {
+        "motif": "aya",
+        "qualifying_occurrences": 4
+      },
+      {
+        "motif": "hay",
+        "qualifying_occurrences": 4
+      }
+    ]
+  },
+  {
+    "corpus": "modern_7924",
+    "display_name": "Ahad Ha-Am — Shilton ha-sekhel",
+    "selection": "first complete 512-unit block attaining the corpus maximum exact R64 coverage",
+    "segment": 42,
+    "sound_start": 16552,
+    "sound_length": 512,
+    "verse_span": null,
+    "word_index_start_zero_based": 3025,
+    "word_index_end_zero_based": 3119,
+    "exact_coverage": 0.439453125,
+    "expanded_coverage": 0.45703125,
+    "detector_encoding_excerpt": "umasur bide kol ehad leatsmo al pi haformula sheyatsa lanu lemala kol ma sheozreni lehasagat takhliti hasikhlit zehu hatov hamusari sheli vekhol ma shemafrieni mize hu hara hamusari sheli aval im hasagat hatakhlit haelyona efsharit hi raq lamuatim vehaefsharut hazot baa raq al yede metsiut hahevra shel hamrubim shetudatah hi livro et hatnaim hayoter neotim lehithauut hashalem hine yotse lanu mize qeriteryon musari hadash hevrati kol ma shemoil lehishtalmutah shel hahevra baofen hadarush litudatah zehu hatov hamusari vekhol ma shemaziq laze hu hara hamusari umin haqriteryon hamusari haze enam yekholim leshahrer atsmam lo hamrubim velo",
+    "top_exact_triplets": [
+      {
+        "motif": "tha",
+        "qualifying_occurrences": 7
+      },
+      {
+        "motif": "amu",
+        "qualifying_occurrences": 6
+      },
+      {
+        "motif": "ari",
+        "qualifying_occurrences": 6
+      },
+      {
+        "motif": "ham",
+        "qualifying_occurrences": 6
+      },
+      {
+        "motif": "mus",
+        "qualifying_occurrences": 5
+      }
+    ]
+  },
+  {
+    "corpus": "modern_884",
+    "display_name": "Tchernichovsky — Hatunata shel Elka",
+    "selection": "first complete 512-unit block attaining the corpus maximum exact R64 coverage",
+    "segment": 19,
+    "sound_start": 34761,
+    "sound_length": 512,
+    "verse_span": null,
+    "word_index_start_zero_based": 6080,
+    "word_index_end_zero_based": 6175,
+    "exact_coverage": 0.525390625,
+    "expanded_coverage": 0.568359375,
+    "detector_encoding_excerpt": "hinni nogea bapinka veshav venogea befanay kaasher eese taas vayiga beqarqa hapinka bezeret yemino vayiga behatmo haav vehamadam naga gam yuql hatipesh beqarqa hapinka vayiga behatmo hamuqal vehine parah qav shahor behatmo naga habadhan bapinka vayaaver qav al pene mitsho naga gam yuql bapinka vayaaver qav al gav mitsho parah qav shahor al mitsho vayiru haam vayishaqu yosl habadhan lavan veyuql holekh umashhir heerim yosl lamsharet vayimshah et qarqa hapinka piah ner shaava vehaya benago beqarqa hapinka naga bezeret uqmitsa uvfanav naga baetsba vekhaasher yishharu panav ken yigdal hashoq vekhen yeemats yuql mavlit et enav ladaat",
+    "top_exact_triplets": [
+      {
+        "motif": "vay",
+        "qualifying_occurrences": 8
+      },
+      {
+        "motif": "abe",
+        "qualifying_occurrences": 7
+      },
+      {
+        "motif": "api",
+        "qualifying_occurrences": 7
+      },
+      {
+        "motif": "ayi",
+        "qualifying_occurrences": 6
+      },
+      {
+        "motif": "ink",
+        "qualifying_occurrences": 6
+      }
+    ]
+  },
+  {
+    "corpus": "rivlin_ali_baba",
+    "display_name": "Rivlin — Ali Baba",
+    "selection": "fixed opening complete 512-unit block; not score-selected",
+    "segment": 0,
+    "sound_start": 0,
+    "sound_length": 512,
+    "verse_span": null,
+    "word_index_start_zero_based": null,
+    "word_index_end_zero_based": null,
+    "exact_coverage": 0.46484375,
+    "expanded_coverage": 0.51171875,
+    "detector_encoding_excerpt": null,
+    "top_exact_triplets": null,
+    "note": "Complete source text is not redistributed; no source-derived excerpt is serialized in this public result file."
+  },
+  {
+    "corpus": "bialik_beir_haharegah",
+    "display_name": "Bialik — Be-ir ha-haregah",
+    "selection": "fixed opening complete 512-unit block; not score-selected",
+    "segment": 0,
+    "sound_start": 0,
+    "sound_length": 512,
+    "verse_span": null,
+    "word_index_start_zero_based": null,
+    "word_index_end_zero_based": null,
+    "exact_coverage": 0.458984375,
+    "expanded_coverage": 0.5390625,
+    "detector_encoding_excerpt": null,
+    "top_exact_triplets": null,
+    "note": "Complete source text is not redistributed; no source-derived excerpt is serialized in this public result file."
+  }
+]

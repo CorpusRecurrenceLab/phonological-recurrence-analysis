@@ -1,0 +1,111 @@
+[
+  {
+    "corpus": "Genesis",
+    "source": "sources/variants/biblical/genesis_verses.json",
+    "source_sha256": "de1884e9f9b9c7775cbc7b3ca107ef8a2f23af1045c33665eae37373c1e133b0",
+    "verses": 1533,
+    "segments": 1,
+    "units": 104362,
+    "vocalization": "source",
+    "qere_edits": 108
+  },
+  {
+    "corpus": "Exodus",
+    "source": "sources/variants/biblical/exodus_verses.json",
+    "source_sha256": "a106dc2d4c347408d19bc74c0f5cf6cb15ea0059172186b1b5b76f597675f964",
+    "verses": 1210,
+    "segments": 1,
+    "units": 86820,
+    "vocalization": "source",
+    "qere_edits": 176
+  },
+  {
+    "corpus": "Leviticus",
+    "source": "sources/variants/biblical/leviticus_verses.json",
+    "source_sha256": "52821c9b5df7c62ad2e75f6dc3ef95180433daf20a762ea4692dca3f15552af0",
+    "verses": 859,
+    "segments": 1,
+    "units": 61037,
+    "vocalization": "source",
+    "qere_edits": 109
+  },
+  {
+    "corpus": "Numbers",
+    "source": "sources/variants/biblical/numbers_verses.json",
+    "source_sha256": "1cdbb677ece0d43024a59070a1d06529bf96d1e6db1b1a8ffc1340a3f2be11c8",
+    "verses": 1288,
+    "segments": 1,
+    "units": 86295,
+    "vocalization": "source",
+    "qere_edits": 170
+  },
+  {
+    "corpus": "Deuteronomy",
+    "source": "sources/variants/biblical/deuteronomy_verses.json",
+    "source_sha256": "f04bcc597dbb78d0fa1d9913294069e0f2f132989ba8498751a6e22ab2eee46e",
+    "verses": 956,
+    "segments": 1,
+    "units": 74774,
+    "vocalization": "source",
+    "qere_edits": 193
+  },
+  {
+    "corpus": "Joshua",
+    "source": "sources/variants/biblical/joshua_verses.json",
+    "source_sha256": "f242f4e01cf24c557099c5c4fbccd73bb0e25e209d1be1c5c449fbdbbdc7ddef",
+    "verses": 658,
+    "segments": 1,
+    "units": 53503,
+    "vocalization": "source",
+    "qere_edits": 126
+  },
+  {
+    "corpus": "Judges",
+    "source": "sources/variants/biblical/judges_verses.json",
+    "source_sha256": "4691621e724b35f3c1a6fe8e38c70b171495a44fa8106032b7ea36f4900e2d55",
+    "verses": 618,
+    "segments": 1,
+    "units": 51669,
+    "vocalization": "source",
+    "qere_edits": 112
+  },
+  {
+    "corpus": "modern_523",
+    "name": "brenner_mikan_umikan",
+    "source": "sources/original/modern/brenner_mikan_umikan.txt",
+    "source_sha256": "c87f75776ac092c0d261379a69f36c31d795b135ee9dcc2871ba775a878017e7",
+    "reading_sha256": "71e74cb69f5208a3088ee9f9c9257c2872ea2fc612609e07104631f60083231b",
+    "segments": 219,
+    "units": 233833,
+    "unresolved_tokens": 258,
+    "vocalization": "dicta",
+    "removed_carriers": 3183,
+    "vocalization_certified": false
+  },
+  {
+    "corpus": "modern_7924",
+    "name": "ahad_haam_shilton_hasekhel",
+    "source": "sources/original/modern/ahad_haam_shilton_hasekhel.txt",
+    "source_sha256": "cc43f8412f2eeda95872a8819dfbe4977cea29229f5b59c0e24990a4b1eca90e",
+    "reading_sha256": "d845e419bf51c6592fb48a1e2f5b591cedd98587da3a638ade15de661fe4aa1d",
+    "segments": 199,
+    "units": 62092,
+    "unresolved_tokens": 216,
+    "vocalization": "dicta",
+    "removed_carriers": 694,
+    "vocalization_certified": false
+  },
+  {
+    "corpus": "modern_884",
+    "name": "tchernichovsky_hatunata_shel_elka",
+    "source": "sources/original/modern/tchernichovsky_hatunata_shel_elka.txt",
+    "source_sha256": "d5118d63ab90ce8689e69018f129ec60fc3693c4d77e19dd720630d9d8809781",
+    "reading_sha256": "db1d834f65d466354525dabd8af572c57f438057adacf454adf1013eb7a9a9f7",
+    "segments": 29,
+    "units": 41698,
+    "unresolved_tokens": 23,
+    "vocalization": "original",
+    "removed_carriers": 0,
+    "vocalization_certified": false
+  }
+]

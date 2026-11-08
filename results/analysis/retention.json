@@ -1,0 +1,362 @@
+[
+  {
+    "corpus": "Genesis",
+    "length": 512,
+    "offset": 0,
+    "total_units": 104362,
+    "used_units": 103936,
+    "retained_fraction": 0.9959180544642686,
+    "all_segment_R64": 0.48204327245549144
+  },
+  {
+    "corpus": "Genesis",
+    "length": 512,
+    "offset": 256,
+    "total_units": 104362,
+    "used_units": 103936,
+    "retained_fraction": 0.9959180544642686,
+    "all_segment_R64": 0.48204327245549144
+  },
+  {
+    "corpus": "Genesis",
+    "length": 1280,
+    "offset": 0,
+    "total_units": 104362,
+    "used_units": 103680,
+    "retained_fraction": 0.9934650543301201,
+    "all_segment_R64": 0.48204327245549144
+  },
+  {
+    "corpus": "Genesis",
+    "length": 1280,
+    "offset": 640,
+    "total_units": 104362,
+    "used_units": 103680,
+    "retained_fraction": 0.9934650543301201,
+    "all_segment_R64": 0.48204327245549144
+  },
+  {
+    "corpus": "Exodus",
+    "length": 512,
+    "offset": 0,
+    "total_units": 86820,
+    "used_units": 86528,
+    "retained_fraction": 0.9966367196498502,
+    "all_segment_R64": 0.4687168855102511
+  },
+  {
+    "corpus": "Exodus",
+    "length": 512,
+    "offset": 256,
+    "total_units": 86820,
+    "used_units": 86528,
+    "retained_fraction": 0.9966367196498502,
+    "all_segment_R64": 0.4687168855102511
+  },
+  {
+    "corpus": "Exodus",
+    "length": 1280,
+    "offset": 0,
+    "total_units": 86820,
+    "used_units": 85760,
+    "retained_fraction": 0.9877908316056209,
+    "all_segment_R64": 0.4687168855102511
+  },
+  {
+    "corpus": "Exodus",
+    "length": 1280,
+    "offset": 640,
+    "total_units": 86820,
+    "used_units": 85760,
+    "retained_fraction": 0.9877908316056209,
+    "all_segment_R64": 0.4687168855102511
+  },
+  {
+    "corpus": "Leviticus",
+    "length": 512,
+    "offset": 0,
+    "total_units": 61037,
+    "used_units": 60928,
+    "retained_fraction": 0.9982141979455085,
+    "all_segment_R64": 0.49024362272064487
+  },
+  {
+    "corpus": "Leviticus",
+    "length": 512,
+    "offset": 256,
+    "total_units": 61037,
+    "used_units": 60416,
+    "retained_fraction": 0.9898258433409244,
+    "all_segment_R64": 0.49024362272064487
+  },
+  {
+    "corpus": "Leviticus",
+    "length": 1280,
+    "offset": 0,
+    "total_units": 61037,
+    "used_units": 60160,
+    "retained_fraction": 0.9856316660386323,
+    "all_segment_R64": 0.49024362272064487
+  },
+  {
+    "corpus": "Leviticus",
+    "length": 1280,
+    "offset": 640,
+    "total_units": 61037,
+    "used_units": 60160,
+    "retained_fraction": 0.9856316660386323,
+    "all_segment_R64": 0.49024362272064487
+  },
+  {
+    "corpus": "Numbers",
+    "length": 512,
+    "offset": 0,
+    "total_units": 86295,
+    "used_units": 86016,
+    "retained_fraction": 0.9967669042238831,
+    "all_segment_R64": 0.4739440292021554
+  },
+  {
+    "corpus": "Numbers",
+    "length": 512,
+    "offset": 256,
+    "total_units": 86295,
+    "used_units": 86016,
+    "retained_fraction": 0.9967669042238831,
+    "all_segment_R64": 0.4739440292021554
+  },
+  {
+    "corpus": "Numbers",
+    "length": 1280,
+    "offset": 0,
+    "total_units": 86295,
+    "used_units": 85760,
+    "retained_fraction": 0.9938003360565502,
+    "all_segment_R64": 0.4739440292021554
+  },
+  {
+    "corpus": "Numbers",
+    "length": 1280,
+    "offset": 640,
+    "total_units": 86295,
+    "used_units": 84480,
+    "retained_fraction": 0.9789674952198852,
+    "all_segment_R64": 0.4739440292021554
+  },
+  {
+    "corpus": "Deuteronomy",
+    "length": 512,
+    "offset": 0,
+    "total_units": 74774,
+    "used_units": 74752,
+    "retained_fraction": 0.9997057800839864,
+    "all_segment_R64": 0.4427875999679033
+  },
+  {
+    "corpus": "Deuteronomy",
+    "length": 512,
+    "offset": 256,
+    "total_units": 74774,
+    "used_units": 74240,
+    "retained_fraction": 0.9928584802203975,
+    "all_segment_R64": 0.4427875999679033
+  },
+  {
+    "corpus": "Deuteronomy",
+    "length": 1280,
+    "offset": 0,
+    "total_units": 74774,
+    "used_units": 74240,
+    "retained_fraction": 0.9928584802203975,
+    "all_segment_R64": 0.4427875999679033
+  },
+  {
+    "corpus": "Deuteronomy",
+    "length": 1280,
+    "offset": 640,
+    "total_units": 74774,
+    "used_units": 72960,
+    "retained_fraction": 0.9757402305614251,
+    "all_segment_R64": 0.4427875999679033
+  },
+  {
+    "corpus": "Joshua",
+    "length": 512,
+    "offset": 0,
+    "total_units": 53503,
+    "used_units": 53248,
+    "retained_fraction": 0.9952339121170776,
+    "all_segment_R64": 0.45356335158776145
+  },
+  {
+    "corpus": "Joshua",
+    "length": 512,
+    "offset": 256,
+    "total_units": 53503,
+    "used_units": 52736,
+    "retained_fraction": 0.985664355269798,
+    "all_segment_R64": 0.45356335158776145
+  },
+  {
+    "corpus": "Joshua",
+    "length": 1280,
+    "offset": 0,
+    "total_units": 53503,
+    "used_units": 52480,
+    "retained_fraction": 0.9808795768461581,
+    "all_segment_R64": 0.45356335158776145
+  },
+  {
+    "corpus": "Joshua",
+    "length": 1280,
+    "offset": 640,
+    "total_units": 53503,
+    "used_units": 52480,
+    "retained_fraction": 0.9808795768461581,
+    "all_segment_R64": 0.45356335158776145
+  },
+  {
+    "corpus": "Judges",
+    "length": 512,
+    "offset": 0,
+    "total_units": 51669,
+    "used_units": 51200,
+    "retained_fraction": 0.9909229905746192,
+    "all_segment_R64": 0.4525537556368422
+  },
+  {
+    "corpus": "Judges",
+    "length": 512,
+    "offset": 256,
+    "total_units": 51669,
+    "used_units": 51200,
+    "retained_fraction": 0.9909229905746192,
+    "all_segment_R64": 0.4525537556368422
+  },
+  {
+    "corpus": "Judges",
+    "length": 1280,
+    "offset": 0,
+    "total_units": 51669,
+    "used_units": 51200,
+    "retained_fraction": 0.9909229905746192,
+    "all_segment_R64": 0.4525537556368422
+  },
+  {
+    "corpus": "Judges",
+    "length": 1280,
+    "offset": 640,
+    "total_units": 51669,
+    "used_units": 49920,
+    "retained_fraction": 0.9661499158102538,
+    "all_segment_R64": 0.4525537556368422
+  },
+  {
+    "corpus": "modern_523",
+    "length": 512,
+    "offset": 0,
+    "total_units": 233833,
+    "used_units": 185856,
+    "retained_fraction": 0.7948236561990822,
+    "all_segment_R64": 0.33964838153725097
+  },
+  {
+    "corpus": "modern_523",
+    "length": 512,
+    "offset": 256,
+    "total_units": 233833,
+    "used_units": 157184,
+    "retained_fraction": 0.6722062326532183,
+    "all_segment_R64": 0.33964838153725097
+  },
+  {
+    "corpus": "modern_523",
+    "length": 1280,
+    "offset": 0,
+    "total_units": 233833,
+    "used_units": 130560,
+    "retained_fraction": 0.5583471965034875,
+    "all_segment_R64": 0.33964838153725097
+  },
+  {
+    "corpus": "modern_523",
+    "length": 1280,
+    "offset": 640,
+    "total_units": 233833,
+    "used_units": 85760,
+    "retained_fraction": 0.36675747221307514,
+    "all_segment_R64": 0.33964838153725097
+  },
+  {
+    "corpus": "modern_7924",
+    "length": 512,
+    "offset": 0,
+    "total_units": 62092,
+    "used_units": 22528,
+    "retained_fraction": 0.36281646588932553,
+    "all_segment_R64": 0.32216710687367134
+  },
+  {
+    "corpus": "modern_7924",
+    "length": 512,
+    "offset": 256,
+    "total_units": 62092,
+    "used_units": 13824,
+    "retained_fraction": 0.22263737679572249,
+    "all_segment_R64": 0.32216710687367134
+  },
+  {
+    "corpus": "modern_7924",
+    "length": 1280,
+    "offset": 0,
+    "total_units": 62092,
+    "used_units": 7680,
+    "retained_fraction": 0.12368743155317916,
+    "all_segment_R64": 0.32216710687367134
+  },
+  {
+    "corpus": "modern_7924",
+    "length": 1280,
+    "offset": 640,
+    "total_units": 62092,
+    "used_units": 3840,
+    "retained_fraction": 0.06184371577658958,
+    "all_segment_R64": 0.32216710687367134
+  },
+  {
+    "corpus": "modern_884",
+    "length": 512,
+    "offset": 0,
+    "total_units": 41698,
+    "used_units": 36864,
+    "retained_fraction": 0.8840711784737877,
+    "all_segment_R64": 0.32162214015060675
+  },
+  {
+    "corpus": "modern_884",
+    "length": 512,
+    "offset": 256,
+    "total_units": 41698,
+    "used_units": 31232,
+    "retained_fraction": 0.7490047484291813,
+    "all_segment_R64": 0.32162214015060675
+  },
+  {
+    "corpus": "modern_884",
+    "length": 1280,
+    "offset": 0,
+    "total_units": 41698,
+    "used_units": 28160,
+    "retained_fraction": 0.6753321502230323,
+    "all_segment_R64": 0.32162214015060675
+  },
+  {
+    "corpus": "modern_884",
+    "length": 1280,
+    "offset": 640,
+    "total_units": 41698,
+    "used_units": 23040,
+    "retained_fraction": 0.5525444865461173,
+    "all_segment_R64": 0.32162214015060675
+  }
+]

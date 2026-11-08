@@ -1,0 +1,54 @@
+{
+  "schema": "phonological-recurrence.ketiv-without-qere.v1",
+  "count": 8,
+  "rules": [
+    {
+      "ref": "II Samuel 13:33",
+      "token_index_before_omission": 15,
+      "surface": "אִם",
+      "note": "vowelized ketiv without qere"
+    },
+    {
+      "ref": "II Samuel 15:21",
+      "token_index_before_omission": 12,
+      "surface": "אִם",
+      "note": "vowelized ketiv without qere"
+    },
+    {
+      "ref": "II Kings 5:18",
+      "token_index_before_omission": 23,
+      "surface": "נא",
+      "note": "ketiv without qere"
+    },
+    {
+      "ref": "Jeremiah 38:16",
+      "token_index_before_omission": 10,
+      "surface": "את",
+      "note": "ketiv without qere"
+    },
+    {
+      "ref": "Jeremiah 39:12",
+      "token_index_before_omission": 11,
+      "surface": "אם",
+      "note": "ketiv without qere"
+    },
+    {
+      "ref": "Jeremiah 51:3",
+      "token_index_before_omission": 3,
+      "surface": "ידרך",
+      "note": "ketiv without qere"
+    },
+    {
+      "ref": "Ezekiel 48:16",
+      "token_index_before_omission": 12,
+      "surface": "חמש",
+      "note": "ketiv without qere"
+    },
+    {
+      "ref": "Ruth 3:12",
+      "token_index_before_omission": 5,
+      "surface": "אם",
+      "note": "ketiv without qere"
+    }
+  ]
+}

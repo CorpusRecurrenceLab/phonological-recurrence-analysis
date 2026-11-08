@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "full_verse_map_matches_reference": true,
+  "reading_scenario_matches_reference": true,
+  "boundary_trials": 210,
+  "permutation_conditions": 20,
+  "six_reading_reference_files_compared": 2
+}

@@ -1,0 +1,10 @@
+# Local reproducibility outputs and caches (never commit)
+.local/
+__pycache__/
+*.py[cod]
+*.pending
+.DS_Store
+Thumbs.db
+
+# Frozen results under results/ and reference/ are intentionally tracked.
+# Do not ignore results/corpus/ or results/analysis/: manifest verification needs them.

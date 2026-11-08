@@ -1,0 +1,24 @@
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf
+VERSION text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.csv text eol=lf
+results/comparison/tanakh_and_modern_44_work_descriptive.csv -text
+results/tanakh/word_control/different_surface_spatial.csv -text
+results/tanakh/word_control/different_surface_spatial_replicates.csv -text
+*.txt text eol=lf
+*.cff text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.svg text eol=lf
+*.bat -text
+*.png binary
+*.tif binary
+*.tiff binary
+*.gz binary
+*.svg whitespace=-trailing-space
+*.txt whitespace=-trailing-space

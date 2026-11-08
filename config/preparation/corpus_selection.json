@@ -1,0 +1,1 @@
+{"torah":["genesis","exodus","leviticus","numbers","deuteronomy"],"tanah_comparisons":["joshua","judges"],"modern_comparisons":["523","7924","884"],"excluded_from_main":["psalms"],"note":"Selection declaration; existing analysis runners must explicitly consume this list. Never concatenate independent works."}

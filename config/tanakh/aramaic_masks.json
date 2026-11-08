@@ -1,0 +1,36 @@
+{
+  "schema": "phonological-recurrence.hebrew-only-sensitivity.v1",
+  "policy": "Primary analysis retains the complete Masoretic reading stream. The Aramaic-span exclusion sensitivity treats declared Aramaic spans as hard gaps; material on opposite sides is never concatenated for motifs, windows, blocks, fragments, or permutations.",
+  "spans": [
+    {
+      "book": "Genesis",
+      "start": "31:47#4",
+      "end": "31:47#5",
+      "description": "two Aramaic words yegar sahaduta"
+    },
+    {
+      "book": "Jeremiah",
+      "start": "10:11#1",
+      "end": "10:11#15",
+      "description": "entire verse"
+    },
+    {
+      "book": "Daniel",
+      "start": "2:4#5",
+      "end": "7:28#end",
+      "description": "standard Biblical Aramaic span; 2:4 begins masking after the Hebrew word aramit"
+    },
+    {
+      "book": "Ezra",
+      "start": "4:8#1",
+      "end": "6:18#end",
+      "description": "standard Biblical Aramaic span"
+    },
+    {
+      "book": "Ezra",
+      "start": "7:12#1",
+      "end": "7:26#end",
+      "description": "standard Biblical Aramaic span"
+    }
+  ]
+}

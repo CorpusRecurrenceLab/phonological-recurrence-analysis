@@ -1,0 +1,16 @@
+{
+  "schema": "phonological-recurrence.editorial-repeat-tails.v1",
+  "count": 2,
+  "rules": [
+    {
+      "ref": "Lamentations 5:22",
+      "suffix": "<br><small>[השיבנו יהוה אליך ונשובה חדש ימינו כקדם]</small>",
+      "meaning": "unvocalized editorial/traditional repeat of Lamentations 5:21 appended after the canonical final verse"
+    },
+    {
+      "ref": "Ecclesiastes 12:14",
+      "suffix": "<br><small>[סוף דבר הכל נשמע את־האלהים ירא ואת־מצותיו שמור כי־זה כל־האדם]</small>",
+      "meaning": "unvocalized editorial/traditional repeat of Ecclesiastes 12:13 appended after the canonical final verse"
+    }
+  ]
+}

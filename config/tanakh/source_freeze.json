@@ -1,0 +1,531 @@
+{
+  "schema": "phonological-recurrence.tanakh-source-freeze.v1",
+  "created_utc": "2026-11-04",
+  "base_release": {
+    "github_base_commit": "a58c44c650bea66f73398ae05c2542b74835566e"
+  },
+  "source": {
+    "mirror_repository": "Sivan22/Sefaria-Export-Hebrew-Texts",
+    "mirror_commit": "0f41148df41c0fe47321a7da7c01390b7ad7e872",
+    "version_title": "Tanach with Ta'amei Hamikra",
+    "version_source": "http://www.tanach.us/Tanach.xml",
+    "language_metadata": "he",
+    "license": "Public Domain"
+  },
+  "counts": {
+    "source_books": 39,
+    "traditional_books": 24,
+    "chapters": 929,
+    "verses": 23206
+  },
+  "source_books": [
+    {
+      "order": 1,
+      "canonical_section": "Torah",
+      "source_book": "Genesis",
+      "traditional_24_book": "Genesis",
+      "mirror_path": "json/Tanakh/Torah/Genesis/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "fdf663ead8c8e9fc32f6da737fec7d713c087348",
+      "json_unicode_characters": 210184,
+      "chapter_count": 50,
+      "verse_count": 1533
+    },
+    {
+      "order": 2,
+      "canonical_section": "Torah",
+      "source_book": "Exodus",
+      "traditional_24_book": "Exodus",
+      "mirror_path": "json/Tanakh/Torah/Exodus/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "67870f1e2adb21130ed0605c95d96953ada323df",
+      "json_unicode_characters": 171884,
+      "chapter_count": 40,
+      "verse_count": 1210
+    },
+    {
+      "order": 3,
+      "canonical_section": "Torah",
+      "source_book": "Leviticus",
+      "traditional_24_book": "Leviticus",
+      "mirror_path": "json/Tanakh/Torah/Leviticus/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "4a5c1ee06fc206ba7a4d19d419265025adc911c6",
+      "json_unicode_characters": 120674,
+      "chapter_count": 27,
+      "verse_count": 859
+    },
+    {
+      "order": 4,
+      "canonical_section": "Torah",
+      "source_book": "Numbers",
+      "traditional_24_book": "Numbers",
+      "mirror_path": "json/Tanakh/Torah/Numbers/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "ea093b8f3aa7111aba159eef16cc792e9c98a4a9",
+      "json_unicode_characters": 171975,
+      "chapter_count": 36,
+      "verse_count": 1288
+    },
+    {
+      "order": 5,
+      "canonical_section": "Torah",
+      "source_book": "Deuteronomy",
+      "traditional_24_book": "Deuteronomy",
+      "mirror_path": "json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "172acf84f356a71632465f3b6cbca969ecf255ab",
+      "json_unicode_characters": 146694,
+      "chapter_count": 34,
+      "verse_count": 956
+    },
+    {
+      "order": 6,
+      "canonical_section": "Prophets",
+      "source_book": "Joshua",
+      "traditional_24_book": "Joshua",
+      "mirror_path": "json/Tanakh/Prophets/Joshua/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "f7034a02e58975e6df531f3a052a00abcf043931",
+      "json_unicode_characters": 104828,
+      "chapter_count": 24,
+      "verse_count": 658
+    },
+    {
+      "order": 7,
+      "canonical_section": "Prophets",
+      "source_book": "Judges",
+      "traditional_24_book": "Judges",
+      "mirror_path": "json/Tanakh/Prophets/Judges/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "bb9f593463fd7be6d3482c5a08972d647fc9a71d",
+      "json_unicode_characters": 102517,
+      "chapter_count": 21,
+      "verse_count": 618
+    },
+    {
+      "order": 8,
+      "canonical_section": "Prophets",
+      "source_book": "I Samuel",
+      "traditional_24_book": "Samuel",
+      "mirror_path": "json/Tanakh/Prophets/I Samuel/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "70f418632dfa73c30687b2eaec39b3c4a720f608",
+      "json_unicode_characters": 135933,
+      "chapter_count": 31,
+      "verse_count": 811
+    },
+    {
+      "order": 9,
+      "canonical_section": "Prophets",
+      "source_book": "II Samuel",
+      "traditional_24_book": "Samuel",
+      "mirror_path": "json/Tanakh/Prophets/II Samuel/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "d0d757aa4ba5b56b53c52211b14050c119a52f36",
+      "json_unicode_characters": 112782,
+      "chapter_count": 24,
+      "verse_count": 695
+    },
+    {
+      "order": 10,
+      "canonical_section": "Prophets",
+      "source_book": "I Kings",
+      "traditional_24_book": "Kings",
+      "mirror_path": "json/Tanakh/Prophets/I Kings/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "7cc1d6ec6fe1108b949e58c5cdbecc3fb5e48040",
+      "json_unicode_characters": 134385,
+      "chapter_count": 22,
+      "verse_count": 817
+    },
+    {
+      "order": 11,
+      "canonical_section": "Prophets",
+      "source_book": "II Kings",
+      "traditional_24_book": "Kings",
+      "mirror_path": "json/Tanakh/Prophets/II Kings/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "ddf186889d356f4395bfaa04a29b8566fd6ef109",
+      "json_unicode_characters": 125620,
+      "chapter_count": 25,
+      "verse_count": 719
+    },
+    {
+      "order": 12,
+      "canonical_section": "Prophets",
+      "source_book": "Isaiah",
+      "traditional_24_book": "Isaiah",
+      "mirror_path": "json/Tanakh/Prophets/Isaiah/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "d14b763868d6ce08ee95463b0d7acbf120138711",
+      "json_unicode_characters": 179232,
+      "chapter_count": 66,
+      "verse_count": 1291
+    },
+    {
+      "order": 13,
+      "canonical_section": "Prophets",
+      "source_book": "Jeremiah",
+      "traditional_24_book": "Jeremiah",
+      "mirror_path": "json/Tanakh/Prophets/Jeremiah/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "30b0d679e0bab76c4275e9217ccee565fd9591eb",
+      "json_unicode_characters": 222588,
+      "chapter_count": 52,
+      "verse_count": 1364
+    },
+    {
+      "order": 14,
+      "canonical_section": "Prophets",
+      "source_book": "Ezekiel",
+      "traditional_24_book": "Ezekiel",
+      "mirror_path": "json/Tanakh/Prophets/Ezekiel/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "06c2a549aada297cf6926be4ec91745d64571bea",
+      "json_unicode_characters": 197178,
+      "chapter_count": 48,
+      "verse_count": 1273
+    },
+    {
+      "order": 15,
+      "canonical_section": "Prophets",
+      "source_book": "Hosea",
+      "traditional_24_book": "The Twelve",
+      "mirror_path": "json/Tanakh/Prophets/Hosea/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "87a6c1d6fea75bf27a406f614f32c952861cd72a",
+      "json_unicode_characters": 26023,
+      "chapter_count": 14,
+      "verse_count": 197
+    },
+    {
+      "order": 16,
+      "canonical_section": "Prophets",
+      "source_book": "Joel",
+      "traditional_24_book": "The Twelve",
+      "mirror_path": "json/Tanakh/Prophets/Joel/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "3332ef4e2589348220fad59088d614f1ca378ff5",
+      "json_unicode_characters": 10743,
+      "chapter_count": 4,
+      "verse_count": 73
+    },
+    {
+      "order": 17,
+      "canonical_section": "Prophets",
+      "source_book": "Amos",
+      "traditional_24_book": "The Twelve",
+      "mirror_path": "json/Tanakh/Prophets/Amos/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "cac2b9e1de256074a9b0b4b3d056af4823576c3b",
+      "json_unicode_characters": 21774,
+      "chapter_count": 9,
+      "verse_count": 146
+    },
+    {
+      "order": 18,
+      "canonical_section": "Prophets",
+      "source_book": "Obadiah",
+      "traditional_24_book": "The Twelve",
+      "mirror_path": "json/Tanakh/Prophets/Obadiah/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "45c00430e48e05d007005155e8ddd9dd10bc8f9d",
+      "json_unicode_characters": 3557,
+      "chapter_count": 1,
+      "verse_count": 21
+    },
+    {
+      "order": 19,
+      "canonical_section": "Prophets",
+      "source_book": "Jonah",
+      "traditional_24_book": "The Twelve",
+      "mirror_path": "json/Tanakh/Prophets/Jonah/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "e871a1549e2de3a16c42b4eb8926f6a882a99ce1",
+      "json_unicode_characters": 7703,
+      "chapter_count": 4,
+      "verse_count": 48
+    },
+    {
+      "order": 20,
+      "canonical_section": "Prophets",
+      "source_book": "Micah",
+      "traditional_24_book": "The Twelve",
+      "mirror_path": "json/Tanakh/Prophets/Micah/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "daaa1fb53cd6c0b20607aa1d01e388ebaf7d1737",
+      "json_unicode_characters": 15398,
+      "chapter_count": 7,
+      "verse_count": 105
+    },
+    {
+      "order": 21,
+      "canonical_section": "Prophets",
+      "source_book": "Nahum",
+      "traditional_24_book": "The Twelve",
+      "mirror_path": "json/Tanakh/Prophets/Nahum/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "be5d03f33acaec88389d89775fedea8b7f81615c",
+      "json_unicode_characters": 6709,
+      "chapter_count": 3,
+      "verse_count": 47
+    },
+    {
+      "order": 22,
+      "canonical_section": "Prophets",
+      "source_book": "Habakkuk",
+      "traditional_24_book": "The Twelve",
+      "mirror_path": "json/Tanakh/Prophets/Habakkuk/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "52cfd00e0deb334e430239fd53c4cbc9d6181ea3",
+      "json_unicode_characters": 7625,
+      "chapter_count": 3,
+      "verse_count": 56
+    },
+    {
+      "order": 23,
+      "canonical_section": "Prophets",
+      "source_book": "Zephaniah",
+      "traditional_24_book": "The Twelve",
+      "mirror_path": "json/Tanakh/Prophets/Zephaniah/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "05ea5b3040ece0ba6090bb7e7e48286f16d6e02a",
+      "json_unicode_characters": 8475,
+      "chapter_count": 3,
+      "verse_count": 53
+    },
+    {
+      "order": 24,
+      "canonical_section": "Prophets",
+      "source_book": "Haggai",
+      "traditional_24_book": "The Twelve",
+      "mirror_path": "json/Tanakh/Prophets/Haggai/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "8ba42cd69c710018c3817df366d1095883a7d6b3",
+      "json_unicode_characters": 6630,
+      "chapter_count": 2,
+      "verse_count": 38
+    },
+    {
+      "order": 25,
+      "canonical_section": "Prophets",
+      "source_book": "Zechariah",
+      "traditional_24_book": "The Twelve",
+      "mirror_path": "json/Tanakh/Prophets/Zechariah/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "c2e032dfce26e695989345fd00565aff181eddd6",
+      "json_unicode_characters": 33008,
+      "chapter_count": 14,
+      "verse_count": 211
+    },
+    {
+      "order": 26,
+      "canonical_section": "Prophets",
+      "source_book": "Malachi",
+      "traditional_24_book": "The Twelve",
+      "mirror_path": "json/Tanakh/Prophets/Malachi/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "ae72ea41e37f4b667ad10308d7e48cfe07a2af8a",
+      "json_unicode_characters": 9503,
+      "chapter_count": 3,
+      "verse_count": 55
+    },
+    {
+      "order": 27,
+      "canonical_section": "Writings",
+      "source_book": "Psalms",
+      "traditional_24_book": "Psalms",
+      "mirror_path": "json/Tanakh/Writings/Psalms/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "5a03de6f47ec5d38c9f730986e7ef0324bf56616",
+      "json_unicode_characters": 229988,
+      "chapter_count": 150,
+      "verse_count": 2527
+    },
+    {
+      "order": 28,
+      "canonical_section": "Writings",
+      "source_book": "Proverbs",
+      "traditional_24_book": "Proverbs",
+      "mirror_path": "json/Tanakh/Writings/Proverbs/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "4a51d2d27eb34a961d300e70ad201d5fbaef8b99",
+      "json_unicode_characters": 78901,
+      "chapter_count": 31,
+      "verse_count": 915
+    },
+    {
+      "order": 29,
+      "canonical_section": "Writings",
+      "source_book": "Job",
+      "traditional_24_book": "Job",
+      "mirror_path": "json/Tanakh/Writings/Job/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "6386552a06d9b51994ad5f214aa4d442f5e66e02",
+      "json_unicode_characters": 94434,
+      "chapter_count": 42,
+      "verse_count": 1070
+    },
+    {
+      "order": 30,
+      "canonical_section": "Writings",
+      "source_book": "Song of Songs",
+      "traditional_24_book": "Song of Songs",
+      "mirror_path": "json/Tanakh/Writings/Song of Songs/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "564de579644a26b387e849cf8106ad2a3e145d93",
+      "json_unicode_characters": 14820,
+      "chapter_count": 8,
+      "verse_count": 117
+    },
+    {
+      "order": 31,
+      "canonical_section": "Writings",
+      "source_book": "Ruth",
+      "traditional_24_book": "Ruth",
+      "mirror_path": "json/Tanakh/Writings/Ruth/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "b89245d8b6f99a8ed876caa1e3d23895fb5d105d",
+      "json_unicode_characters": 13845,
+      "chapter_count": 4,
+      "verse_count": 85
+    },
+    {
+      "order": 32,
+      "canonical_section": "Writings",
+      "source_book": "Lamentations",
+      "traditional_24_book": "Lamentations",
+      "mirror_path": "json/Tanakh/Writings/Lamentations/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "a98063e24cf1d07866d8d55dfb0b762735a193e0",
+      "json_unicode_characters": 17747,
+      "chapter_count": 5,
+      "verse_count": 154
+    },
+    {
+      "order": 33,
+      "canonical_section": "Writings",
+      "source_book": "Ecclesiastes",
+      "traditional_24_book": "Ecclesiastes",
+      "mirror_path": "json/Tanakh/Writings/Ecclesiastes/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "05797bcad84a4ba1d6eea74b7a977ffe1a3dcefc",
+      "json_unicode_characters": 30408,
+      "chapter_count": 12,
+      "verse_count": 222
+    },
+    {
+      "order": 34,
+      "canonical_section": "Writings",
+      "source_book": "Esther",
+      "traditional_24_book": "Esther",
+      "mirror_path": "json/Tanakh/Writings/Esther/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "711b69e7a8ba36ccff3df934987401c4a1caf373",
+      "json_unicode_characters": 32338,
+      "chapter_count": 10,
+      "verse_count": 167
+    },
+    {
+      "order": 35,
+      "canonical_section": "Writings",
+      "source_book": "Daniel",
+      "traditional_24_book": "Daniel",
+      "mirror_path": "json/Tanakh/Writings/Daniel/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "4706cd716317c3c17ae94c73f20365d4e54e8d06",
+      "json_unicode_characters": 64135,
+      "chapter_count": 12,
+      "verse_count": 357
+    },
+    {
+      "order": 36,
+      "canonical_section": "Writings",
+      "source_book": "Ezra",
+      "traditional_24_book": "Ezra-Nehemiah",
+      "mirror_path": "json/Tanakh/Writings/Ezra/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "4af1cc862996faae8220bf921e7bb3fb12b7b3de",
+      "json_unicode_characters": 42691,
+      "chapter_count": 10,
+      "verse_count": 280
+    },
+    {
+      "order": 37,
+      "canonical_section": "Writings",
+      "source_book": "Nehemiah",
+      "traditional_24_book": "Ezra-Nehemiah",
+      "mirror_path": "json/Tanakh/Writings/Nehemiah/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "69bda679f93d7fec1f31b7c09199b55494a79bc8",
+      "json_unicode_characters": 59666,
+      "chapter_count": 13,
+      "verse_count": 405
+    },
+    {
+      "order": 38,
+      "canonical_section": "Writings",
+      "source_book": "I Chronicles",
+      "traditional_24_book": "Chronicles",
+      "mirror_path": "json/Tanakh/Writings/I Chronicles/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "5dc6c78e0ccfcc131c8d765523af5aeb4319d66e",
+      "json_unicode_characters": 119455,
+      "chapter_count": 29,
+      "verse_count": 943
+    },
+    {
+      "order": 39,
+      "canonical_section": "Writings",
+      "source_book": "II Chronicles",
+      "traditional_24_book": "Chronicles",
+      "mirror_path": "json/Tanakh/Writings/II Chronicles/Hebrew/Tanach with Ta'amei Hamikra.json",
+      "git_blob_sha1": "fbaf9e0176a090ec1582951032b403bfaf44dd69",
+      "json_unicode_characters": 142178,
+      "chapter_count": 36,
+      "verse_count": 822
+    }
+  ],
+  "existing_freeze_crosscheck": {
+    "method": "For each verse stream: source_text joined with LF plus a trailing LF; compare verse count, UTF-8 byte length, and FNV-1a 64.",
+    "status": "PASS 10/10",
+    "books": {
+      "Genesis": {
+        "verse_count": 1533,
+        "utf8_bytes": 353124,
+        "fnv1a64": "3fcd20b59b8c0f5f"
+      },
+      "Exodus": {
+        "verse_count": 1210,
+        "utf8_bytes": 289819,
+        "fnv1a64": "146aea1438534fa2"
+      },
+      "Leviticus": {
+        "verse_count": 859,
+        "utf8_bytes": 202867,
+        "fnv1a64": "547063b8dc40bafc"
+      },
+      "Numbers": {
+        "verse_count": 1288,
+        "utf8_bytes": 287978,
+        "fnv1a64": "9833f94257de4cb5"
+      },
+      "Deuteronomy": {
+        "verse_count": 956,
+        "utf8_bytes": 249126,
+        "fnv1a64": "fc59588771c7af71"
+      },
+      "Joshua": {
+        "verse_count": 658,
+        "utf8_bytes": 178888,
+        "fnv1a64": "154b32d9fe0df93a"
+      },
+      "Judges": {
+        "verse_count": 618,
+        "utf8_bytes": 175652,
+        "fnv1a64": "7c3e5332b380ba62"
+      },
+      "Psalms": {
+        "verse_count": 2527,
+        "utf8_bytes": 359088,
+        "fnv1a64": "1d7cbbdd2a2812c6"
+      },
+      "Job": {
+        "verse_count": 1070,
+        "utf8_bytes": 146438,
+        "fnv1a64": "922cc7a21566f4ae"
+      },
+      "Song of Songs": {
+        "verse_count": 117,
+        "utf8_bytes": 23386,
+        "fnv1a64": "7a8452f6dd95aea8"
+      }
+    }
+  },
+  "frozen_rules": {
+    "inclusion": "All 39 source-books are included. No source-book may be removed after results are inspected.",
+    "primary_analysis_unit": "Each Sefaria source-book is an independent book stream. Traditional 24-book groupings are reporting labels only.",
+    "source_book_boundaries": "No motif may cross a source-book boundary. Synthetic joins for Samuel, Kings, the Twelve, Ezra-Nehemiah, or Chronicles are forbidden.",
+    "psalms": "Psalms remain one canonical ordered stream for windows/blocks, but a three-unit motif may not cross a boundary between psalms. Windows/blocks may cross those boundaries so short psalms are retained.",
+    "short_books": "No padding, resampling, or exclusion. A metric that cannot be computed because a source-book is too short is reported as NA for that book/condition.",
+    "parameters": "Use the already frozen motif definition, transcription, coverage radii, block/window sizes, distance gaps, exact/expanded rules, fragment size, permutation seeds, and different-surface-word definition. No Tanakh-specific tuning after inspection.",
+    "markup": "Use the same qere/ketiv and section-marker adapter. Unknown source markup is a hard error, not silently discarded.",
+    "aramaic_primary": "Primary Tanakh-wide analysis retains the complete received Masoretic stream, including Biblical Aramaic.",
+    "aramaic_sensitivity": {
+      "status": "predeclared",
+      "purpose": "Repeat affected-book summaries after excluding the standard Biblical Aramaic spans without changing any other parameter.",
+      "spans": [
+        "Genesis 31:47 (Aramaic words only)",
+        "Jeremiah 10:11",
+        "Daniel 2:4b-7:28",
+        "Ezra 4:8-6:18",
+        "Ezra 7:12-26"
+      ],
+      "implementation_note": "Do not drop a mixed Hebrew/Aramaic verse wholesale where only part is Aramaic; define exact word spans during preparation."
+    },
+    "genre_labels": "No prose/poetry label is used by the computation or to select/exclude books. Canonical section and source-book identity are the only primary grouping metadata."
+  }
+}

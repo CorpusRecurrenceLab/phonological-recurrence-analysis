@@ -1,0 +1,89 @@
+corpus,group,mode,words,sound_units,coverage_R64,distance_gap1024,spatial_local128_R64,origin,note
+Genesis,tanakh_source_book,exact,20613,104362,0.4595039254926108,0.06332017960849413,0.04261802339102816,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Genesis,tanakh_source_book,expanded,20613,104362,0.5132485375615764,0.06486048711775838,0.03894334261756932,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Exodus,tanakh_source_book,exact,16714,86820,0.44792437130177515,0.0688744673145095,0.03493878803225681,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Exodus,tanakh_source_book,expanded,16714,86820,0.5030048076923077,0.06686318121235896,0.030849468230160992,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Leviticus,tanakh_source_book,exact,11951,61037,0.46659992121848737,0.05880603974879782,0.036305013005336284,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Leviticus,tanakh_source_book,expanded,11951,61037,0.5232241334033614,0.05795494012775765,0.03219956807568619,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Numbers,tanakh_source_book,exact,16413,86295,0.4524739583333333,0.04940024575459405,0.027301650148077672,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Numbers,tanakh_source_book,expanded,16413,86295,0.5092657180059523,0.04883641458783957,0.026288599637916854,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Deuteronomy,tanakh_source_book,exact,14297,74774,0.4217278467465753,0.04237715871568541,0.03170665749192608,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Deuteronomy,tanakh_source_book,expanded,14297,74774,0.4836124785958904,0.04099162719777388,0.026596836696696935,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Joshua,tanakh_source_book,exact,10051,53503,0.43197866586538464,0.0521680066505831,0.029148228500248008,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Joshua,tanakh_source_book,expanded,10051,53503,0.47994290865384615,0.05328126358643637,0.024312139632659213,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Judges,tanakh_source_book,exact,9886,51669,0.43001953125,0.05414557691934288,0.023794023593713076,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Judges,tanakh_source_book,expanded,9886,51669,0.48513671875,0.053738963618833416,0.022385718271483945,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+I Samuel,tanakh_source_book,exact,13264,68495,0.43732377819548873,0.052684326307878594,0.032479130776344456,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+I Samuel,tanakh_source_book,expanded,13264,68495,0.49243714755639095,0.053561210154436545,0.029437280985268655,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+II Samuel,tanakh_source_book,exact,11041,56525,0.4403231534090909,0.04690058570923772,0.03900770512189261,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+II Samuel,tanakh_source_book,expanded,11041,56525,0.4973721590909091,0.04276836698183361,0.032148119219640225,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+I Kings,tanakh_source_book,exact,13142,68770,0.4508074860074627,0.05378869429897309,0.03421961826155834,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+I Kings,tanakh_source_book,expanded,13142,68770,0.5109899720149254,0.05085157681314399,0.033345096359214954,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+II Kings,tanakh_source_book,exact,12283,64504,0.438703125,0.04575000806629199,0.03285908138348126,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+II Kings,tanakh_source_book,expanded,12283,64504,0.49478125,0.04225328473468117,0.02966286836416876,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Isaiah,tanakh_source_book,exact,16932,88692,0.3565751445086705,0.034023063736009676,0.04075401226950076,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Isaiah,tanakh_source_book,expanded,16932,88692,0.41304642341040465,0.03515546019917529,0.03602641838224574,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Jeremiah,tanakh_source_book,exact,21841,112720,0.37674005681818185,0.03934574413856513,0.026996741926050283,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Jeremiah,tanakh_source_book,expanded,21841,112720,0.43436612215909093,0.03550850645908807,0.02335812193969755,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Ezekiel,tanakh_source_book,exact,18736,99638,0.4305533182989691,0.05101605316967139,0.03420687303636233,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Ezekiel,tanakh_source_book,expanded,18736,99638,0.4884423324742268,0.05011467417439314,0.03086173978696627,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Hosea,tanakh_source_book,exact,2382,12382,0.3426106770833333,0.024555001612225527,0.027366662269709463,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Hosea,tanakh_source_book,expanded,2382,12382,0.407470703125,0.02710338134103543,0.02683023347843294,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Joel,tanakh_source_book,exact,957,5100,0.375,0.030463114478084686,0.046714811824686786,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Joel,tanakh_source_book,expanded,957,5100,0.4192708333333333,0.028465813255549907,0.0338859335773769,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Amos,tanakh_source_book,exact,2042,10550,0.32578125,0.04308086217342816,0.022529096766318313,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Amos,tanakh_source_book,expanded,2042,10550,0.3755859375,0.03152451153573886,0.01800204858217952,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Obadiah,tanakh_source_book,exact,291,1474,0.3896484375,,0.07310169421996143,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Obadiah,tanakh_source_book,expanded,291,1474,0.470703125,,0.08208557246584897,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Jonah,tanakh_source_book,exact,688,3542,0.4290364583333333,0.04453475874272969,0.02558787226635445,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Jonah,tanakh_source_book,expanded,688,3542,0.482421875,0.03903919741016817,0.022755324872614557,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Micah,tanakh_source_book,exact,1396,7326,0.34933035714285715,0.028451722688741986,0.012497641954348215,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Micah,tanakh_source_book,expanded,1396,7326,0.40555245535714285,0.03264152099359101,0.00840250267245174,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Nahum,tanakh_source_book,exact,558,3016,0.30625,0.02609648635032261,0.01199009020935382,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Nahum,tanakh_source_book,expanded,558,3016,0.36875,0.025190638140787147,0.013919095258808245,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Habakkuk,tanakh_source_book,exact,671,3449,0.3053385416666667,0.005763677602090659,0.02971189441493638,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Habakkuk,tanakh_source_book,expanded,671,3449,0.3733723958333333,0.010221658581948996,0.028037984870432853,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Zephaniah,tanakh_source_book,exact,767,3929,0.3666294642857143,0.032298757793766,0.03726858582921394,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Zephaniah,tanakh_source_book,expanded,767,3929,0.41880580357142855,0.03361326893902268,0.03663855772026753,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Haggai,tanakh_source_book,exact,600,3172,0.4124348958333333,0.032255297962867815,0.006566659457758972,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Haggai,tanakh_source_book,expanded,600,3172,0.4742838541666667,0.018166446370125346,0.014077030454357764,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Zechariah,tanakh_source_book,exact,3128,16468,0.4176025390625,0.046204125243339514,0.030309046174674892,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Zechariah,tanakh_source_book,expanded,3128,16468,0.469482421875,0.04810525299667779,0.028802218258979218,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Malachi,tanakh_source_book,exact,876,4541,0.365234375,0.040718822625385995,0.019574702252269927,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Malachi,tanakh_source_book,expanded,876,4541,0.43505859375,0.03395623788780215,0.023217116727591913,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Psalms,tanakh_source_book,exact,19625,104673,0.3429361979166667,0.02095609550886409,0.027197963214287302,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Psalms,tanakh_source_book,expanded,19625,104673,0.3999502144607843,0.018758921787433252,0.02380130453867174,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Proverbs,tanakh_source_book,exact,6921,35243,0.2898092830882353,0.004224886809254749,0.017635587035331024,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Proverbs,tanakh_source_book,expanded,6921,35243,0.36388442095588236,0.0012677338723161846,0.013501872435122853,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Job,tanakh_source_book,exact,8352,41892,0.3017457561728395,0.01814605122800094,0.025965820308805287,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Job,tanakh_source_book,expanded,8352,41892,0.36477623456790126,0.017167376430990894,0.024262006464655594,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Song of Songs,tanakh_source_book,exact,1250,6725,0.36974158653846156,0.026330235268213206,0.03862349476384569,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Song of Songs,tanakh_source_book,expanded,1250,6725,0.4235276442307692,0.029601653564008124,0.026303131566289384,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Ruth,tanakh_source_book,exact,1297,6579,0.41064453125,0.08391358624210168,0.05027602842849965,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Ruth,tanakh_source_book,expanded,1297,6579,0.46337890625,0.08668325915477729,0.03460473700399874,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Lamentations,tanakh_source_book,exact,1540,7936,0.328125,0.00769440189510439,0.040194892383775827,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Lamentations,tanakh_source_book,expanded,1540,7936,0.39205729166666664,0.00681776736460947,0.03844671036013875,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Ecclesiastes,tanakh_source_book,exact,2987,14583,0.41385323660714285,0.04870100062342764,0.03735521835650213,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Ecclesiastes,tanakh_source_book,expanded,2987,14583,0.46798270089285715,0.047279232355367934,0.031214684616481747,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Esther,tanakh_source_book,exact,3045,16416,0.42230224609375,0.03905773312155071,0.004754484532143444,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Esther,tanakh_source_book,expanded,3045,16416,0.48590087890625,0.03593343421419873,0.0074490246827851325,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Daniel,tanakh_source_book,exact,5920,32132,0.40618699596774194,0.04609121888287804,0.02718174942035878,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Daniel,tanakh_source_book,expanded,5920,32132,0.4744833669354839,0.04294804622116233,0.02398651376554989,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Ezra,tanakh_source_book,exact,3754,20869,0.41796875,0.040370481292489824,0.025074081352938704,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Ezra,tanakh_source_book,expanded,3754,20869,0.483056640625,0.043304516844546406,0.02842018483967551,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Nehemiah,tanakh_source_book,exact,5313,29748,0.42648841594827586,0.051074799655731584,0.025437849180798278,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+Nehemiah,tanakh_source_book,expanded,5313,29748,0.4805024245689655,0.05168422930665116,0.02351875599716624,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+I Chronicles,tanakh_source_book,exact,10747,58569,0.4599952028508772,0.07883184973143045,0.04030061163997506,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+I Chronicles,tanakh_source_book,expanded,10747,58569,0.5126781798245614,0.07600146246951536,0.03578580148106136,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+II Chronicles,tanakh_source_book,exact,13313,73991,0.423583984375,0.032781804379558646,0.034002624998666076,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+II Chronicles,tanakh_source_book,expanded,13313,73991,0.4827473958333333,0.029472033257635227,0.029359436301099495,results/tanakh/primary/source_books_39.csv,frozen values; source book is not a new control
+modern_523,modern_comparison,exact,,,0.3297337723829201,0.026316496197225783,0.029389206208969287,results/extension/fifteen_work_primary_summary.csv,previously published frozen comparative metric; not recomputed in this archive
+modern_523,modern_comparison,expanded,,,0.38505617252066116,0.026876985458409886,0.025658023680782183,results/extension/fifteen_work_primary_summary.csv,previously published frozen comparative metric; not recomputed in this archive
+modern_7924,modern_comparison,exact,,,0.3411310369318182,0.04889942619141738,0.0016550079260045925,results/extension/fifteen_work_primary_summary.csv,previously published frozen comparative metric; not recomputed in this archive
+modern_7924,modern_comparison,expanded,,,0.4000799005681818,0.03943282125241489,0.006634574831663298,results/extension/fifteen_work_primary_summary.csv,previously published frozen comparative metric; not recomputed in this archive
+modern_884,modern_comparison,exact,,,0.314697265625,0.029431667386874825,0.013033255574909697,results/extension/fifteen_work_primary_summary.csv,previously published frozen comparative metric; not recomputed in this archive
+modern_884,modern_comparison,expanded,,,0.3877495659722222,0.02473493663123532,0.016737039065914117,results/extension/fifteen_work_primary_summary.csv,previously published frozen comparative metric; not recomputed in this archive
+rivlin_ali_baba,modern_comparison,exact,,,0.32434521133093525,0.021935670689254984,0.014285913586964127,results/extension/fifteen_work_primary_summary.csv,previously published frozen comparative metric; not recomputed in this archive
+rivlin_ali_baba,modern_comparison,expanded,,,0.3886859262589928,0.020116539231574627,0.012810769652125908,results/extension/fifteen_work_primary_summary.csv,previously published frozen comparative metric; not recomputed in this archive
+bialik_beir_haharegah,modern_comparison,exact,,,0.39956825657894735,0.024201988132452515,0.05993643268868176,results/extension/fifteen_work_primary_summary.csv,previously published frozen comparative metric; not recomputed in this archive
+bialik_beir_haharegah,modern_comparison,expanded,,,0.46001233552631576,0.02471203626330455,0.047567742283036174,results/extension/fifteen_work_primary_summary.csv,previously published frozen comparative metric; not recomputed in this archive

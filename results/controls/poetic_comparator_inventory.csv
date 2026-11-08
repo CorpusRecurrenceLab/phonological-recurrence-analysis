@@ -1,0 +1,4 @@
+corpus,chapters,verses,words,sound_units,hard_internal_boundaries,version_title,version_source
+Psalms,150,2527,19625,104673,149,Tanach with Ta'amei Hamikra,http://www.tanach.us/Tanach.xml
+Job,42,1070,8352,41892,0,Tanach with Ta'amei Hamikra,http://www.tanach.us/Tanach.xml
+Song_of_Songs,8,117,1250,6725,0,Tanach with Ta'amei Hamikra,http://www.tanach.us/Tanach.xml
