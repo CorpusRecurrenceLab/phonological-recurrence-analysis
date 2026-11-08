@@ -1,6 +1,6 @@
 # Phonological Recurrence Analysis
 
-Anonymous reproducibility repository for sound-pattern recurrence in the complete Hebrew Tanakh and selected Modern Hebrew comparison texts. The repository contains analysis code, declared source editions, phonological preparation rules, deterministic controls, fixed results and regression tests. It is independent of any particular publication.
+Public reproducibility repository for sound-pattern recurrence in the complete Hebrew Tanakh and selected Modern Hebrew comparison texts. The repository contains analysis code, declared source editions, phonological preparation rules, deterministic controls, fixed results and regression tests. It is independent of any particular publication.
 
 ## Corpora
 
@@ -72,3 +72,13 @@ python run/tanakh_word_control.py --recompute
 - `tests/`: tests for computational and acquisition behavior
 
 See `REPRODUCE.md` for command details and `THIRD_PARTY_NOTICES.md` for rights and attribution.
+
+## Overview figures
+
+The three overview visualizations can be regenerated directly from pinned result tables using `python src/analysis/overview_figures.py --out figures/overview`. The output is three RGB TIFF images (600 dpi). This utility is a visualization of released measurements and does not change analysis results.
+
+## Dicta Nakdan acknowledgement
+
+The prepared reading layers for Brenner and Ahad Ha-Am use Dicta Nakdan; see `THIRD_PARTY_NOTICES.md` for attribution and use conditions.
+
+![Dicta logo](assets/dicta-logo.png)
