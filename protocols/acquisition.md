@@ -2,9 +2,9 @@
 
 ## Fixed-source reproduction
 
-The public package is designed so that the ten-work core can be reproduced without network access or credentials. Biblical readings are rebuilt from the frozen Sefaria Hebrew source projection and verified against the included prepared layer. The three primary modern works use the exact frozen prepared reading layers that entered the study. Raw Dicta API response payloads are deliberately not distributed and are not required by `python run/project.py prepare`.
+The current primary study uses 39 source-book JSONs of the Tanakh and five selected Modern Hebrew comparators. The public package preserves the original 39 biblical source files and deterministic preparation logic, so its available source-to-result analyses can be verified offline. A historical seven-biblical-book/three-modern-work core remains reproducible without remote services or API credentials; it is **not** the full corpus definition. The first three modern comparison works use fixed prepared layers, including the Nakdan-assisted readings of Brenner and Ahad Ha-Am. Raw Dicta API payloads are not distributed and are not required by `python run/project.py prepare`.
 
-The two additional comparison works (Rivlin and Bialik) are not redistributed as full texts. Rebuilding the twelve-work comparison from first principles therefore requires network access to their pinned public pages; the acquisition code verifies the expected content hashes and fails if the remote content has changed.
+Among the two additional modern works, **Bialik is distributed**: its frozen extracted text is present under `sources/original/modern/` with public-domain source attribution. **Rivlin is not distributed** as a complete text because its source is permission-restricted. Reproducing Rivlin-dependent outputs from source requires an authorized local HTML copy or lawful acquisition from the pinned Project Ben-Yehuda page. The acquisition code verifies recorded content hashes; it does not silently accept changes. The offline verification command checks frozen Rivlin-dependent outputs without claiming to have recomputed them from the unavailable full text. Consult `README.md`, `REPRODUCE.md`, `THIRD_PARTY_NOTICES.md` and `config/additional_sources.json`.
 
 ## Fresh Dicta/Nakdan candidate acquisition
 
