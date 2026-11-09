@@ -1,3 +1,4 @@
+
 """Recreate overview figures from frozen repository tables.
 
 Usage, at the repository root:
@@ -9,20 +10,30 @@ Outputs: Figure_1.tif, Figure_2.tif, Figure_3.tif (RGB, 600 dpi).
 from __future__ import annotations
 
 import argparse
+import csv
 import io
 import os
 import tempfile
 from pathlib import Path
-import csv
+
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+import numpy as np
 from PIL import Image
 
-REPO = Path(__file__).resolve().parents[2]  # when installed as src/analysis/submission_figures.py
+REPO = Path(__file__).resolve().parents[2]
 BOOKS = REPO / 'results/tanakh/primary/source_books_39.csv'
 HOSTS = REPO / 'results/tanakh/word_control/different_surface_coverage_summary.csv'
 COMPARISON = REPO / 'results/comparison/tanakh_and_modern_44_work_descriptive.csv'
+
+MODERN_ORDER = [
+    'modern_523',
+    'modern_7924',
+    'modern_884',
+    'bialik_beir_haharegah',
+    'rivlin_ali_baba',
+]
 MODERN_NAMES = {
     'modern_523': 'Brenner',
     'modern_7924': 'Ahad Ha-Am',
@@ -30,102 +41,210 @@ MODERN_NAMES = {
     'bialik_beir_haharegah': 'Bialik',
     'rivlin_ali_baba': 'Rivlin',
 }
+SELECTED_BIBLICAL_LABELS = [
+    'Genesis', 'Leviticus', 'Psalms', 'Job', 'Obadiah', 'Esther', 'Haggai', 'Proverbs'
+]
+
+BLUE = '#1f4e79'
+ORANGE = '#c8742a'
+GRAY = '#666666'
+LIGHTGRAY = '#bcbcbc'
+
 
 def save(fig: plt.Figure, path: Path) -> None:
-    """Write a 600-dpi RGB/LZW TIFF without reopening or overwriting an open TIFF.
-
-    Pillow reads the Matplotlib rendering from memory; a temporary destination
-    is fully closed before os.replace() publishes the completed TIFF. This avoids
-    Windows sharing/locking failures from reading and writing the same path.
-    """
-    buffer = io.BytesIO()
-    temp_path = None
+    """Render in memory, then atomically replace a closed TIFF (Windows safe)."""
+    image_bytes = io.BytesIO()
     try:
-        fig.savefig(buffer, dpi=600, format='png', facecolor='white')
-        plt.close(fig)
-        buffer.seek(0)
-        with Image.open(buffer) as image:
-            rgb = image.convert('RGB')
-        path.parent.mkdir(parents=True, exist_ok=True)
-        fd, filename = tempfile.mkstemp(prefix='.figure_', suffix='.tif', dir=path.parent)
-        os.close(fd)
-        temp_path = Path(filename)
-        rgb.save(temp_path, format='TIFF', compression='tiff_lzw', dpi=(600, 600))
-        rgb.close()
-        os.replace(temp_path, path)
-        temp_path = None
+        # A PNG memory buffer avoids opening and re-saving an active TIFF.
+        fig.savefig(image_bytes, dpi=600, format='png', facecolor='white', bbox_inches='tight')
     finally:
         plt.close(fig)
-        buffer.close()
-        if temp_path is not None:
-            temp_path.unlink(missing_ok=True)
+    image_bytes.seek(0)
+    fd, temporary_name = tempfile.mkstemp(prefix=path.stem + '_', suffix='.tif', dir=path.parent)
+    os.close(fd)
+    try:
+        with Image.open(image_bytes) as im:
+            rgb = im.convert('RGB')
+            rgb.save(temporary_name, compression='tiff_lzw', dpi=(600, 600))
+        os.replace(temporary_name, path)
+    finally:
+        if os.path.exists(temporary_name):
+            os.unlink(temporary_name)
 
-def main() -> None:
-    p = argparse.ArgumentParser()
-    p.add_argument('--out', type=Path, default=REPO/'figures/overview')
-    args=p.parse_args()
-    out=args.out.resolve();out.mkdir(parents=True, exist_ok=True)
-    def rows(path):
-        with path.open(newline='',encoding='utf-8-sig') as stream:
-            return list(csv.DictReader(stream))
-    a=rows(BOOKS); b=rows(HOSTS); c=rows(COMPARISON)
-    if not (len(a)==39 and len(b)==39 and len(c)==88):
-        raise ValueError('Unexpected frozen table dimensions')
-    if {r['source_book'] for r in a}!={r['book'] for r in b}:
-        raise ValueError('Source book IDs disagree')
-    if sum(r['mode']=='exact' for r in c)!=44:
-        raise ValueError('Missing exact-mode comparison data')
-    plt.rcParams.update({'font.family':'DejaVu Sans','font.size':11,
-        'axes.titlesize':14, 'axes.labelsize':12, 'xtick.labelsize':9, 'ytick.labelsize':10,
-        'svg.fonttype':'none'})
-    x=range(39)
-    fig,ax=plt.subplots(figsize=(14.2,7.6),constrained_layout=True)
-    ax.plot(x,[float(r['coverage_exact']) for r in a], color='black', marker='o',markersize=3.5,linewidth=1.3,label='Exact')
-    ax.plot(x,[float(r['coverage_expanded']) for r in a],color='0.50',marker='s',markersize=3.5,linewidth=1.2,label='Restricted expanded')
-    ax.set_xticks(list(x),[r['source_book'] for r in a],rotation=64,ha='right')
-    ax.set_xlim(-.5,38.5);ax.set_ylim(.20,.60)
-    ax.set_ylabel('Fraction of sound positions covered')
-    ax.set_title('Mixed-triplet coverage across 39 Tanakh source books')
-    ax.grid(axis='y',color='.88',lw=.65);ax.legend(frameon=False,loc='upper right')
-    save(fig,out/'Figure_1.tif')
-    z={r['book']:r for r in b}
-    ordered=[z[r['source_book']] for r in a]
-    fig,ax=plt.subplots(figsize=(14.2,7.6),constrained_layout=True)
-    ax.plot(x,[float(r['baseline_coverage_R64']) for r in ordered],color='black',marker='o',lw=1.2,ms=3.4,label='All qualifying matches')
-    ax.plot(x,[float(r['different_surface_coverage_R64']) for r in ordered],color='0.5',marker='s',lw=1.2,ms=3.4,label='Different complete wordform hosts')
-    ax.set_xticks(list(x),[r['source_book'] for r in a],rotation=64,ha='right')
-    ax.set_xlim(-.5,38.5);ax.set_ylim(.12,.55)
-    ax.set_ylabel('Fraction of sound positions covered')
-    ax.set_title('Exact coverage with and without identical wordform hosts')
-    ax.grid(axis='y',color='.88',lw=.65);ax.legend(frameon=False,loc='upper right')
-    save(fig,out/'Figure_2.tif')
-    exact=[r for r in c if r['mode']=='exact']
-    heb=[r for r in exact if r['group']=='tanakh_source_book']
-    mod=[r for r in exact if r['group']=='modern_comparison']
-    if len(heb)!=39 or len(mod)!=5:
+
+def load_rows(path: Path):
+    with path.open(newline='', encoding='utf-8-sig') as stream:
+        return list(csv.DictReader(stream))
+
+
+def set_common_style() -> None:
+    plt.rcParams.update({
+        'font.family': 'DejaVu Sans',
+        'font.size': 10,
+        'axes.labelsize': 11,
+        'xtick.labelsize': 8.5,
+        'ytick.labelsize': 9.5,
+        'legend.fontsize': 9.2,
+        'svg.fonttype': 'none',
+    })
+
+
+def figure_1(source_rows, comparison_rows, out: Path) -> None:
+    x = np.arange(len(source_rows))
+    fig = plt.figure(figsize=(14.6, 7.8), constrained_layout=True)
+    gs = fig.add_gridspec(1, 2, width_ratios=[4.7, 1.8])
+    ax1 = fig.add_subplot(gs[0, 0])
+    ax2 = fig.add_subplot(gs[0, 1])
+
+    cov_exact = np.array([float(r['coverage_exact']) for r in source_rows])
+    cov_expanded = np.array([float(r['coverage_expanded']) for r in source_rows])
+
+    ax1.plot(x, cov_exact, color=BLUE, marker='o', markersize=3.6, linewidth=1.35, label='Exact')
+    ax1.plot(x, cov_expanded, color=ORANGE, marker='s', markersize=3.3, linewidth=1.2, label='Restricted expanded')
+    ax1.set_xticks(x)
+    ax1.set_xticklabels([r['source_book'] for r in source_rows], rotation=64, ha='right')
+    ax1.set_xlim(-0.5, len(source_rows)-0.5)
+    ax1.set_ylim(0.20, 0.60)
+    ax1.set_ylabel('Covered fraction of sound positions')
+    ax1.grid(axis='y', color='#e6e6e6', linewidth=0.7)
+    ax1.legend(frameon=False, loc='upper right')
+
+    exact = [r for r in comparison_rows if r['mode'] == 'exact' and r['group'] == 'modern_comparison']
+    expanded = [r for r in comparison_rows if r['mode'] == 'expanded' and r['group'] == 'modern_comparison']
+    exact_map = {r['corpus']: r for r in exact}
+    expanded_map = {r['corpus']: r for r in expanded}
+    y = np.arange(len(MODERN_ORDER))
+    ex_vals = np.array([float(exact_map[k]['coverage_R64']) for k in MODERN_ORDER])
+    ex2_vals = np.array([float(expanded_map[k]['coverage_R64']) for k in MODERN_ORDER])
+    labels = [MODERN_NAMES[k] for k in MODERN_ORDER]
+    for yy, a, b in zip(y, ex_vals, ex2_vals):
+        ax2.plot([a, b], [yy, yy], color=LIGHTGRAY, linewidth=1.3, zorder=1)
+    ax2.scatter(ex_vals, y, color=BLUE, s=34, marker='o', zorder=3, label='Exact')
+    ax2.scatter(ex2_vals, y, color=ORANGE, s=32, marker='s', zorder=3, label='Restricted expanded')
+    ax2.set_yticks(y)
+    ax2.set_yticklabels(labels)
+    ax2.invert_yaxis()
+    xmin = min(ex_vals.min(), ex2_vals.min()) - 0.015
+    xmax = max(ex_vals.max(), ex2_vals.max()) + 0.015
+    ax2.set_xlim(max(0.20, xmin), min(0.60, xmax))
+    ax2.set_xlabel('Coverage')
+    ax2.grid(axis='x', color='#e6e6e6', linewidth=0.7)
+    ax2.legend(frameon=False, loc='lower right')
+
+    save(fig, out / 'Figure_1.tif')
+
+
+def figure_2(source_rows, host_rows, out: Path) -> None:
+    z = {r['book']: r for r in host_rows}
+    ordered = [z[r['source_book']] for r in source_rows]
+    x = np.arange(len(ordered))
+    baseline = np.array([float(r['baseline_coverage_R64']) for r in ordered])
+    filtered = np.array([float(r['different_surface_coverage_R64']) for r in ordered])
+    reduction = baseline - filtered
+
+    fig = plt.figure(figsize=(14.6, 8.4), constrained_layout=True)
+    gs = fig.add_gridspec(2, 1, height_ratios=[3.2, 1.5])
+    ax1 = fig.add_subplot(gs[0, 0])
+    ax2 = fig.add_subplot(gs[1, 0], sharex=ax1)
+
+    for xx, a, b in zip(x, baseline, filtered):
+        ax1.plot([xx, xx], [b, a], color=LIGHTGRAY, linewidth=1.0, zorder=1)
+    ax1.plot(x, baseline, color=BLUE, marker='o', linewidth=1.2, markersize=3.5, label='All qualifying matches')
+    ax1.plot(x, filtered, color=ORANGE, marker='s', linewidth=1.15, markersize=3.2, label='Different complete wordform hosts')
+    ax1.set_ylim(0.12, 0.55)
+    ax1.set_ylabel('Covered fraction of sound positions')
+    ax1.grid(axis='y', color='#e6e6e6', linewidth=0.7)
+    ax1.legend(frameon=False, loc='upper right')
+    ax1.tick_params(axis='x', which='both', bottom=False, labelbottom=False)
+
+    ax2.bar(x, reduction, width=0.74, color=GRAY)
+    ax2.set_ylabel('Reduction')
+    ax2.set_xlabel('Tanakh source books')
+    ax2.set_xticks(x)
+    ax2.set_xticklabels([r['source_book'] for r in source_rows], rotation=64, ha='right')
+    ax2.grid(axis='y', color='#e6e6e6', linewidth=0.7)
+    ax2.set_ylim(0, max(reduction) * 1.25)
+
+    save(fig, out / 'Figure_2.tif')
+
+
+def figure_3(comparison_rows, out: Path) -> None:
+    exact = [r for r in comparison_rows if r['mode'] == 'exact']
+    heb = [r for r in exact if r['group'] == 'tanakh_source_book']
+    mod = [r for r in exact if r['group'] == 'modern_comparison']
+    if len(heb) != 39 or len(mod) != 5:
         raise ValueError('Expected 39 biblical and five modern works')
-    fig,ax=plt.subplots(figsize=(10.7,7.4),constrained_layout=True)
-    ax.scatter([float(r['coverage_R64']) for r in heb],[float(r['spatial_local128_R64']) for r in heb],facecolors='white',edgecolors='0.2',s=70,label='Tanakh source books',zorder=3)
-    ax.scatter([float(r['coverage_R64']) for r in mod],[float(r['spatial_local128_R64']) for r in mod],marker='s',color='black',s=75,label='Modern comparison works',zorder=4)
-    displacements={
-        'modern_523':(6,8),
-        'modern_7924':(8,8),
-        'modern_884':(9,-17),
-        'bialik_beir_haharegah':(6,8),
-        'rivlin_ali_baba':(8,9),
+
+    fig, ax = plt.subplots(figsize=(10.7, 7.5), constrained_layout=True)
+    hx = np.array([float(r['coverage_R64']) for r in heb])
+    hy = np.array([float(r['spatial_local128_R64']) for r in heb])
+    ax.scatter(hx, hy, facecolors='white', edgecolors=BLUE, linewidths=1.1, s=58, label='Tanakh source books', zorder=2)
+
+    selected = {r['corpus']: r for r in heb if r['corpus'] in SELECTED_BIBLICAL_LABELS}
+    offsets = {
+        'Genesis': (8, 8), 'Leviticus': (8, -14), 'Psalms': (8, -11), 'Job': (8, 8),
+        'Obadiah': (8, 9), 'Esther': (11, -16), 'Haggai': (-45, 16), 'Proverbs': (8, 9),
     }
-    for r in mod:
-        label=MODERN_NAMES.get(r['corpus'],r['corpus'])
-        offset=displacements.get(r['corpus'],(5,5))
-        ax.annotate(label,(float(r['coverage_R64']),float(r['spatial_local128_R64'])),xytext=offset,textcoords='offset points',fontsize=10,ha='left',va='center')
-    ax.set_xlim(.275,.49);ax.set_ylim(-.002,.079)
-    ax.grid(color='.89',lw=.7)
+    for key in SELECTED_BIBLICAL_LABELS:
+        if key not in selected:
+            continue
+        r = selected[key]
+        ax.annotate(key, (float(r['coverage_R64']), float(r['spatial_local128_R64'])),
+                    xytext=offsets.get(key, (8, 8)), textcoords='offset points',
+                    fontsize=9.2, color=BLUE)
+
+    modern_map = {r['corpus']: r for r in mod}
+    mx = np.array([float(modern_map[k]['coverage_R64']) for k in MODERN_ORDER])
+    my = np.array([float(modern_map[k]['spatial_local128_R64']) for k in MODERN_ORDER])
+    ax.scatter(mx, my, marker='s', color=ORANGE, edgecolors=ORANGE, s=66, label='Modern comparison works', zorder=3)
+    modern_offsets = {
+        'modern_523': (8, 8),
+        'modern_7924': (8, 8),
+        'modern_884': (8, -14),
+        'bialik_beir_haharegah': (8, 8),
+        'rivlin_ali_baba': (8, 8),
+    }
+    for key in MODERN_ORDER:
+        r = modern_map[key]
+        ax.annotate(MODERN_NAMES[key], (float(r['coverage_R64']), float(r['spatial_local128_R64'])),
+                    xytext=modern_offsets.get(key, (8, 8)), textcoords='offset points',
+                    fontsize=9.2, color=ORANGE)
+
+    ax.set_xlim(0.27, 0.49)
+    ax.set_ylim(-0.002, 0.079)
     ax.set_xlabel('Exact coverage, radius 64')
     ax.set_ylabel('Observed minus rearranged local coverage')
-    ax.set_title('Descriptive overlap between biblical and modern works')
-    ax.legend(frameon=False,loc='upper right')
-    save(fig,out/'Figure_3.tif')
-    print('Figures written:',out)
-    print('Input rows:',len(a),len(b),len(c))
+    ax.grid(color='#e6e6e6', linewidth=0.7)
+    ax.legend(frameon=False, loc='upper right')
 
-if __name__=='__main__':main()
+    save(fig, out / 'Figure_3.tif')
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--out', type=Path, default=REPO / 'figures/overview')
+    args = parser.parse_args()
+    out = args.out.resolve()
+    out.mkdir(parents=True, exist_ok=True)
+
+    source_rows = load_rows(BOOKS)
+    host_rows = load_rows(HOSTS)
+    comparison_rows = load_rows(COMPARISON)
+
+    if not (len(source_rows) == 39 and len(host_rows) == 39 and len(comparison_rows) == 88):
+        raise ValueError('Unexpected frozen table dimensions')
+    if {r['source_book'] for r in source_rows} != {r['book'] for r in host_rows}:
+        raise ValueError('Source book IDs disagree')
+    if sum(r['mode'] == 'exact' for r in comparison_rows) != 44:
+        raise ValueError('Missing exact-mode comparison data')
+
+    set_common_style()
+    figure_1(source_rows, comparison_rows, out)
+    figure_2(source_rows, host_rows, out)
+    figure_3(comparison_rows, out)
+    print('Figures written:', out)
+    print('Input rows:', len(source_rows), len(host_rows), len(comparison_rows))
+
+
+if __name__ == '__main__':
+    main()
