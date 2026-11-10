@@ -129,7 +129,8 @@ def figure_1(source_rows, comparison_rows, out: Path) -> None:
     ax2.set_xlim(max(0.20, xmin), min(0.60, xmax))
     ax2.set_xlabel('Coverage')
     ax2.grid(axis='x', color='#e6e6e6', linewidth=0.7)
-    ax2.legend(frameon=False, loc='lower right')
+    # Exact/expanded marker meanings are already given by the left-panel legend;
+    # a duplicate legend here obscured Rivlin's low row and resembled data.
 
     save(fig, out / 'Figure_1.tif')
 
@@ -182,16 +183,19 @@ def figure_3(comparison_rows, out: Path) -> None:
 
     selected = {r['corpus']: r for r in heb if r['corpus'] in SELECTED_BIBLICAL_LABELS}
     offsets = {
-        'Genesis': (8, 8), 'Leviticus': (8, -14), 'Psalms': (8, -11), 'Job': (8, 8),
+        'Genesis': (8, 8), 'Leviticus': (8, -14), 'Psalms': (-43, -26), 'Job': (-35, 23),
         'Obadiah': (8, 9), 'Esther': (11, -16), 'Haggai': (-45, 16), 'Proverbs': (8, 9),
     }
     for key in SELECTED_BIBLICAL_LABELS:
         if key not in selected:
             continue
         r = selected[key]
+        # Leader lines identify the crowded Job/Habakkuk and Psalms/Hosea points.
+        pointer = {'arrowstyle': '-', 'color': BLUE, 'lw': 0.7, 'shrinkA': 2,
+                   'shrinkB': 3} if key in {'Job', 'Psalms'} else None
         ax.annotate(key, (float(r['coverage_R64']), float(r['spatial_local128_R64'])),
                     xytext=offsets.get(key, (8, 8)), textcoords='offset points',
-                    fontsize=9.2, color=BLUE)
+                    fontsize=9.2, color=BLUE, arrowprops=pointer)
 
     modern_map = {r['corpus']: r for r in mod}
     mx = np.array([float(modern_map[k]['coverage_R64']) for k in MODERN_ORDER])
