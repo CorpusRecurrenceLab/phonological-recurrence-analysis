@@ -51,7 +51,7 @@ python run/project.py verify
 
 The verified Bialik text and 39 Tanakh source JSONs are already included. Rivlin's extracted text must match the frozen SHA-256. Never commit the restricted source, generated `.local` files, credentials, or Nakdan API responses. No SSL-bypass is used.
 
-For a separate independent source-to-result check of different-surface-word analyses (long-running):
+For a separate source-to-result check of different-surface-word analyses (long-running):
 
 ```text
 python run/tanakh_word_control.py --verify

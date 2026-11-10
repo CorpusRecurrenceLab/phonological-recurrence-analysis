@@ -106,6 +106,7 @@ def figure_1(source_rows, comparison_rows, out: Path) -> None:
     ax1.set_xlim(-0.5, len(source_rows)-0.5)
     ax1.set_ylim(0.20, 0.60)
     ax1.set_ylabel('Covered fraction of sound positions')
+    ax1.set_xlabel('Tanakh source books')
     ax1.grid(axis='y', color='#e6e6e6', linewidth=0.7)
     ax1.legend(frameon=False, loc='upper right')
 
@@ -154,6 +155,7 @@ def figure_2(source_rows, host_rows, out: Path) -> None:
     ax1.plot(x, filtered, color=ORANGE, marker='s', linewidth=1.15, markersize=3.2, label='Different complete wordform hosts')
     ax1.set_ylim(0.12, 0.55)
     ax1.set_ylabel('Covered fraction of sound positions')
+    ax1.set_xlabel('Tanakh source books')
     ax1.grid(axis='y', color='#e6e6e6', linewidth=0.7)
     ax1.legend(frameon=False, loc='upper right')
     ax1.tick_params(axis='x', which='both', bottom=False, labelbottom=False)
