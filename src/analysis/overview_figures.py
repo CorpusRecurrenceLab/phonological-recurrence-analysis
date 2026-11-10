@@ -80,18 +80,18 @@ def load_rows(path: Path):
 def set_common_style() -> None:
     plt.rcParams.update({
         'font.family': 'DejaVu Sans',
-        'font.size': 10,
-        'axes.labelsize': 11,
-        'xtick.labelsize': 8.5,
-        'ytick.labelsize': 9.5,
-        'legend.fontsize': 9.2,
+        'font.size': 12,
+        'axes.labelsize': 12,
+        'xtick.labelsize': 10,
+        'ytick.labelsize': 10,
+        'legend.fontsize': 10,
         'svg.fonttype': 'none',
     })
 
 
 def figure_1(source_rows, comparison_rows, out: Path) -> None:
     x = np.arange(len(source_rows))
-    fig = plt.figure(figsize=(14.6, 7.8), constrained_layout=True)
+    fig = plt.figure(figsize=(9.5, 7.4), constrained_layout=True)
     gs = fig.add_gridspec(1, 2, width_ratios=[4.7, 1.8])
     ax1 = fig.add_subplot(gs[0, 0])
     ax2 = fig.add_subplot(gs[0, 1])
@@ -144,7 +144,7 @@ def figure_2(source_rows, host_rows, out: Path) -> None:
     filtered = np.array([float(r['different_surface_coverage_R64']) for r in ordered])
     reduction = baseline - filtered
 
-    fig = plt.figure(figsize=(14.6, 8.4), constrained_layout=True)
+    fig = plt.figure(figsize=(9.5, 8.2), constrained_layout=True)
     gs = fig.add_gridspec(2, 1, height_ratios=[3.2, 1.5])
     ax1 = fig.add_subplot(gs[0, 0])
     ax2 = fig.add_subplot(gs[1, 0], sharex=ax1)
@@ -155,7 +155,6 @@ def figure_2(source_rows, host_rows, out: Path) -> None:
     ax1.plot(x, filtered, color=ORANGE, marker='s', linewidth=1.15, markersize=3.2, label='Different complete wordform hosts')
     ax1.set_ylim(0.12, 0.55)
     ax1.set_ylabel('Covered fraction of sound positions')
-    ax1.set_xlabel('Tanakh source books')
     ax1.grid(axis='y', color='#e6e6e6', linewidth=0.7)
     ax1.legend(frameon=False, loc='upper right')
     ax1.tick_params(axis='x', which='both', bottom=False, labelbottom=False)
@@ -178,7 +177,7 @@ def figure_3(comparison_rows, out: Path) -> None:
     if len(heb) != 39 or len(mod) != 5:
         raise ValueError('Expected 39 biblical and five modern works')
 
-    fig, ax = plt.subplots(figsize=(10.7, 7.5), constrained_layout=True)
+    fig, ax = plt.subplots(figsize=(7.4, 6.4), constrained_layout=True)
     hx = np.array([float(r['coverage_R64']) for r in heb])
     hy = np.array([float(r['spatial_local128_R64']) for r in heb])
     ax.scatter(hx, hy, facecolors='white', edgecolors=BLUE, linewidths=1.1, s=58, label='Tanakh source books', zorder=2)

@@ -315,7 +315,7 @@
   "src/analysis/corpus_inventory.py": "8f69a6db46536875990244c4695e66d883ae8618c1cd79791cd96755df21ba4b",
   "src/analysis/coverage.py": "194379c1ed2a28c211d1171c3ba24027139d99fac1e165ee28e254f7953a4c03",
   "src/analysis/finish.py": "fea580dd2e596d45fd276c5038b35513652403eef8962c84d503b37b423bfb66",
-  "src/analysis/overview_figures.py": "11431e3b52bf611650b99468a27ffd0e3f42e07746819346a72c716425d05760",
+  "src/analysis/overview_figures.py": "93bc0fbac90afb4517429b5728e2192e39748cb392e79c000c0807f953628214",
   "src/analysis/poetic_comparators.py": "805fc2b87f277d01d4c7aa548589dbbfc7385da692b6ccabe12c48d3df3d643b",
   "src/analysis/qamats_sensitivity.py": "799c9a60397858d73674cdac89f4ecd37202cc280f1134631d576eb6f05b25e2",
   "src/analysis/representative_examples.py": "cc16b12ef8f1ad08f07ccd87ed00ad75ab8548d46d1a725ac8711d24e2a73951",
