@@ -31,8 +31,12 @@ A motif recurrence qualifies in the `different_surface_word` condition only when
 
 The control is applied to the complete fixed coverage grid (512/1,280 units; offsets 0/half; radii 32/64/128) and to the fragment-preserving spatial control at all three radii. It is not imposed on the set-based distance statistic because that statistic collapses motif tokens to motif types inside each 64-unit window and therefore has no token-host identity without defining a new estimand.
 
-For offline reproducibility, the word-control table contains the ten fully distributed corpora from the release plus Psalms, Job, and Song of Songs. The two Project Ben-Yehuda additions (`rivlin_ali_baba`, `bialik_beir_haharegah`) remain excluded from this sensitivity because their full word streams are intentionally not redistributed. No substitute text or reconstructed word stream is used.
+This historical comparison component contains word-control results for ten core corpora plus Psalms, Job, and Song of Songs. The current primary different-host analysis covers all 39 Tanakh source books. The two additional modern works (`rivlin_ali_baba`, `bialik_beir_haharegah`) were not included in this sensitivity. Bialik’s public-domain source is distributed; its exclusion is an analytical scope decision, not a source-availability restriction. Rivlin’s permission-restricted source is not redistributed. No completed five-work modern different-host comparison is claimed. See `tanakh/different_surface_word.md`.
 
 ## Outputs
 
 Control outputs are located under `results/controls/`. The twelve-work study tables, figures, regression fixtures, and `config/published_outputs.json` remain unchanged.
+
+## Exploratory passage inspection
+
+`examples/close_reading_selection.json` records an earlier inspection set of 36 passages historically labelled “weak cases” and ten passages sampled without reference to detector score. The labels are exploratory provenance, not validated outcome categories. This list is not used as confirmatory evidence or to define the complete-Tanakh corpus. The source data and selection record are retained unchanged.

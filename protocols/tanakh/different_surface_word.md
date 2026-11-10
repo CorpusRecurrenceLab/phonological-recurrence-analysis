@@ -32,7 +32,7 @@ Check their internal consistency and agreement with pinned primary and comparato
 python run/tanakh_word_control.py --verify
 ```
 
-Perform an independent source-to-result recalculation without overwriting the frozen reference tables using:
+Perform a separate source-to-result recalculation without overwriting the frozen reference tables using:
 
 ```
 python run/tanakh_word_control.py --recompute
@@ -42,4 +42,4 @@ This more expensive operation saves resumable per-book checkpoints under `.local
 
 ## Modern Hebrew comparability
 
-For *this particular different-surface-word sensitivity*, three modern works are available in `results/controls/`. The two additional modern works (`rivlin_ali_baba`, `bialik_beir_haharegah`) do not have redistributed phonological word-host streams for this control, and must **not** be counted as completed controls. The three available modern works also differ substantially in size and retained fragment fraction. The comparison of 39 Bible books with three modern works is descriptive and unweighted: books are not independent random observations, genre and chronology are confounded, and neither medians nor positive direction alone establishes poetic design. Full morphological or lexical-matching controls remain an additional research question.
+For *this particular different-surface-word sensitivity*, three modern works are available in `results/controls/`. The different-host calculation was not performed for the two additional modern works (`rivlin_ali_baba`, `bialik_beir_haharegah`), which must **not** be counted as completed controls. Bialik’s public-domain source is included; the missing analysis is a scope decision, not a redistribution restriction. Rivlin’s source remains permission-restricted. The three available modern works also differ substantially in size and retained fragment fraction. The comparison of 39 Bible books with three modern works is descriptive and unweighted: books are not independent random observations, genre and chronology are confounded, and neither medians nor positive direction alone establishes poetic design. Full morphological or lexical-matching controls remain an additional research question.

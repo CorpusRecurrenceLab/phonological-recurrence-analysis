@@ -10,7 +10,7 @@ The ten earlier Biblical source files in `sources/variants/biblical/` are regres
 
 ## Modern Hebrew comparison set
 
-The five modern works are not five genre-matched prose controls. They contain varied genres, including Bialik's poem *Be-ir ha-Haregah* and Rivlin's translated *Ali Baba*. They provide literary reference points, **not** a single exchangeable random sample of modern prose. Group or genre claims require appropriate control selection and uncertainty estimation. Nakdan-assisted reading layers are frozen inputs and cannot be assumed to match a fresh invocation of the service.
+The five modern works are not five genre-matched prose controls. They contain varied genres, including Tchernichovsky's verse idyll *Hatunata shel Elka*, Bialik's poem *Be-ir ha-Haregah*, and Rivlin's translated *Ali Baba*. They provide literary reference points, **not** a single exchangeable random sample of modern prose. Group or genre claims require appropriate control selection and uncertainty estimation. Nakdan-assisted reading layers are frozen inputs and cannot be assumed to match a fresh invocation of the service.
 
 In `results/comparison/tanakh_and_modern_44_work_descriptive.csv`, the ten mode rows of the modern group have unpopulated `words`/`sound_units` values. This is an explicit reporting limitation of that cross-scope table, **not** evidence that their processing failed. Do not infer sizes from that table. The two non-applicable fixed-gap distance cells for Obadiah are `NA`, **not zero**: fixed geometry is not resized or filled for short books.
 
