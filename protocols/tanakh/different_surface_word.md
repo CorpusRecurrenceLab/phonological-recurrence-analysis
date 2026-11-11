@@ -12,7 +12,7 @@ Psalms is treated as one ordered book stream for fixed analysis windows, but no 
 
 ## Coverage and spatial statistic
 
-For the 39-book coverage summary, the prespecified comparison uses exact three-unit motifs, fixed windows of 512 sound units, offset 0, and radius 64. The general implementation also supports windows 512/1,280, offsets zero/half, and radii 32/64/128. The reported coverage is the fraction of sound positions included in qualifying motif tokens (not a proportion of words). The coverage reduction compares identical algorithmic conditions with and without the host-inequality restriction.
+For the 39-book coverage summary, the fixed comparison uses exact three-unit motifs, fixed windows of 512 sound units, offset 0, and radius 64. The general implementation also supports windows 512/1,280, offsets zero/half, and radii 32/64/128. The reported coverage is the fraction of sound positions included in qualifying motif tokens (not a proportion of words). The coverage reduction compares identical algorithmic conditions with and without the host-inequality restriction.
 
 For spatial analysis, the procedure forms eight-word fragments, retains complete 128-word blocks (16 fragments), and computes sound-position coverage at radii 32/64/128. Observed order is compared to 19 seeded rearrangements (`2026102601 + replicate_index`) at three fixed scales: within 128-word blocks (`local128`), 1,024-word regions (`regional1024`), and whole-book (`whole_corpus`). Difference `delta = observed - mean(rearranged)`. The reported result is a descriptive effect size, usually converted to percentage points. The 19 replicates are insufficient for robust corpus-by-corpus significance testing or broad multiple-comparison claims.
 
@@ -38,7 +38,7 @@ Perform a separate source-to-result recalculation without overwriting the frozen
 python run/tanakh_word_control.py --recompute
 ```
 
-This more expensive operation saves resumable per-book checkpoints under `.local/word_control_checkpoints/`, writes aggregated output into `.local/word_control_recomputed/`, and compares every calculated cell with the included tables. Per-book checkpoints are accepted only when the pinned source, the active calculation code, the applicable reading rules, and the frozen manifest fingerprint are unchanged. Local edits to calculation code therefore invalidate prior checkpoints even before the manifest is updated. To smoke-test the recalculation of one book, use `--recompute --book Obadiah`. The 39-book recalculation was performed in the research workspace; the packaged full-recompute command should be independently re-run on the target operating system before release.
+This more expensive operation saves resumable per-book checkpoints under `.local/word_control_checkpoints/`, writes aggregated output into `.local/word_control_recomputed/`, and compares every calculated cell with the included tables. Per-book checkpoints are accepted only when the pinned source, the active calculation code, the applicable reading rules, and the frozen manifest fingerprint are unchanged. Local edits to calculation code therefore invalidate prior checkpoints even before the manifest is updated. To smoke-test the recalculation of one book, use `--recompute --book Obadiah`. The 39-book recomputation is available through the published --recompute command; its outputs are compared cell by cell with frozen tables.
 
 ## Modern Hebrew comparability
 

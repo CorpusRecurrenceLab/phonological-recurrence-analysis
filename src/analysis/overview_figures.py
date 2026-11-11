@@ -102,7 +102,7 @@ def figure_1(source_rows, comparison_rows, out: Path) -> None:
     ax1.plot(x, cov_exact, color=BLUE, marker='o', markersize=3.6, linewidth=1.35, label='Exact')
     ax1.plot(x, cov_expanded, color=ORANGE, marker='s', markersize=3.3, linewidth=1.2, label='Restricted expanded')
     ax1.set_xticks(x)
-    ax1.set_xticklabels([r['source_book'] for r in source_rows], rotation=64, ha='right')
+    ax1.set_xticklabels([r['source_book'] for r in source_rows], rotation=90, ha='center', va='top', fontsize=8)
     ax1.set_xlim(-0.5, len(source_rows)-0.5)
     ax1.set_ylim(0.20, 0.60)
     ax1.set_ylabel('Covered fraction of sound positions')
@@ -184,7 +184,7 @@ def figure_3(comparison_rows, out: Path) -> None:
 
     selected = {r['corpus']: r for r in heb if r['corpus'] in SELECTED_BIBLICAL_LABELS}
     offsets = {
-        'Genesis': (8, 8), 'Leviticus': (8, -14), 'Psalms': (-43, -26), 'Job': (-35, 23),
+        'Genesis': (8, 8), 'Leviticus': (8, -14), 'Psalms': (15, 23), 'Job': (-35, 23),
         'Obadiah': (8, 9), 'Esther': (11, -16), 'Haggai': (-45, 16), 'Proverbs': (8, 9),
     }
     for key in SELECTED_BIBLICAL_LABELS:

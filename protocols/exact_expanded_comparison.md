@@ -11,11 +11,11 @@ Expanded matching permits no vowel change, reversal, transitive closure, or mult
 
 ## Coverage and density
 
-Coverage uses block lengths 512/1,280, offsets 0/half, and radii 32/64/128. Figure 2 displays the 512-unit, zero-offset, radius-64 exact density on actual resolved-stream coordinates. Excluded intervals are shown as missing material, not as zero coverage.
+Coverage uses block lengths 512/1,280, offsets 0/half, and radii 32/64/128. Legacy comparison Figure 2 (not the manuscript overview Fig. 2) displays the 512-unit, zero-offset, radius-64 exact density on actual resolved-stream coordinates. Excluded intervals are shown as missing material, not as zero coverage.
 
 ## Distance
 
-The distance grid uses the geometry defined in `analysis.md`, with maximum gaps 256/1,024/4,096. Figure 1 uses cap 1,024, offset 0, phase 0; Table 2 averages all four offset/phase conditions at cap 1,024.
+The distance grid uses the geometry defined in `analysis.md`, with maximum gaps 256/1,024/4,096. Legacy comparison Figure 1 (not the manuscript overview Fig. 1) uses cap 1,024, offset 0, phase 0; Legacy comparison Table 2 (not manuscript Table S2) averages all four offset/phase conditions at cap 1,024.
 
 ## Rearrangement
 
